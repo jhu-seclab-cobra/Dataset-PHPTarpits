@@ -1,0 +1,63 @@
+{
+  "name": "patterns/79_dynamic_include",
+  "call_edges": [],
+  "true_positives": [
+    {
+      "type": 79,
+      "source": "first_ex/main.php:3",
+      "sink": "first_ex/a.php:3"
+    },
+    {
+      "type": 79,
+      "source": "second_ex/main.php:3",
+      "sink": "second_ex/a.php:3"
+    },
+    {
+      "type": 79,
+      "source": "third_ex/main.php:3",
+      "sink": "third_ex/b.php:3"
+    },
+    {
+      "type": 79,
+      "source": "fourth_ex/main.php:3",
+      "sink": "fourth_ex/file1.php:3"
+    },
+    {
+      "type": 79,
+      "source": "fifth_ex/main.php:3",
+      "sink": "fifth_ex/a.php:3"
+    }
+  ],
+  "false_positives": [
+    {
+      "type": 79,
+      "source": "main.php:4",
+      "sink": "a.php:3"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "file1.php:3"
+    },
+    {
+      "type": 79,
+      "source": "main.php:4",
+      "sink": "file1.php:3"
+    },
+    {
+      "type": 79,
+      "source": "main.php:4",
+      "sink": "b.php:3"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "a.php:3"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "b.php:3"
+    }
+  ]
+}

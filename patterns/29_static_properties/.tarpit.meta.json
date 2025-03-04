@@ -1,0 +1,12 @@
+{
+  "name": "patterns/29_static_properties",
+  "call_edges": [],
+  "true_positives": [
+    {
+      "type": 79,
+      "source": "main.php:16",
+      "sink": "main.php:13"
+    }
+  ],
+  "false_positives": []
+}

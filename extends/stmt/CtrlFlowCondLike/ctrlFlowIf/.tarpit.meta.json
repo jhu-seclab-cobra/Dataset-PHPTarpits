@@ -1,0 +1,44 @@
+{
+  "name": "extends/stmt/CtrlFlowCondLike/ctrlFlowIf",
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:16",
+      "callee": "callee@main.php:3"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:6",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:9",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:17",
+      "callee": "callee@main.php:3"
+    }
+  ],
+  "true_positives": [
+    {
+      "type": 79,
+      "source": "main.php:14",
+      "sink": "main.php:9"
+    }
+  ],
+  "false_positives": [
+    {
+      "type": 79,
+      "source": "main.php:14",
+      "sink": "main.php:9"
+    },
+    {
+      "type": 79,
+      "source": "main.php:14",
+      "sink": "main.php:6"
+    }
+  ]
+}

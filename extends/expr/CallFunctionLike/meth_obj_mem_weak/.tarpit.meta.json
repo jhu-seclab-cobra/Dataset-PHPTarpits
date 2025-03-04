@@ -1,0 +1,27 @@
+{
+  "name": "extends/expr/CallFunctionLike/meth_obj_mem_weak",
+  "call_edges": [
+    {
+      "type": "SUSPICIOUS",
+      "callsite": "main.php:7",
+      "callee": "test::caller1@main.php:11"
+    },
+    {
+      "type": "SUSPICIOUS",
+      "callsite": "main.php:8",
+      "callee": "test::caller2@main.php:16"
+    },
+    {
+      "type": "SUSPICIOUS",
+      "callsite": "main.php:13",
+      "callee": "test::callee@main.php:5"
+    },
+    {
+      "type": "SUSPICIOUS",
+      "callsite": "main.php:18",
+      "callee": "test::callee@main.php:5"
+    }
+  ],
+  "true_positives": [],
+  "false_positives": []
+}

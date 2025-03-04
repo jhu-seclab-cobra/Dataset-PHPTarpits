@@ -1,0 +1,28 @@
+{
+  "name": "patterns/12_make_ref",
+  "call_edges": [],
+  "true_positives": [
+    {
+      "type": 79,
+      "source": "first_ex.php:5",
+      "sink": "first_ex.php:6"
+    }
+  ],
+  "false_positives": [
+    {
+      "type": 79,
+      "source": "first_ex.php:5",
+      "sink": "second_ex.php:6"
+    },
+    {
+      "type": 79,
+      "source": "second_ex.php:5",
+      "sink": "first_ex.php:6"
+    },
+    {
+      "type": 79,
+      "source": "second_ex.php:5",
+      "sink": "second_ex.php:6"
+    }
+  ]
+}

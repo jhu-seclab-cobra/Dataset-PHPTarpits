@@ -1,0 +1,12 @@
+{
+  "name": "patterns/13_assign_static_prop_ref",
+  "call_edges": [],
+  "true_positives": [
+    {
+      "type": 79,
+      "source": "main.php:10",
+      "sink": "main.php:11"
+    }
+  ],
+  "false_positives": []
+}

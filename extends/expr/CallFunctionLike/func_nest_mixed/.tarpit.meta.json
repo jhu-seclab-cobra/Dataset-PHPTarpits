@@ -1,0 +1,58 @@
+{
+  "name": "extends/expr/CallFunctionLike/func_nest_mixed",
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:24",
+      "callee": "f1@main.php:3"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:6",
+      "callee": "f2@main.php:12"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:15",
+      "callee": "f1@main.php:3"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:17",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:8",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:25",
+      "callee": "f1@main.php:3"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:27",
+      "callee": "f2@main.php:12"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:28",
+      "callee": "f2@main.php:12"
+    }
+  ],
+  "true_positives": [
+    {
+      "type": 79,
+      "source": "main.php:21",
+      "sink": "main.php:8"
+    },
+    {
+      "type": 79,
+      "source": "main.php:21",
+      "sink": "main.php:17"
+    }
+  ],
+  "false_positives": []
+}

@@ -1,0 +1,12 @@
+{
+  "name": "patterns/86_implement_interfaces",
+  "call_edges": [],
+  "true_positives": [],
+  "false_positives": [
+    {
+      "type": 79,
+      "source": "main.php:22",
+      "sink": "main.php:31"
+    }
+  ]
+}

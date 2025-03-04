@@ -1,0 +1,12 @@
+{
+  "name": "patterns/92_case_sensitive",
+  "call_edges": [],
+  "true_positives": [
+    {
+      "type": 79,
+      "source": "main.php:13",
+      "sink": "main.php:8"
+    }
+  ],
+  "false_positives": []
+}

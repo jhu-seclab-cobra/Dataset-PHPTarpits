@@ -1,0 +1,38 @@
+{
+  "name": "patterns/68_compact",
+  "call_edges": [],
+  "true_positives": [
+    {
+      "type": 79,
+      "source": "first_ex.php:3",
+      "sink": "first_ex.php:11"
+    },
+    {
+      "type": 79,
+      "source": "second_ex.php:7",
+      "sink": "second_ex.php:10"
+    }
+  ],
+  "false_positives": [
+    {
+      "type": 79,
+      "source": "second_ex.php:7",
+      "sink": "first_ex.php:11"
+    },
+    {
+      "type": 79,
+      "source": "second_ex.php:3",
+      "sink": "first_ex.php:11"
+    },
+    {
+      "type": 79,
+      "source": "first_ex.php:3",
+      "sink": "second_ex.php:10"
+    },
+    {
+      "type": 79,
+      "source": "second_ex.php:3",
+      "sink": "second_ex.php:10"
+    }
+  ]
+}

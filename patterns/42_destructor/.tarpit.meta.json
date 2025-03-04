@@ -1,0 +1,23 @@
+{
+  "name": "patterns/42_destructor",
+  "call_edges": [],
+  "true_positives": [
+    {
+      "type": 79,
+      "source": "main.php:19",
+      "sink": "main.php:15"
+    }
+  ],
+  "false_positives": [
+    {
+      "type": 79,
+      "source": "main.php:19",
+      "sink": "main.php:14"
+    },
+    {
+      "type": 79,
+      "source": "main.php:19",
+      "sink": "main.php:9"
+    }
+  ]
+}

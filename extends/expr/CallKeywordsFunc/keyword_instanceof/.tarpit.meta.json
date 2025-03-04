@@ -1,0 +1,22 @@
+{
+  "name": "extends/expr/CallKeywordsFunc/keyword_instanceof",
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:11",
+      "callee": "anotherclass::__construct@Builtin[Core]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:14",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:19",
+      "callee": "echo@Builtin[keyword]"
+    }
+  ],
+  "true_positives": [],
+  "false_positives": []
+}

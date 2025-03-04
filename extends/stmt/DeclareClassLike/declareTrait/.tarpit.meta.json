@@ -1,0 +1,23 @@
+{
+  "name": "extends/stmt/DeclareClassLike/declareTrait",
+  "call_edges": [],
+  "true_positives": [
+    {
+      "type": 79,
+      "source": "main.php:21",
+      "sink": "main.php:7"
+    }
+  ],
+  "false_positives": [
+    {
+      "type": 79,
+      "source": "main.php:21",
+      "sink": "main.php:7"
+    },
+    {
+      "type": 79,
+      "source": "main.php:21",
+      "sink": "main.php:12"
+    }
+  ]
+}

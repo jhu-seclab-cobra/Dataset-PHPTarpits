@@ -1,0 +1,53 @@
+{
+  "name": "patterns/94_sanitizers",
+  "call_edges": [],
+  "true_positives": [
+    {
+      "type": 79,
+      "source": "first_ex.php:3",
+      "sink": "first_ex.php:7"
+    }
+  ],
+  "false_positives": [
+    {
+      "type": 79,
+      "source": "third_ex.php:2",
+      "sink": "third_ex.php:3"
+    },
+    {
+      "type": 79,
+      "source": "second_ex.php:2",
+      "sink": "third_ex.php:3"
+    },
+    {
+      "type": 79,
+      "source": "third_ex.php:2",
+      "sink": "second_ex.php:4"
+    },
+    {
+      "type": 79,
+      "source": "second_ex.php:2",
+      "sink": "first_ex.php:7"
+    },
+    {
+      "type": 79,
+      "source": "first_ex.php:3",
+      "sink": "third_ex.php:3"
+    },
+    {
+      "type": 79,
+      "source": "first_ex.php:3",
+      "sink": "second_ex.php:4"
+    },
+    {
+      "type": 79,
+      "source": "second_ex.php:2",
+      "sink": "second_ex.php:4"
+    },
+    {
+      "type": 79,
+      "source": "third_ex.php:2",
+      "sink": "first_ex.php:7"
+    }
+  ]
+}

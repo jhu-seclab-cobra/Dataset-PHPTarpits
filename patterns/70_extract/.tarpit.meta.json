@@ -1,0 +1,12 @@
+{
+  "name": "patterns/70_extract",
+  "call_edges": [],
+  "true_positives": [
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:6"
+    }
+  ],
+  "false_positives": []
+}

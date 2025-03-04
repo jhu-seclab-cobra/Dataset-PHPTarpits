@@ -1,0 +1,12 @@
+{
+  "name": "patterns/45_static_method_from_variable",
+  "call_edges": [],
+  "true_positives": [
+    {
+      "type": 79,
+      "source": "main.php:18",
+      "sink": "main.php:14"
+    }
+  ],
+  "false_positives": []
+}

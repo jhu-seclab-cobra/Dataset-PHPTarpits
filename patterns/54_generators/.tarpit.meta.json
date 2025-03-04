@@ -1,0 +1,18 @@
+{
+  "name": "patterns/54_generators",
+  "call_edges": [],
+  "true_positives": [
+    {
+      "type": 79,
+      "source": "main.php:9",
+      "sink": "main.php:13"
+    }
+  ],
+  "false_positives": [
+    {
+      "type": 79,
+      "source": "main.php:9",
+      "sink": "main.php:12"
+    }
+  ]
+}

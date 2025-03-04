@@ -1,0 +1,59 @@
+{
+  "name": "extends/expr/CallFunctionLike/func_norm",
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:11",
+      "callee": "basic_func@main.php:3"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:5",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:12",
+      "callee": "basic_func@main.php:3"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:14",
+      "callee": "var_dump@Builtin[standard]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:15",
+      "callee": "var_dump@Builtin[standard]"
+    },
+    {
+      "type": "SUSPICIOUS",
+      "callsite": "main.php:17",
+      "callee": "unknown@Stretch"
+    },
+    {
+      "type": "SUSPICIOUS",
+      "callsite": "main.php:18",
+      "callee": "unknown@Stretch"
+    }
+  ],
+  "true_positives": [
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:14"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:5"
+    }
+  ],
+  "false_positives": [
+    {
+      "type": 79,
+      "source": "main.php:8",
+      "sink": "main.php:5"
+    }
+  ]
+}

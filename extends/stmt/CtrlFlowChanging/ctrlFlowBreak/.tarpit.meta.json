@@ -1,0 +1,44 @@
+{
+  "name": "extends/stmt/CtrlFlowChanging/ctrlFlowBreak",
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:8",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:17",
+      "callee": "echo@Builtin[keyword]"
+    }
+  ],
+  "true_positives": [
+    {
+      "type": 79,
+      "source": "main.php:4",
+      "sink": "main.php:17"
+    }
+  ],
+  "false_positives": [
+    {
+      "type": 79,
+      "source": "main.php:4",
+      "sink": "main.php:8"
+    },
+    {
+      "type": 79,
+      "source": "main.php:4",
+      "sink": "main.php:14"
+    },
+    {
+      "type": 79,
+      "source": "main.php:4",
+      "sink": "main.php:17"
+    },
+    {
+      "type": 79,
+      "source": "main.php:4",
+      "sink": "main.php:12"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "name": "extends/expr/CallFunctionLike/str_param_single",
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:17",
+      "callee": "single_param@main.php:8"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:10",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "DYNAMIC",
+      "callsite": "main.php:11",
+      "callee": "no_param@main.php:3"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:5",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:18",
+      "callee": "single_param@main.php:8"
+    }
+  ],
+  "true_positives": [
+    {
+      "type": 79,
+      "source": "main.php:14",
+      "sink": "main.php:5"
+    }
+  ],
+  "false_positives": [
+    {
+      "type": 79,
+      "source": "main.php:14",
+      "sink": "main.php:5"
+    },
+    {
+      "type": 79,
+      "source": "main.php:14",
+      "sink": "main.php:10"
+    }
+  ]
+}

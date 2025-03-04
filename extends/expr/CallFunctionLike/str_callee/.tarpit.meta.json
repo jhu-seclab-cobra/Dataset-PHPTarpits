@@ -1,0 +1,74 @@
+{
+  "name": "extends/expr/CallFunctionLike/str_callee",
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:16",
+      "callee": "somefunc1@main.php:3"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:5",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:17",
+      "callee": "somefunc1@main.php:3"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:19",
+      "callee": "somefunc2@main.php:8"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:10",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:20",
+      "callee": "somefunc2@main.php:8"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:22",
+      "callee": "var_dump@Builtin[standard]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:23",
+      "callee": "var_dump@Builtin[standard]"
+    }
+  ],
+  "true_positives": [
+    {
+      "type": 79,
+      "source": "main.php:13",
+      "sink": "main.php:10"
+    },
+    {
+      "type": 79,
+      "source": "main.php:13",
+      "sink": "main.php:5"
+    },
+    {
+      "type": 79,
+      "source": "main.php:13",
+      "sink": "main.php:22"
+    }
+  ],
+  "false_positives": [
+    {
+      "type": 79,
+      "source": "main.php:13",
+      "sink": "main.php:5"
+    },
+    {
+      "type": 79,
+      "source": "main.php:13",
+      "sink": "main.php:10"
+    }
+  ]
+}

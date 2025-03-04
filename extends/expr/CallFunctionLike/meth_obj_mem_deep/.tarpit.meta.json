@@ -1,0 +1,64 @@
+{
+  "name": "extends/expr/CallFunctionLike/meth_obj_mem_deep",
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:26",
+      "callee": "test::__construct@Builtin[Core]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:26",
+      "callee": "test::caller@main.php:5"
+    },
+    {
+      "type": "DYNAMIC",
+      "callsite": "main.php:7",
+      "callee": "test::callee1@main.php:10"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:12",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "DYNAMIC",
+      "callsite": "main.php:13",
+      "callee": "test::callee2@main.php:16"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:18",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:27",
+      "callee": "test::__construct@Builtin[Core]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:27",
+      "callee": "test::caller@main.php:5"
+    }
+  ],
+  "true_positives": [
+    {
+      "type": 79,
+      "source": "main.php:23",
+      "sink": "main.php:18"
+    }
+  ],
+  "false_positives": [
+    {
+      "type": 79,
+      "source": "main.php:23",
+      "sink": "main.php:18"
+    },
+    {
+      "type": 79,
+      "source": "main.php:23",
+      "sink": "main.php:12"
+    }
+  ]
+}

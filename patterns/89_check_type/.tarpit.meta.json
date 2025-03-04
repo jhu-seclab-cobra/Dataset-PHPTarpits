@@ -1,0 +1,22 @@
+{
+  "name": "patterns/89_check_type",
+  "call_edges": [],
+  "true_positives": [
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:6"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:11"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:16"
+    }
+  ],
+  "false_positives": []
+}

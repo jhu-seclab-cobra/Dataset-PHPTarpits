@@ -1,0 +1,28 @@
+{
+  "name": "patterns/34_isset_overloading",
+  "call_edges": [],
+  "true_positives": [
+    {
+      "type": 79,
+      "source": "main.php:25",
+      "sink": "main.php:9"
+    },
+    {
+      "type": 79,
+      "source": "main.php:25",
+      "sink": "main.php:15"
+    }
+  ],
+  "false_positives": [
+    {
+      "type": 79,
+      "source": "main.php:25",
+      "sink": "main.php:31"
+    },
+    {
+      "type": 79,
+      "source": "main.php:25",
+      "sink": "main.php:37"
+    }
+  ]
+}

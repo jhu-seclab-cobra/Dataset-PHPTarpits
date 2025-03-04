@@ -1,0 +1,124 @@
+{
+  "name": "extends/expr/FetchValDeclared/fetchVarPropertyNorm",
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:26",
+      "callee": "testclass::__construct@main.php:19"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:21",
+      "callee": "nestedclass::__construct@Builtin[Core]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:30",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:32",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:35",
+      "callee": "is_null@Builtin[standard]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:36",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:38",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:42",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:44",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:48",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:50",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:56",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:58",
+      "callee": "echo@Builtin[keyword]"
+    }
+  ],
+  "true_positives": [
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:36"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:48"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:56"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:30"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:42"
+    }
+  ],
+  "false_positives": [
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:58"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:38"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:50"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:44"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:32"
+    }
+  ]
+}

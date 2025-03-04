@@ -1,0 +1,152 @@
+{
+  "name": "extends/expr/CallKeywordsFunc/keyword_empty",
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:3",
+      "callee": "empty@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:4",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:6",
+      "callee": "empty@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:7",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:9",
+      "callee": "empty@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:10",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:12",
+      "callee": "empty@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:13",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:15",
+      "callee": "empty@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:16",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:18",
+      "callee": "empty@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:19",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:21",
+      "callee": "empty@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:22",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:24",
+      "callee": "empty@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:25",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:27",
+      "callee": "empty@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:28",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:30",
+      "callee": "array::__construct@Builtin[Core]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:30",
+      "callee": "empty@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:31",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:33",
+      "callee": "array::__construct@Builtin[Core]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:33",
+      "callee": "empty@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:34",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:36",
+      "callee": "array::__construct@Builtin[Core]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:36",
+      "callee": "empty@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:37",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:39",
+      "callee": "empty@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:40",
+      "callee": "echo@Builtin[keyword]"
+    }
+  ],
+  "true_positives": [],
+  "false_positives": []
+}

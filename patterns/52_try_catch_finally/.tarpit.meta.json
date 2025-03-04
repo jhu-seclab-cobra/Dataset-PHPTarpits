@@ -1,0 +1,68 @@
+{
+  "name": "patterns/52_try_catch_finally",
+  "call_edges": [],
+  "true_positives": [
+    {
+      "type": 79,
+      "source": "first_ex.php:18",
+      "sink": "first_ex.php:19"
+    }
+  ],
+  "false_positives": [
+    {
+      "type": 79,
+      "source": "second_ex.php:20",
+      "sink": "second_ex.php:13"
+    },
+    {
+      "type": 79,
+      "source": "second_ex.php:20",
+      "sink": "second_ex.php:21"
+    },
+    {
+      "type": 79,
+      "source": "second_ex.php:20",
+      "sink": "first_ex.php:9"
+    },
+    {
+      "type": 79,
+      "source": "first_ex.php:18",
+      "sink": "first_ex.php:13"
+    },
+    {
+      "type": 79,
+      "source": "second_ex.php:20",
+      "sink": "first_ex.php:19"
+    },
+    {
+      "type": 79,
+      "source": "first_ex.php:18",
+      "sink": "first_ex.php:9"
+    },
+    {
+      "type": 79,
+      "source": "first_ex.php:18",
+      "sink": "second_ex.php:13"
+    },
+    {
+      "type": 79,
+      "source": "first_ex.php:18",
+      "sink": "second_ex.php:21"
+    },
+    {
+      "type": 79,
+      "source": "second_ex.php:20",
+      "sink": "first_ex.php:13"
+    },
+    {
+      "type": 79,
+      "source": "second_ex.php:20",
+      "sink": "second_ex.php:9"
+    },
+    {
+      "type": 79,
+      "source": "first_ex.php:18",
+      "sink": "second_ex.php:9"
+    }
+  ]
+}

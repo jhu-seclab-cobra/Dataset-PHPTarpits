@@ -1,0 +1,49 @@
+{
+  "name": "extends/stmt/DeclareClassLike/declareClass",
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:20",
+      "callee": "declareclass::__construct@Builtin[Core]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:21",
+      "callee": "declareclass::callee1@main.php:5"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:7",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:22",
+      "callee": "declareclass::callee2@main.php:10"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:12",
+      "callee": "echo@Builtin[keyword]"
+    }
+  ],
+  "true_positives": [
+    {
+      "type": 79,
+      "source": "main.php:17",
+      "sink": "main.php:7"
+    }
+  ],
+  "false_positives": [
+    {
+      "type": 79,
+      "source": "main.php:17",
+      "sink": "main.php:12"
+    },
+    {
+      "type": 79,
+      "source": "main.php:17",
+      "sink": "main.php:7"
+    }
+  ]
+}

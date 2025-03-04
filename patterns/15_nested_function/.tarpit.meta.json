@@ -1,0 +1,12 @@
+{
+  "name": "patterns/15_nested_function",
+  "call_edges": [],
+  "true_positives": [
+    {
+      "type": 79,
+      "source": "main.php:10",
+      "sink": "main.php:7"
+    }
+  ],
+  "false_positives": []
+}

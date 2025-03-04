@@ -1,0 +1,39 @@
+{
+  "name": "extends/expr/FetchValConstant/fetchConstMagicFile",
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:6",
+      "callee": "strrpos@Builtin[standard]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:7",
+      "callee": "substr@Builtin[standard]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:9",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:11",
+      "callee": "echo@Builtin[keyword]"
+    }
+  ],
+  "true_positives": [
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:11"
+    }
+  ],
+  "false_positives": [
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:11"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "name": "patterns/60_array_walk",
+  "call_edges": [],
+  "true_positives": [
+    {
+      "type": 79,
+      "source": "first_ex.php:3",
+      "sink": "first_ex.php:7"
+    },
+    {
+      "type": 79,
+      "source": "first_ex.php:3",
+      "sink": "first_ex.php:11"
+    },
+    {
+      "type": 79,
+      "source": "second_ex.php:3",
+      "sink": "second_ex.php:8"
+    },
+    {
+      "type": 79,
+      "source": "second_ex.php:3",
+      "sink": "second_ex.php:12"
+    }
+  ],
+  "false_positives": [
+    {
+      "type": 79,
+      "source": "second_ex.php:4",
+      "sink": "second_ex.php:8"
+    },
+    {
+      "type": 79,
+      "source": "first_ex.php:3",
+      "sink": "second_ex.php:18"
+    },
+    {
+      "type": 79,
+      "source": "first_ex.php:3",
+      "sink": "second_ex.php:8"
+    },
+    {
+      "type": 79,
+      "source": "second_ex.php:3",
+      "sink": "first_ex.php:17"
+    },
+    {
+      "type": 79,
+      "source": "second_ex.php:4",
+      "sink": "second_ex.php:18"
+    },
+    {
+      "type": 79,
+      "source": "second_ex.php:3",
+      "sink": "first_ex.php:11"
+    },
+    {
+      "type": 79,
+      "source": "first_ex.php:3",
+      "sink": "first_ex.php:14"
+    },
+    {
+      "type": 79,
+      "source": "second_ex.php:4",
+      "sink": "first_ex.php:14"
+    },
+    {
+      "type": 79,
+      "source": "second_ex.php:3",
+      "sink": "second_ex.php:15"
+    },
+    {
+      "type": 79,
+      "source": "second_ex.php:4",
+      "sink": "second_ex.php:12"
+    },
+    {
+      "type": 79,
+      "source": "first_ex.php:3",
+      "sink": "second_ex.php:12"
+    },
+    {
+      "type": 79,
+      "source": "second_ex.php:3",
+      "sink": "first_ex.php:7"
+    },
+    {
+      "type": 79,
+      "source": "second_ex.php:4",
+      "sink": "first_ex.php:17"
+    },
+    {
+      "type": 79,
+      "source": "first_ex.php:3",
+      "sink": "first_ex.php:17"
+    },
+    {
+      "type": 79,
+      "source": "second_ex.php:4",
+      "sink": "first_ex.php:11"
+    },
+    {
+      "type": 79,
+      "source": "second_ex.php:3",
+      "sink": "first_ex.php:14"
+    },
+    {
+      "type": 79,
+      "source": "second_ex.php:4",
+      "sink": "first_ex.php:7"
+    },
+    {
+      "type": 79,
+      "source": "second_ex.php:4",
+      "sink": "second_ex.php:15"
+    },
+    {
+      "type": 79,
+      "source": "second_ex.php:3",
+      "sink": "second_ex.php:18"
+    },
+    {
+      "type": 79,
+      "source": "first_ex.php:3",
+      "sink": "second_ex.php:15"
+    }
+  ]
+}

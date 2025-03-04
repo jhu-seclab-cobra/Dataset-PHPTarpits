@@ -1,0 +1,43 @@
+{
+  "name": "patterns/65_system",
+  "call_edges": [],
+  "true_positives": [
+    {
+      "type": 77,
+      "source": "first_ex.php:3",
+      "sink": "first_ex.php:4"
+    },
+    {
+      "type": 77,
+      "source": "second_ex.php:4",
+      "sink": "second_ex.php:3"
+    },
+    {
+      "type": 434,
+      "source": "third_ex.php:3",
+      "sink": "third_ex.php:4"
+    }
+  ],
+  "false_positives": [
+    {
+      "type": 77,
+      "source": "third_ex.php:3",
+      "sink": "first_ex.php:4"
+    },
+    {
+      "type": 434,
+      "source": "first_ex.php:3",
+      "sink": "third_ex.php:4"
+    },
+    {
+      "type": 77,
+      "source": "second_ex.php:3",
+      "sink": "first_ex.php:4"
+    },
+    {
+      "type": 434,
+      "source": "second_ex.php:3",
+      "sink": "third_ex.php:4"
+    }
+  ]
+}

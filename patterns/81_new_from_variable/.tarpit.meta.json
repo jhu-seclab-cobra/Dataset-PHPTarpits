@@ -1,0 +1,233 @@
+{
+  "name": "patterns/81_new_from_variable",
+  "call_edges": [],
+  "true_positives": [
+    {
+      "type": 79,
+      "source": "first_ex.php:15",
+      "sink": "first_ex.php:12"
+    },
+    {
+      "type": 79,
+      "source": "second_ex.php:15",
+      "sink": "second_ex.php:12"
+    },
+    {
+      "type": 79,
+      "source": "third_ex.php:15",
+      "sink": "third_ex.php:12"
+    }
+  ],
+  "false_positives": [
+    {
+      "type": 79,
+      "source": "second_ex.php:16",
+      "sink": "third_ex.php:10"
+    },
+    {
+      "type": 79,
+      "source": "second_ex.php:16",
+      "sink": "first_ex.php:10"
+    },
+    {
+      "type": 79,
+      "source": "second_ex.php:15",
+      "sink": "first_ex.php:12"
+    },
+    {
+      "type": 79,
+      "source": "third_ex.php:15",
+      "sink": "first_ex.php:12"
+    },
+    {
+      "type": 79,
+      "source": "second_ex.php:16",
+      "sink": "third_ex.php:19"
+    },
+    {
+      "type": 79,
+      "source": "second_ex.php:16",
+      "sink": "third_ex.php:12"
+    },
+    {
+      "type": 79,
+      "source": "third_ex.php:16",
+      "sink": "second_ex.php:18"
+    },
+    {
+      "type": 79,
+      "source": "third_ex.php:15",
+      "sink": "second_ex.php:18"
+    },
+    {
+      "type": 79,
+      "source": "third_ex.php:16",
+      "sink": "second_ex.php:12"
+    },
+    {
+      "type": 79,
+      "source": "third_ex.php:16",
+      "sink": "third_ex.php:10"
+    },
+    {
+      "type": 79,
+      "source": "third_ex.php:16",
+      "sink": "first_ex.php:10"
+    },
+    {
+      "type": 79,
+      "source": "third_ex.php:15",
+      "sink": "second_ex.php:12"
+    },
+    {
+      "type": 79,
+      "source": "third_ex.php:16",
+      "sink": "first_ex.php:18"
+    },
+    {
+      "type": 79,
+      "source": "second_ex.php:15",
+      "sink": "second_ex.php:18"
+    },
+    {
+      "type": 79,
+      "source": "second_ex.php:16",
+      "sink": "second_ex.php:10"
+    },
+    {
+      "type": 79,
+      "source": "second_ex.php:15",
+      "sink": "third_ex.php:10"
+    },
+    {
+      "type": 79,
+      "source": "second_ex.php:15",
+      "sink": "first_ex.php:10"
+    },
+    {
+      "type": 79,
+      "source": "second_ex.php:15",
+      "sink": "first_ex.php:18"
+    },
+    {
+      "type": 79,
+      "source": "first_ex.php:15",
+      "sink": "first_ex.php:10"
+    },
+    {
+      "type": 79,
+      "source": "third_ex.php:15",
+      "sink": "first_ex.php:18"
+    },
+    {
+      "type": 79,
+      "source": "third_ex.php:15",
+      "sink": "first_ex.php:10"
+    },
+    {
+      "type": 79,
+      "source": "third_ex.php:16",
+      "sink": "third_ex.php:19"
+    },
+    {
+      "type": 79,
+      "source": "third_ex.php:16",
+      "sink": "third_ex.php:12"
+    },
+    {
+      "type": 79,
+      "source": "first_ex.php:15",
+      "sink": "second_ex.php:18"
+    },
+    {
+      "type": 79,
+      "source": "second_ex.php:16",
+      "sink": "first_ex.php:12"
+    },
+    {
+      "type": 79,
+      "source": "first_ex.php:15",
+      "sink": "second_ex.php:12"
+    },
+    {
+      "type": 79,
+      "source": "first_ex.php:15",
+      "sink": "third_ex.php:10"
+    },
+    {
+      "type": 79,
+      "source": "first_ex.php:15",
+      "sink": "first_ex.php:18"
+    },
+    {
+      "type": 79,
+      "source": "second_ex.php:15",
+      "sink": "third_ex.php:12"
+    },
+    {
+      "type": 79,
+      "source": "third_ex.php:15",
+      "sink": "third_ex.php:10"
+    },
+    {
+      "type": 79,
+      "source": "third_ex.php:15",
+      "sink": "third_ex.php:19"
+    },
+    {
+      "type": 79,
+      "source": "third_ex.php:16",
+      "sink": "second_ex.php:10"
+    },
+    {
+      "type": 79,
+      "source": "first_ex.php:15",
+      "sink": "third_ex.php:12"
+    },
+    {
+      "type": 79,
+      "source": "second_ex.php:15",
+      "sink": "third_ex.php:19"
+    },
+    {
+      "type": 79,
+      "source": "second_ex.php:15",
+      "sink": "second_ex.php:10"
+    },
+    {
+      "type": 79,
+      "source": "first_ex.php:15",
+      "sink": "third_ex.php:19"
+    },
+    {
+      "type": 79,
+      "source": "second_ex.php:16",
+      "sink": "second_ex.php:18"
+    },
+    {
+      "type": 79,
+      "source": "third_ex.php:15",
+      "sink": "second_ex.php:10"
+    },
+    {
+      "type": 79,
+      "source": "second_ex.php:16",
+      "sink": "second_ex.php:12"
+    },
+    {
+      "type": 79,
+      "source": "second_ex.php:16",
+      "sink": "first_ex.php:18"
+    },
+    {
+      "type": 79,
+      "source": "third_ex.php:16",
+      "sink": "first_ex.php:12"
+    },
+    {
+      "type": 79,
+      "source": "first_ex.php:15",
+      "sink": "second_ex.php:10"
+    }
+  ]
+}

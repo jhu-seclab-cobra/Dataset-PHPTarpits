@@ -1,0 +1,18 @@
+{
+  "name": "patterns/78_autoloading_classes",
+  "call_edges": [],
+  "true_positives": [
+    {
+      "type": 79,
+      "source": "main.php:6",
+      "sink": "MyClass1.php:3"
+    }
+  ],
+  "false_positives": [
+    {
+      "type": 79,
+      "source": "main.php:6",
+      "sink": "MyClass1.php:7"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "patterns/61_array_map",
+  "call_edges": [],
+  "true_positives": [
+    {
+      "type": 79,
+      "source": "first_ex.php:8",
+      "sink": "first_ex.php:5"
+    }
+  ],
+  "false_positives": [
+    {
+      "type": 79,
+      "source": "first_ex.php:8",
+      "sink": "second_ex.php:5"
+    },
+    {
+      "type": 79,
+      "source": "second_ex.php:8",
+      "sink": "second_ex.php:5"
+    },
+    {
+      "type": 79,
+      "source": "second_ex.php:9",
+      "sink": "second_ex.php:5"
+    },
+    {
+      "type": 79,
+      "source": "second_ex.php:8",
+      "sink": "first_ex.php:5"
+    },
+    {
+      "type": 79,
+      "source": "second_ex.php:9",
+      "sink": "first_ex.php:5"
+    }
+  ]
+}

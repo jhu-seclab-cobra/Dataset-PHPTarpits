@@ -1,0 +1,43 @@
+{
+  "name": "patterns/66_superglobals",
+  "call_edges": [],
+  "true_positives": [
+    {
+      "type": 79,
+      "source": "first_ex.php:3",
+      "sink": "first_ex.php:3"
+    },
+    {
+      "type": 79,
+      "source": "second_ex.php:3",
+      "sink": "second_ex.php:4"
+    },
+    {
+      "type": 79,
+      "source": "fourth_ex.php:3",
+      "sink": "fourth_ex.php:3"
+    }
+  ],
+  "false_positives": [
+    {
+      "type": 79,
+      "source": "second_ex_a.php:4",
+      "sink": "second_ex_b.php:3"
+    },
+    {
+      "type": 79,
+      "source": "second_ex_a.php:4",
+      "sink": "third_ex.php:3"
+    },
+    {
+      "type": 79,
+      "source": "second_ex_a.php:4",
+      "sink": "fourth_ex.php:3"
+    },
+    {
+      "type": 79,
+      "source": "second_ex_a.php:4",
+      "sink": "first_ex.php:3"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "patterns/27_get_called_class",
+  "call_edges": [],
+  "true_positives": [
+    {
+      "type": 79,
+      "source": "first_ex.php:23",
+      "sink": "first_ex.php:19"
+    }
+  ],
+  "false_positives": [
+    {
+      "type": 79,
+      "source": "main.php:23",
+      "sink": "main.php:19"
+    },
+    {
+      "type": 79,
+      "source": "main.php:23",
+      "sink": "main.php:7"
+    }
+  ]
+}

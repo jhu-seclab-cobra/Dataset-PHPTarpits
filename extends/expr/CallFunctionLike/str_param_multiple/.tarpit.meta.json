@@ -1,0 +1,64 @@
+{
+  "name": "extends/expr/CallFunctionLike/str_param_multiple",
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:23",
+      "callee": "two_param@main.php:14"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:16",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "DYNAMIC",
+      "callsite": "main.php:17",
+      "callee": "one_param@main.php:8"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:10",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "DYNAMIC",
+      "callsite": "main.php:11",
+      "callee": "no_param@main.php:3"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:5",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:24",
+      "callee": "two_param@main.php:14"
+    }
+  ],
+  "true_positives": [
+    {
+      "type": 79,
+      "source": "main.php:20",
+      "sink": "main.php:5"
+    }
+  ],
+  "false_positives": [
+    {
+      "type": 79,
+      "source": "main.php:20",
+      "sink": "main.php:16"
+    },
+    {
+      "type": 79,
+      "source": "main.php:20",
+      "sink": "main.php:5"
+    },
+    {
+      "type": 79,
+      "source": "main.php:20",
+      "sink": "main.php:10"
+    }
+  ]
+}

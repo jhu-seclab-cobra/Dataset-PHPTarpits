@@ -1,0 +1,38 @@
+{
+  "name": "patterns/59_foreach_with_array",
+  "call_edges": [],
+  "true_positives": [
+    {
+      "type": 79,
+      "source": "first_ex.php:3",
+      "sink": "first_ex.php:12"
+    },
+    {
+      "type": 79,
+      "source": "second_ex.php:3",
+      "sink": "second_ex.php:14"
+    }
+  ],
+  "false_positives": [
+    {
+      "type": 79,
+      "source": "first_ex.php:3",
+      "sink": "second_ex.php:14"
+    },
+    {
+      "type": 79,
+      "source": "second_ex.php:3",
+      "sink": "second_ex.php:13"
+    },
+    {
+      "type": 79,
+      "source": "first_ex.php:3",
+      "sink": "second_ex.php:13"
+    },
+    {
+      "type": 79,
+      "source": "second_ex.php:3",
+      "sink": "first_ex.php:12"
+    }
+  ]
+}

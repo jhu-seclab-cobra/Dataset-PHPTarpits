@@ -1,0 +1,48 @@
+{
+  "name": "patterns/44_verify_return_type",
+  "call_edges": [],
+  "true_positives": [
+    {
+      "type": 79,
+      "source": "first_ex.php:25",
+      "sink": "first_ex.php:14"
+    },
+    {
+      "type": 79,
+      "source": "second_ex.php:24",
+      "sink": "second_ex.php:13"
+    }
+  ],
+  "false_positives": [
+    {
+      "type": 79,
+      "source": "second_ex.php:24",
+      "sink": "second_ex.php:25"
+    },
+    {
+      "type": 79,
+      "source": "first_ex.php:25",
+      "sink": "first_ex.php:22"
+    },
+    {
+      "type": 79,
+      "source": "second_ex.php:24",
+      "sink": "first_ex.php:14"
+    },
+    {
+      "type": 79,
+      "source": "first_ex.php:25",
+      "sink": "second_ex.php:13"
+    },
+    {
+      "type": 79,
+      "source": "second_ex.php:24",
+      "sink": "first_ex.php:22"
+    },
+    {
+      "type": 79,
+      "source": "first_ex.php:25",
+      "sink": "second_ex.php:25"
+    }
+  ]
+}

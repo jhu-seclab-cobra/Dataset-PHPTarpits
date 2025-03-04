@@ -1,0 +1,748 @@
+{
+  "name": "patterns/07_string_arithmetic_operations",
+  "call_edges": [],
+  "true_positives": [
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:6"
+    },
+    {
+      "type": 79,
+      "source": "main.php:8",
+      "sink": "main.php:11"
+    },
+    {
+      "type": 79,
+      "source": "main.php:13",
+      "sink": "main.php:16"
+    },
+    {
+      "type": 79,
+      "source": "main.php:27",
+      "sink": "main.php:30"
+    },
+    {
+      "type": 79,
+      "source": "main.php:32",
+      "sink": "main.php:35"
+    },
+    {
+      "type": 79,
+      "source": "main.php:37",
+      "sink": "main.php:40"
+    },
+    {
+      "type": 79,
+      "source": "main.php:42",
+      "sink": "main.php:45"
+    },
+    {
+      "type": 79,
+      "source": "main.php:53",
+      "sink": "main.php:58"
+    },
+    {
+      "type": 79,
+      "source": "main.php:60",
+      "sink": "main.php:65"
+    },
+    {
+      "type": 79,
+      "source": "main.php:67",
+      "sink": "main.php:72"
+    },
+    {
+      "type": 79,
+      "source": "main.php:74",
+      "sink": "main.php:79"
+    }
+  ],
+  "false_positives": [
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:58"
+    },
+    {
+      "type": 79,
+      "source": "main.php:43",
+      "sink": "main.php:31"
+    },
+    {
+      "type": 79,
+      "source": "main.php:43",
+      "sink": "main.php:41"
+    },
+    {
+      "type": 79,
+      "source": "main.php:53",
+      "sink": "main.php:79"
+    },
+    {
+      "type": 79,
+      "source": "main.php:74",
+      "sink": "main.php:65"
+    },
+    {
+      "type": 79,
+      "source": "main.php:18",
+      "sink": "main.php:6"
+    },
+    {
+      "type": 79,
+      "source": "main.php:53",
+      "sink": "main.php:31"
+    },
+    {
+      "type": 79,
+      "source": "main.php:38",
+      "sink": "main.php:16"
+    },
+    {
+      "type": 79,
+      "source": "main.php:53",
+      "sink": "main.php:41"
+    },
+    {
+      "type": 79,
+      "source": "main.php:13",
+      "sink": "main.php:46"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:16"
+    },
+    {
+      "type": 79,
+      "source": "main.php:43",
+      "sink": "main.php:11"
+    },
+    {
+      "type": 79,
+      "source": "main.php:18",
+      "sink": "main.php:21"
+    },
+    {
+      "type": 79,
+      "source": "main.php:8",
+      "sink": "main.php:21"
+    },
+    {
+      "type": 79,
+      "source": "main.php:53",
+      "sink": "main.php:46"
+    },
+    {
+      "type": 79,
+      "source": "main.php:74",
+      "sink": "main.php:6"
+    },
+    {
+      "type": 79,
+      "source": "main.php:28",
+      "sink": "main.php:21"
+    },
+    {
+      "type": 79,
+      "source": "main.php:60",
+      "sink": "main.php:41"
+    },
+    {
+      "type": 79,
+      "source": "main.php:60",
+      "sink": "main.php:58"
+    },
+    {
+      "type": 79,
+      "source": "main.php:33",
+      "sink": "main.php:79"
+    },
+    {
+      "type": 79,
+      "source": "main.php:18",
+      "sink": "main.php:31"
+    },
+    {
+      "type": 79,
+      "source": "main.php:33",
+      "sink": "main.php:31"
+    },
+    {
+      "type": 79,
+      "source": "main.php:74",
+      "sink": "main.php:21"
+    },
+    {
+      "type": 79,
+      "source": "main.php:67",
+      "sink": "main.php:36"
+    },
+    {
+      "type": 79,
+      "source": "main.php:38",
+      "sink": "main.php:79"
+    },
+    {
+      "type": 79,
+      "source": "main.php:13",
+      "sink": "main.php:6"
+    },
+    {
+      "type": 79,
+      "source": "main.php:53",
+      "sink": "main.php:16"
+    },
+    {
+      "type": 79,
+      "source": "main.php:18",
+      "sink": "main.php:65"
+    },
+    {
+      "type": 79,
+      "source": "main.php:33",
+      "sink": "main.php:58"
+    },
+    {
+      "type": 79,
+      "source": "main.php:28",
+      "sink": "main.php:72"
+    },
+    {
+      "type": 79,
+      "source": "main.php:28",
+      "sink": "main.php:65"
+    },
+    {
+      "type": 79,
+      "source": "main.php:38",
+      "sink": "main.php:58"
+    },
+    {
+      "type": 79,
+      "source": "main.php:53",
+      "sink": "main.php:6"
+    },
+    {
+      "type": 79,
+      "source": "main.php:33",
+      "sink": "main.php:36"
+    },
+    {
+      "type": 79,
+      "source": "main.php:33",
+      "sink": "main.php:16"
+    },
+    {
+      "type": 79,
+      "source": "main.php:38",
+      "sink": "main.php:46"
+    },
+    {
+      "type": 79,
+      "source": "main.php:74",
+      "sink": "main.php:41"
+    },
+    {
+      "type": 79,
+      "source": "main.php:53",
+      "sink": "main.php:21"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:72"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:65"
+    },
+    {
+      "type": 79,
+      "source": "main.php:33",
+      "sink": "main.php:6"
+    },
+    {
+      "type": 79,
+      "source": "main.php:33",
+      "sink": "main.php:21"
+    },
+    {
+      "type": 79,
+      "source": "main.php:43",
+      "sink": "main.php:72"
+    },
+    {
+      "type": 79,
+      "source": "main.php:43",
+      "sink": "main.php:65"
+    },
+    {
+      "type": 79,
+      "source": "main.php:13",
+      "sink": "main.php:58"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:11"
+    },
+    {
+      "type": 79,
+      "source": "main.php:38",
+      "sink": "main.php:6"
+    },
+    {
+      "type": 79,
+      "source": "main.php:60",
+      "sink": "main.php:79"
+    },
+    {
+      "type": 79,
+      "source": "main.php:53",
+      "sink": "main.php:65"
+    },
+    {
+      "type": 79,
+      "source": "main.php:60",
+      "sink": "main.php:31"
+    },
+    {
+      "type": 79,
+      "source": "main.php:13",
+      "sink": "main.php:36"
+    },
+    {
+      "type": 79,
+      "source": "main.php:67",
+      "sink": "main.php:58"
+    },
+    {
+      "type": 79,
+      "source": "main.php:38",
+      "sink": "main.php:21"
+    },
+    {
+      "type": 79,
+      "source": "main.php:28",
+      "sink": "main.php:46"
+    },
+    {
+      "type": 79,
+      "source": "main.php:60",
+      "sink": "main.php:72"
+    },
+    {
+      "type": 79,
+      "source": "main.php:67",
+      "sink": "main.php:31"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:21"
+    },
+    {
+      "type": 79,
+      "source": "main.php:33",
+      "sink": "main.php:41"
+    },
+    {
+      "type": 79,
+      "source": "main.php:60",
+      "sink": "main.php:16"
+    },
+    {
+      "type": 79,
+      "source": "main.php:33",
+      "sink": "main.php:65"
+    },
+    {
+      "type": 79,
+      "source": "main.php:67",
+      "sink": "main.php:46"
+    },
+    {
+      "type": 79,
+      "source": "main.php:18",
+      "sink": "main.php:72"
+    },
+    {
+      "type": 79,
+      "source": "main.php:8",
+      "sink": "main.php:72"
+    },
+    {
+      "type": 79,
+      "source": "main.php:38",
+      "sink": "main.php:41"
+    },
+    {
+      "type": 79,
+      "source": "main.php:38",
+      "sink": "main.php:65"
+    },
+    {
+      "type": 79,
+      "source": "main.php:67",
+      "sink": "main.php:16"
+    },
+    {
+      "type": 79,
+      "source": "main.php:18",
+      "sink": "main.php:11"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:46"
+    },
+    {
+      "type": 79,
+      "source": "main.php:13",
+      "sink": "main.php:21"
+    },
+    {
+      "type": 79,
+      "source": "main.php:43",
+      "sink": "main.php:46"
+    },
+    {
+      "type": 79,
+      "source": "main.php:60",
+      "sink": "main.php:6"
+    },
+    {
+      "type": 79,
+      "source": "main.php:60",
+      "sink": "main.php:21"
+    },
+    {
+      "type": 79,
+      "source": "main.php:74",
+      "sink": "main.php:72"
+    },
+    {
+      "type": 79,
+      "source": "main.php:13",
+      "sink": "main.php:79"
+    },
+    {
+      "type": 79,
+      "source": "main.php:74",
+      "sink": "main.php:11"
+    },
+    {
+      "type": 79,
+      "source": "main.php:67",
+      "sink": "main.php:6"
+    },
+    {
+      "type": 79,
+      "source": "main.php:67",
+      "sink": "main.php:21"
+    },
+    {
+      "type": 79,
+      "source": "main.php:13",
+      "sink": "main.php:31"
+    },
+    {
+      "type": 79,
+      "source": "main.php:13",
+      "sink": "main.php:41"
+    },
+    {
+      "type": 79,
+      "source": "main.php:67",
+      "sink": "main.php:79"
+    },
+    {
+      "type": 79,
+      "source": "main.php:13",
+      "sink": "main.php:72"
+    },
+    {
+      "type": 79,
+      "source": "main.php:43",
+      "sink": "main.php:6"
+    },
+    {
+      "type": 79,
+      "source": "main.php:53",
+      "sink": "main.php:72"
+    },
+    {
+      "type": 79,
+      "source": "main.php:8",
+      "sink": "main.php:58"
+    },
+    {
+      "type": 79,
+      "source": "main.php:13",
+      "sink": "main.php:11"
+    },
+    {
+      "type": 79,
+      "source": "main.php:28",
+      "sink": "main.php:58"
+    },
+    {
+      "type": 79,
+      "source": "main.php:8",
+      "sink": "main.php:31"
+    },
+    {
+      "type": 79,
+      "source": "main.php:53",
+      "sink": "main.php:11"
+    },
+    {
+      "type": 79,
+      "source": "main.php:8",
+      "sink": "main.php:46"
+    },
+    {
+      "type": 79,
+      "source": "main.php:18",
+      "sink": "main.php:36"
+    },
+    {
+      "type": 79,
+      "source": "main.php:8",
+      "sink": "main.php:36"
+    },
+    {
+      "type": 79,
+      "source": "main.php:33",
+      "sink": "main.php:72"
+    },
+    {
+      "type": 79,
+      "source": "main.php:28",
+      "sink": "main.php:36"
+    },
+    {
+      "type": 79,
+      "source": "main.php:74",
+      "sink": "main.php:58"
+    },
+    {
+      "type": 79,
+      "source": "main.php:67",
+      "sink": "main.php:65"
+    },
+    {
+      "type": 79,
+      "source": "main.php:33",
+      "sink": "main.php:11"
+    },
+    {
+      "type": 79,
+      "source": "main.php:60",
+      "sink": "main.php:11"
+    },
+    {
+      "type": 79,
+      "source": "main.php:74",
+      "sink": "main.php:31"
+    },
+    {
+      "type": 79,
+      "source": "main.php:74",
+      "sink": "main.php:46"
+    },
+    {
+      "type": 79,
+      "source": "main.php:74",
+      "sink": "main.php:36"
+    },
+    {
+      "type": 79,
+      "source": "main.php:8",
+      "sink": "main.php:16"
+    },
+    {
+      "type": 79,
+      "source": "main.php:28",
+      "sink": "main.php:16"
+    },
+    {
+      "type": 79,
+      "source": "main.php:28",
+      "sink": "main.php:6"
+    },
+    {
+      "type": 79,
+      "source": "main.php:43",
+      "sink": "main.php:58"
+    },
+    {
+      "type": 79,
+      "source": "main.php:38",
+      "sink": "main.php:72"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:36"
+    },
+    {
+      "type": 79,
+      "source": "main.php:38",
+      "sink": "main.php:11"
+    },
+    {
+      "type": 79,
+      "source": "main.php:43",
+      "sink": "main.php:36"
+    },
+    {
+      "type": 79,
+      "source": "main.php:74",
+      "sink": "main.php:16"
+    },
+    {
+      "type": 79,
+      "source": "main.php:8",
+      "sink": "main.php:6"
+    },
+    {
+      "type": 79,
+      "source": "main.php:53",
+      "sink": "main.php:36"
+    },
+    {
+      "type": 79,
+      "source": "main.php:18",
+      "sink": "main.php:79"
+    },
+    {
+      "type": 79,
+      "source": "main.php:8",
+      "sink": "main.php:79"
+    },
+    {
+      "type": 79,
+      "source": "main.php:60",
+      "sink": "main.php:46"
+    },
+    {
+      "type": 79,
+      "source": "main.php:28",
+      "sink": "main.php:79"
+    },
+    {
+      "type": 79,
+      "source": "main.php:13",
+      "sink": "main.php:65"
+    },
+    {
+      "type": 79,
+      "source": "main.php:43",
+      "sink": "main.php:16"
+    },
+    {
+      "type": 79,
+      "source": "main.php:18",
+      "sink": "main.php:41"
+    },
+    {
+      "type": 79,
+      "source": "main.php:8",
+      "sink": "main.php:41"
+    },
+    {
+      "type": 79,
+      "source": "main.php:18",
+      "sink": "main.php:58"
+    },
+    {
+      "type": 79,
+      "source": "main.php:28",
+      "sink": "main.php:31"
+    },
+    {
+      "type": 79,
+      "source": "main.php:60",
+      "sink": "main.php:36"
+    },
+    {
+      "type": 79,
+      "source": "main.php:28",
+      "sink": "main.php:41"
+    },
+    {
+      "type": 79,
+      "source": "main.php:67",
+      "sink": "main.php:41"
+    },
+    {
+      "type": 79,
+      "source": "main.php:18",
+      "sink": "main.php:46"
+    },
+    {
+      "type": 79,
+      "source": "main.php:33",
+      "sink": "main.php:46"
+    },
+    {
+      "type": 79,
+      "source": "main.php:43",
+      "sink": "main.php:21"
+    },
+    {
+      "type": 79,
+      "source": "main.php:28",
+      "sink": "main.php:11"
+    },
+    {
+      "type": 79,
+      "source": "main.php:8",
+      "sink": "main.php:65"
+    },
+    {
+      "type": 79,
+      "source": "main.php:38",
+      "sink": "main.php:31"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:79"
+    },
+    {
+      "type": 79,
+      "source": "main.php:67",
+      "sink": "main.php:11"
+    },
+    {
+      "type": 79,
+      "source": "main.php:38",
+      "sink": "main.php:36"
+    },
+    {
+      "type": 79,
+      "source": "main.php:43",
+      "sink": "main.php:79"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:31"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:41"
+    },
+    {
+      "type": 79,
+      "source": "main.php:18",
+      "sink": "main.php:16"
+    }
+  ]
+}

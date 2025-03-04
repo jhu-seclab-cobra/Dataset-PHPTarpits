@@ -1,0 +1,29 @@
+{
+  "name": "extends/stmt/CtrlFlowChanging/ctrlFlowThrow",
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:5",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:6",
+      "callee": "error::__construct@Builtin[Core]"
+    }
+  ],
+  "true_positives": [
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:5"
+    }
+  ],
+  "false_positives": [
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:7"
+    }
+  ]
+}

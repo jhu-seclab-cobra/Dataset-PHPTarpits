@@ -1,0 +1,79 @@
+{
+  "name": "extends/expr/CallKeywordsFunc/keyword_include/require",
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "requiree.php:11",
+      "callee": "requiree_func@requiree.php:5"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "requiree.php:7",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "requirer.php:13",
+      "callee": "require_once@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "requirer.php:13",
+      "callee": "__file__@requiree.php"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "requirer.php:15",
+      "callee": "n01/requirer_func@requirer.php:8"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "requirer.php:10",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "requirer.php:16",
+      "callee": "n01/requirer_func@requirer.php:8"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "requirer.php:18",
+      "callee": "requiree_func@requiree.php:5"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "requirer.php:19",
+      "callee": "requiree_func@requiree.php:5"
+    },
+    {
+      "type": "SUSPICIOUS",
+      "callsite": "requiree.php:10",
+      "callee": "n01/requirer_func@requirer.php:8"
+    }
+  ],
+  "true_positives": [
+    {
+      "type": 79,
+      "source": "requirer.php:5",
+      "sink": "requiree.php:7"
+    },
+    {
+      "type": 79,
+      "source": "requirer.php:5",
+      "sink": "requirer.php:10"
+    }
+  ],
+  "false_positives": [
+    {
+      "type": 79,
+      "source": "requirer.php:5",
+      "sink": "requiree.php:7"
+    },
+    {
+      "type": 79,
+      "source": "requirer.php:5",
+      "sink": "requirer.php:10"
+    }
+  ]
+}
