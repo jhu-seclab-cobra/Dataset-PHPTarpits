@@ -3,11 +3,6 @@
   "call_edges": [
     {
       "type": "STATIC",
-      "callsite": "first_ex.php:3",
-      "callee": "foo@second_ex.php:3"
-    },
-    {
-      "type": "STATIC",
       "callsite": "first_ex.php:7",
       "callee": "exception::__construct@Builtin[Core]"
     },
@@ -29,11 +24,6 @@
     {
       "type": "STATIC",
       "callsite": "first_ex.php:19",
-      "callee": "foo@second_ex.php:3"
-    },
-    {
-      "type": "STATIC",
-      "callsite": "second_ex.php:3",
       "callee": "foo@second_ex.php:3"
     },
     {

@@ -59,16 +59,5 @@
       "sink": "main.php:22"
     }
   ],
-  "false_positives": [
-    {
-      "type": 79,
-      "source": "main.php:13",
-      "sink": "main.php:5"
-    },
-    {
-      "type": 79,
-      "source": "main.php:13",
-      "sink": "main.php:10"
-    }
-  ]
+  "false_positives": []
 }

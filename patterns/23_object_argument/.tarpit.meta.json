@@ -8,11 +8,6 @@
     },
     {
       "type": "STATIC",
-      "callsite": "main.php:7",
-      "callee": "f@main.php:7"
-    },
-    {
-      "type": "STATIC",
       "callsite": "main.php:13",
       "callee": "f@main.php:7"
     },

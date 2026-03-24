@@ -10,6 +10,11 @@
       "type": "STATIC",
       "callsite": "main.php:14",
       "callee": "methodtest::__construct@Builtin[Core]"
+    },
+    {
+      "type": "DYNAMIC",
+      "callsite": "main.php:19",
+      "callee": "MethodTest::__callStatic@main.php:5"
     }
   ],
   "true_positives": [

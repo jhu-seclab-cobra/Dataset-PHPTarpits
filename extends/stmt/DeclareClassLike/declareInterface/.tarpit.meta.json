@@ -30,7 +30,7 @@
   "true_positives": [
     {
       "type": 79,
-      "source": "main.php:3",
+      "source": "main.php:22",
       "sink": "main.php:13"
     }
   ],
@@ -39,11 +39,6 @@
       "type": 79,
       "source": "main.php:22",
       "sink": "main.php:18"
-    },
-    {
-      "type": 79,
-      "source": "main.php:22",
-      "sink": "main.php:13"
     }
   ]
 }

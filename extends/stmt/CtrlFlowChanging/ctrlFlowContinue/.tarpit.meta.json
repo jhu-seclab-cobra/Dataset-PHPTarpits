@@ -33,11 +33,6 @@
     {
       "type": 79,
       "source": "main.php:4",
-      "sink": "main.php:17"
-    },
-    {
-      "type": 79,
-      "source": "main.php:4",
       "sink": "main.php:12"
     }
   ]

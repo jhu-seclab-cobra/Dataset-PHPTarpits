@@ -48,16 +48,6 @@
     {
       "type": 79,
       "source": "main.php:8",
-      "sink": "main.php:12"
-    },
-    {
-      "type": 79,
-      "source": "main.php:8",
-      "sink": "main.php:15"
-    },
-    {
-      "type": 79,
-      "source": "main.php:8",
       "sink": "main.php:13"
     }
   ]

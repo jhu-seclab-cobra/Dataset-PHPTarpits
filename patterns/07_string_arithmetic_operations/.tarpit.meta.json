@@ -100,26 +100,6 @@
     },
     {
       "type": 79,
-      "source": "main.php:27",
-      "sink": "main.php:30"
-    },
-    {
-      "type": 79,
-      "source": "main.php:32",
-      "sink": "main.php:35"
-    },
-    {
-      "type": 79,
-      "source": "main.php:37",
-      "sink": "main.php:40"
-    },
-    {
-      "type": 79,
-      "source": "main.php:42",
-      "sink": "main.php:45"
-    },
-    {
-      "type": 79,
       "source": "main.php:53",
       "sink": "main.php:58"
     },

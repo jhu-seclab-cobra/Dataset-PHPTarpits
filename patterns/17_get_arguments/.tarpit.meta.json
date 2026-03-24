@@ -3,11 +3,6 @@
   "call_edges": [
     {
       "type": "STATIC",
-      "callsite": "main.php:3",
-      "callee": "sum@main.php:3"
-    },
-    {
-      "type": "STATIC",
       "callsite": "main.php:7",
       "callee": "func_get_args@Builtin[standard]"
     },

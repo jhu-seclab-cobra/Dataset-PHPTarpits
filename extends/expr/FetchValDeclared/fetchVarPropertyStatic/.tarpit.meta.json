@@ -9,7 +9,7 @@
     {
       "type": "STATIC",
       "callsite": "main.php:27",
-      "callee": "outerclass::anonCls@ada90b14::__construct@Builtin[Core]"
+      "callee": "anonCls$ada90b14::__construct@Builtin[Core]"
     },
     {
       "type": "STATIC",

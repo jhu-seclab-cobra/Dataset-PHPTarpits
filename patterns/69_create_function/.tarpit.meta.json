@@ -4,11 +4,6 @@
     {
       "type": "STATIC",
       "callsite": "main.php:4",
-      "callee": "echo@Builtin[keyword]"
-    },
-    {
-      "type": "STATIC",
-      "callsite": "main.php:4",
       "callee": "create_function@Builtin[standard]"
     },
     {

@@ -10,6 +10,11 @@
       "type": "STATIC",
       "callsite": "main.php:18",
       "callee": "myhelloworld::__construct@Builtin[Core]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:20",
+      "callee": "MyHelloWorld::sayHello@main.php:7"
     }
   ],
   "true_positives": [

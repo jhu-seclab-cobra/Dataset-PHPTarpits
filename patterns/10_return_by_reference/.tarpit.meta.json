@@ -8,6 +8,11 @@
     },
     {
       "type": "STATIC",
+      "callsite": "main.php:16",
+      "callee": "foo::getValue@main.php:7"
+    },
+    {
+      "type": "STATIC",
       "callsite": "main.php:20",
       "callee": "echo@Builtin[keyword]"
     }

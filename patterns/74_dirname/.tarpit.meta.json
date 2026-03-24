@@ -31,14 +31,8 @@
     {
       "type": 79,
       "source": "folder/a.php:3",
-      "sink": "ttt/b.php:3"
+      "sink": "_includes/ttt/b.php:3"
     }
   ],
-  "false_positives": [
-    {
-      "type": 79,
-      "source": "a.php:3",
-      "sink": "b.php:3"
-    }
-  ]
+  "false_positives": []
 }

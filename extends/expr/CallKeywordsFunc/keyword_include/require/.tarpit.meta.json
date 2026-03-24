@@ -56,11 +56,6 @@
     {
       "type": 79,
       "source": "requirer.php:5",
-      "sink": "requiree.php:7"
-    },
-    {
-      "type": 79,
-      "source": "requirer.php:5",
       "sink": "requirer.php:10"
     }
   ],
@@ -69,11 +64,6 @@
       "type": 79,
       "source": "requirer.php:5",
       "sink": "requiree.php:7"
-    },
-    {
-      "type": 79,
-      "source": "requirer.php:5",
-      "sink": "requirer.php:10"
     }
   ]
 }

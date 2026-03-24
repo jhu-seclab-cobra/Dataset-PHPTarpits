@@ -40,20 +40,14 @@
   "true_positives": [
     {
       "type": 79,
-      "source": "main.php:3",
+      "source": "main.php:8",
       "sink": "main.php:14"
     },
-    {
-      "type": 79,
-      "source": "main.php:3",
-      "sink": "main.php:5"
-    }
-  ],
-  "false_positives": [
     {
       "type": 79,
       "source": "main.php:8",
       "sink": "main.php:5"
     }
-  ]
+  ],
+  "false_positives": []
 }

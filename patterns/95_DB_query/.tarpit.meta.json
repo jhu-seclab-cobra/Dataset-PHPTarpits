@@ -34,11 +34,6 @@
       "type": 89,
       "source": "second_ex.php:3",
       "sink": "first_ex.php:5"
-    },
-    {
-      "type": 89,
-      "source": "second_ex.php:3",
-      "sink": "second_ex.php:7"
     }
   ]
 }

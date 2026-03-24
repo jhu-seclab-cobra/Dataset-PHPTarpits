@@ -9,6 +9,11 @@
     {
       "type": "STATIC",
       "callsite": "main.php:21",
+      "callee": "Test::getfoo@main.php:12"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:21",
       "callee": "echo@Builtin[keyword]"
     }
   ],

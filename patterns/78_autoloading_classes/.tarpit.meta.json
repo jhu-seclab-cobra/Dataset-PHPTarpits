@@ -21,14 +21,14 @@
     {
       "type": 79,
       "source": "main.php:6",
-      "sink": "MyClass1.php:3"
+      "sink": "MyClass1.php:7"
     }
   ],
   "false_positives": [
     {
       "type": 79,
       "source": "main.php:6",
-      "sink": "MyClass1.php:7"
+      "sink": "MyClass1.php:3"
     }
   ]
 }

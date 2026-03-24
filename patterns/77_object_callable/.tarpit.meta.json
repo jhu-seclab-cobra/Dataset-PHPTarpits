@@ -9,12 +9,17 @@
     {
       "type": "STATIC",
       "callsite": "first_ex.php:18",
-      "callee": "foo::__construct@second_ex.php:6"
+      "callee": "foo::__construct@first_ex.php:6"
     },
     {
       "type": "STATIC",
       "callsite": "second_ex.php:13",
       "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "DYNAMIC",
+      "callsite": "second_ex.php:19",
+      "callee": "unknown@Stretch"
     }
   ],
   "true_positives": [

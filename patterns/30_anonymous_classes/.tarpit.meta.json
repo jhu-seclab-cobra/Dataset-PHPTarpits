@@ -8,11 +8,6 @@
     },
     {
       "type": "STATIC",
-      "callsite": "main.php:5",
-      "callee": "log@main.php:5"
-    },
-    {
-      "type": "STATIC",
       "callsite": "main.php:7",
       "callee": "echo@Builtin[keyword]"
     }

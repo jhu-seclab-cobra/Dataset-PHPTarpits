@@ -23,11 +23,6 @@
     {
       "type": 79,
       "source": "first_ex.php:3",
-      "sink": "first_ex.php:6"
-    },
-    {
-      "type": 79,
-      "source": "first_ex.php:3",
       "sink": "second_ex.php:6"
     },
     {

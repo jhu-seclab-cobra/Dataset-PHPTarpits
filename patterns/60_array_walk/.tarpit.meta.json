@@ -3,11 +3,6 @@
   "call_edges": [
     {
       "type": "STATIC",
-      "callsite": "first_ex.php:5",
-      "callee": "F@second_ex.php:6"
-    },
-    {
-      "type": "STATIC",
       "callsite": "first_ex.php:7",
       "callee": "echo@Builtin[keyword]"
     },
@@ -25,11 +20,6 @@
       "type": "STATIC",
       "callsite": "first_ex.php:19",
       "callee": "array_walk@Builtin[standard]"
-    },
-    {
-      "type": "STATIC",
-      "callsite": "second_ex.php:6",
-      "callee": "F@second_ex.php:6"
     },
     {
       "type": "STATIC",

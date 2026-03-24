@@ -13,8 +13,18 @@
     },
     {
       "type": "STATIC",
+      "callsite": "main.php:14",
+      "callee": "myclass::T@main.php:17"
+    },
+    {
+      "type": "STATIC",
       "callsite": "main.php:24",
       "callee": "myclass::__construct@main.php:5"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:25",
+      "callee": "myclass::F@main.php:11"
     }
   ],
   "true_positives": [

@@ -3,11 +3,6 @@
   "call_edges": [
     {
       "type": "STATIC",
-      "callsite": "main.php:3",
-      "callee": "inverse@main.php:3"
-    },
-    {
-      "type": "STATIC",
       "callsite": "main.php:6",
       "callee": "exception::__construct@Builtin[Core]"
     },

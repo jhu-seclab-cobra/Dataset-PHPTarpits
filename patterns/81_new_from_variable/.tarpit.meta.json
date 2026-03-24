@@ -3,18 +3,48 @@
   "call_edges": [
     {
       "type": "STATIC",
-      "callsite": "third_ex.php:12",
+      "callsite": "first_ex.php:12",
       "callee": "echo@Builtin[keyword]"
     },
     {
+      "type": "DYNAMIC",
+      "callsite": "first_ex.php:17",
+      "callee": "unknown@Stretch"
+    },
+    {
       "type": "STATIC",
-      "callsite": "first_ex.php:12",
-      "callee": "echo@Builtin[keyword]"
+      "callsite": "first_ex.php:18",
+      "callee": "class1::printX@first_ex.php:10"
     },
     {
       "type": "STATIC",
       "callsite": "second_ex.php:12",
       "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "DYNAMIC",
+      "callsite": "second_ex.php:17",
+      "callee": "unknown@Stretch"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "second_ex.php:18",
+      "callee": "class1::printX@second_ex.php:10"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "third_ex.php:12",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "DYNAMIC",
+      "callsite": "third_ex.php:18",
+      "callee": "unknown@Stretch"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "third_ex.php:19",
+      "callee": "class1::printX@third_ex.php:10"
     }
   ],
   "true_positives": [

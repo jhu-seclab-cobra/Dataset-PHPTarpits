@@ -70,12 +70,12 @@
   "true_positives": [
     {
       "type": 79,
-      "source": "main.php:3",
+      "source": "main.php:32",
       "sink": "main.php:10"
     },
     {
       "type": 79,
-      "source": "main.php:3",
+      "source": "main.php:32",
       "sink": "main.php:5"
     }
   ],
@@ -94,16 +94,6 @@
       "type": 79,
       "source": "main.php:32",
       "sink": "main.php:15"
-    },
-    {
-      "type": 79,
-      "source": "main.php:32",
-      "sink": "main.php:5"
-    },
-    {
-      "type": 79,
-      "source": "main.php:32",
-      "sink": "main.php:10"
     }
   ]
 }

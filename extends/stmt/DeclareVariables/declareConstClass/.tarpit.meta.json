@@ -24,11 +24,5 @@
       "sink": "main.php:10"
     }
   ],
-  "false_positives": [
-    {
-      "type": 79,
-      "source": "main.php:15",
-      "sink": "main.php:10"
-    }
-  ]
+  "false_positives": []
 }
