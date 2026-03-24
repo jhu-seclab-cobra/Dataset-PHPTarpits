@@ -1,6 +1,22 @@
 {
   "name": "patterns/02_global_variables",
-  "call_edges": [],
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:4",
+      "callee": "F@main.php:4"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:11",
+      "callee": "F@main.php:4"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:13",
+      "callee": "echo@Builtin[keyword]"
+    }
+  ],
   "true_positives": [
     {
       "type": 79,

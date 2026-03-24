@@ -1,6 +1,22 @@
 {
   "name": "patterns/16_variadic_functions",
-  "call_edges": [],
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:4",
+      "callee": "sum@main.php:4"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:8",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:13",
+      "callee": "sum@main.php:4"
+    }
+  ],
   "true_positives": [
     {
       "type": 79,

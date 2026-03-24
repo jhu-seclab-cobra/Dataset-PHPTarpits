@@ -1,6 +1,17 @@
 {
   "name": "patterns/48_construct_with_inheritance",
-  "call_edges": [],
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:7",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:20",
+      "callee": "child_class::__construct@Builtin[Core]"
+    }
+  ],
   "true_positives": [
     {
       "type": 79,

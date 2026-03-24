@@ -1,6 +1,12 @@
 {
   "name": "patterns/11_foreach_with_reference",
-  "call_edges": [],
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:14",
+      "callee": "echo@Builtin[keyword]"
+    }
+  ],
   "true_positives": [
     {
       "type": 79,

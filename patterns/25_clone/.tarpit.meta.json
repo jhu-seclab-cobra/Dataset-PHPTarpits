@@ -1,6 +1,17 @@
 {
   "name": "patterns/25_clone",
-  "call_edges": [],
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:13",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:17",
+      "callee": "foo::__construct@main.php:6"
+    }
+  ],
   "true_positives": [
     {
       "type": 79,

@@ -1,6 +1,22 @@
 {
   "name": "patterns/78_autoloading_classes",
-  "call_edges": [],
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:3",
+      "callee": "spl_autoload_register@Builtin[SPL]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:7",
+      "callee": "myclass1::__construct@MyClass1.php:5"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "MyClass1.php:7",
+      "callee": "echo@Builtin[keyword]"
+    }
+  ],
   "true_positives": [
     {
       "type": 79,

@@ -1,6 +1,12 @@
 {
   "name": "patterns/13_assign_static_prop_ref",
-  "call_edges": [],
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:11",
+      "callee": "echo@Builtin[keyword]"
+    }
+  ],
   "true_positives": [
     {
       "type": 79,

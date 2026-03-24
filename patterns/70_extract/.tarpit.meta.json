@@ -1,6 +1,17 @@
 {
   "name": "patterns/70_extract",
-  "call_edges": [],
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:5",
+      "callee": "extract@Builtin[standard]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:6",
+      "callee": "echo@Builtin[keyword]"
+    }
+  ],
   "true_positives": [
     {
       "type": 79,

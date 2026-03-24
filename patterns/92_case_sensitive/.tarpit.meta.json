@@ -1,6 +1,17 @@
 {
   "name": "patterns/92_case_sensitive",
-  "call_edges": [],
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:8",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:12",
+      "callee": "myclass::__construct@Builtin[Core]"
+    }
+  ],
   "true_positives": [
     {
       "type": 79,

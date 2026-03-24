@@ -1,6 +1,57 @@
 {
   "name": "patterns/60_array_walk",
-  "call_edges": [],
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "first_ex.php:5",
+      "callee": "F@second_ex.php:6"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "first_ex.php:7",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "first_ex.php:11",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "first_ex.php:16",
+      "callee": "array_walk@Builtin[standard]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "first_ex.php:19",
+      "callee": "array_walk@Builtin[standard]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "second_ex.php:6",
+      "callee": "F@second_ex.php:6"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "second_ex.php:8",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "second_ex.php:12",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "second_ex.php:17",
+      "callee": "array_walk@Builtin[standard]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "second_ex.php:20",
+      "callee": "array_walk@Builtin[standard]"
+    }
+  ],
   "true_positives": [
     {
       "type": 79,

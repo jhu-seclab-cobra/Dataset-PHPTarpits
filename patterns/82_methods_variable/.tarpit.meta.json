@@ -1,6 +1,37 @@
 {
   "name": "patterns/82_methods_variable",
-  "call_edges": [],
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "first_ex.php:7",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "first_ex.php:13",
+      "callee": "myclass::__construct@Builtin[Core]"
+    },
+    {
+      "type": "DYNAMIC",
+      "callsite": "first_ex.php:15",
+      "callee": "unknown@Stretch"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "second_ex.php:7",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "second_ex.php:13",
+      "callee": "myclass::__construct@Builtin[Core]"
+    },
+    {
+      "type": "DYNAMIC",
+      "callsite": "second_ex.php:15",
+      "callee": "unknown@Stretch"
+    }
+  ],
   "true_positives": [
     {
       "type": 79,

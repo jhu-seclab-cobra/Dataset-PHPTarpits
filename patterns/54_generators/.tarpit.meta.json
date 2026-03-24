@@ -1,6 +1,22 @@
 {
   "name": "patterns/54_generators",
-  "call_edges": [],
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:3",
+      "callee": "gen_one_to_three@main.php:3"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:10",
+      "callee": "gen_one_to_three@main.php:3"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:13",
+      "callee": "echo@Builtin[keyword]"
+    }
+  ],
   "true_positives": [
     {
       "type": 79,

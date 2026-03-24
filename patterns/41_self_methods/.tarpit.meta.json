@@ -1,6 +1,17 @@
 {
   "name": "patterns/41_self_methods",
-  "call_edges": [],
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:12",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:17",
+      "callee": "myclass::__construct@Builtin[Core]"
+    }
+  ],
   "true_positives": [
     {
       "type": 79,

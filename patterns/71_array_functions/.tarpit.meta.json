@@ -1,6 +1,27 @@
 {
   "name": "patterns/71_array_functions",
-  "call_edges": [],
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "first_ex.php:5",
+      "callee": "sort@Builtin[standard]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "first_ex.php:8",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "second_ex.php:6",
+      "callee": "array_pad@Builtin[standard]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "second_ex.php:7",
+      "callee": "echo@Builtin[keyword]"
+    }
+  ],
   "true_positives": [
     {
       "type": 79,

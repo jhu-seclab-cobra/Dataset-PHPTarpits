@@ -1,6 +1,17 @@
 {
   "name": "patterns/40_trait",
-  "call_edges": [],
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:9",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:18",
+      "callee": "myhelloworld::__construct@Builtin[Core]"
+    }
+  ],
   "true_positives": [
     {
       "type": 79,

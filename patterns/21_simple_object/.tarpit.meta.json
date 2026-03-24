@@ -1,6 +1,17 @@
 {
   "name": "patterns/21_simple_object",
-  "call_edges": [],
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:19",
+      "callee": "test::__construct@main.php:7"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:21",
+      "callee": "echo@Builtin[keyword]"
+    }
+  ],
   "true_positives": [
     {
       "type": 79,

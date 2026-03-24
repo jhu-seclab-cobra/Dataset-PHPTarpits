@@ -1,6 +1,27 @@
 {
   "name": "patterns/86_implement_interfaces",
-  "call_edges": [],
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:11",
+      "callee": "arrayiterator::__construct@Builtin[Core]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:21",
+      "callee": "fopen@Builtin[standard]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:25",
+      "callee": "mycollection::__construct@Builtin[Core]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:31",
+      "callee": "echo@Builtin[keyword]"
+    }
+  ],
   "true_positives": [],
   "false_positives": [
     {

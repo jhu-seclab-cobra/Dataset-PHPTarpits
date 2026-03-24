@@ -1,16 +1,27 @@
 {
   "name": "patterns/83_array_variable_key",
-  "call_edges": [],
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "third_ex.php:7",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "first_ex.php:8",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "second_ex.php:7",
+      "callee": "echo@Builtin[keyword]"
+    }
+  ],
   "true_positives": [
     {
       "type": 79,
       "source": "first_ex.php:6",
       "sink": "first_ex.php:8"
-    },
-    {
-      "type": 79,
-      "source": "second_ex.php:4",
-      "sink": "second_ex.php:7"
     },
     {
       "type": 79,

@@ -1,6 +1,22 @@
 {
   "name": "patterns/93_call_function_with_concat",
-  "call_edges": [],
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:3",
+      "callee": "F@main.php:3"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:13",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:13",
+      "callee": "F@main.php:3"
+    }
+  ],
   "true_positives": [
     {
       "type": 79,

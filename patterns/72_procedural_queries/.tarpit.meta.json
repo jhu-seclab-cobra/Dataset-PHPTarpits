@@ -1,6 +1,37 @@
 {
   "name": "patterns/72_procedural_queries",
-  "call_edges": [],
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "third_ex.php:4",
+      "callee": "mysql_connect@Builtin[mysql]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "third_ex.php:7",
+      "callee": "mysql_query@Builtin[mysql]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "first_ex.php:4",
+      "callee": "mysqli_connect@Builtin[mysqli]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "first_ex.php:6",
+      "callee": "mysqli_query@Builtin[mysqli]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "second_ex.php:4",
+      "callee": "mysql_connect@Builtin[mysql]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "second_ex.php:6",
+      "callee": "mysql_query@Builtin[mysql]"
+    }
+  ],
   "true_positives": [
     {
       "type": 89,

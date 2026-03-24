@@ -1,6 +1,27 @@
 {
   "name": "patterns/57_JS_redirect",
-  "call_edges": [],
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:3",
+      "callee": "session_start@Builtin[session]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:7",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "a.php:3",
+      "callee": "session_start@Builtin[session]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "a.php:5",
+      "callee": "echo@Builtin[keyword]"
+    }
+  ],
   "true_positives": [
     {
       "type": 79,

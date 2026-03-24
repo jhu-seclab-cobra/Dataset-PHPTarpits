@@ -1,6 +1,27 @@
 {
   "name": "patterns/49_static_instance",
-  "call_edges": [],
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:11",
+      "callee": "self::__construct@Builtin[Core]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:17",
+      "callee": "myclass::oneInstance@main.php:8"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:18",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:18",
+      "callee": "myclass::oneInstance@main.php:8"
+    }
+  ],
   "true_positives": [
     {
       "type": 79,

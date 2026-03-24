@@ -1,11 +1,22 @@
 {
   "name": "patterns/58_simple_array",
-  "call_edges": [],
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "first_ex.php:6",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "second_ex.php:6",
+      "callee": "echo@Builtin[keyword]"
+    }
+  ],
   "true_positives": [
     {
       "type": 79,
-      "source": "main.php:3",
-      "sink": "main.php:6"
+      "source": "first_ex.php:3",
+      "sink": "first_ex.php:6"
     }
   ],
   "false_positives": [

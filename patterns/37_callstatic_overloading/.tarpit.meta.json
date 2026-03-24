@@ -1,6 +1,17 @@
 {
   "name": "patterns/37_callstatic_overloading",
-  "call_edges": [],
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:8",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:14",
+      "callee": "methodtest::__construct@Builtin[Core]"
+    }
+  ],
   "true_positives": [
     {
       "type": 79,

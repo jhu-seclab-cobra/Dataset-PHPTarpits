@@ -1,6 +1,27 @@
 {
   "name": "patterns/42_destructor",
-  "call_edges": [],
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:9",
+      "callee": "print@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:14",
+      "callee": "print@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:15",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:22",
+      "callee": "baseclass::__construct@main.php:7"
+    }
+  ],
   "true_positives": [
     {
       "type": 79,

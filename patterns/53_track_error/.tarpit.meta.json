@@ -1,6 +1,22 @@
 {
   "name": "patterns/53_track_error",
-  "call_edges": [],
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:4",
+      "callee": "trigger_error@Builtin[standard]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:5",
+      "callee": "error_get_last@Builtin[standard]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:6",
+      "callee": "echo@Builtin[keyword]"
+    }
+  ],
   "true_positives": [
     {
       "type": 79,

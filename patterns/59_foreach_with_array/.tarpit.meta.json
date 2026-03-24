@@ -1,6 +1,22 @@
 {
   "name": "patterns/59_foreach_with_array",
-  "call_edges": [],
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "first_ex.php:11",
+      "callee": "array_keys@Builtin[standard]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "first_ex.php:12",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "second_ex.php:14",
+      "callee": "echo@Builtin[keyword]"
+    }
+  ],
   "true_positives": [
     {
       "type": 79,

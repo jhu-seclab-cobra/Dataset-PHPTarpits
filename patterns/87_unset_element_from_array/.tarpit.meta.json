@@ -1,6 +1,17 @@
 {
   "name": "patterns/87_unset_element_from_array",
-  "call_edges": [],
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:7",
+      "callee": "unset@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:10",
+      "callee": "echo@Builtin[keyword]"
+    }
+  ],
   "true_positives": [],
   "false_positives": [
     {

@@ -1,6 +1,22 @@
 {
   "name": "patterns/65_system",
-  "call_edges": [],
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "third_ex.php:4",
+      "callee": "unlink@Builtin[standard]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "first_ex.php:4",
+      "callee": "system@Builtin[standard]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "second_ex.php:4",
+      "callee": "exec@Builtin[standard]"
+    }
+  ],
   "true_positives": [
     {
       "type": 77,

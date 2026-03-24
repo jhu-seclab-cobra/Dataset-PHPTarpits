@@ -1,6 +1,27 @@
 {
   "name": "patterns/63_substring_replace_function",
-  "call_edges": [],
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:4",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:6",
+      "callee": "fopen@Builtin[standard]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:11",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:11",
+      "callee": "substr_replace@Builtin[standard]"
+    }
+  ],
   "true_positives": [
     {
       "type": 79,

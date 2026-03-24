@@ -1,6 +1,27 @@
 {
   "name": "patterns/75_buffer",
-  "call_edges": [],
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:4",
+      "callee": "ob_start@Builtin[standard]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:5",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:6",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:6",
+      "callee": "ob_end_clean@Builtin[standard]"
+    }
+  ],
   "true_positives": [
     {
       "type": 79,

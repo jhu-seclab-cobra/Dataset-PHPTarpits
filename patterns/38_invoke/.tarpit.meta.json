@@ -1,6 +1,27 @@
 {
   "name": "patterns/38_invoke",
-  "call_edges": [],
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:7",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:10",
+      "callee": "callableclass::__construct@Builtin[Core]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:11",
+      "callee": "fopen@Builtin[standard]"
+    },
+    {
+      "type": "DYNAMIC",
+      "callsite": "main.php:14",
+      "callee": "unknown@Stretch"
+    }
+  ],
   "true_positives": [
     {
       "type": 79,

@@ -1,6 +1,22 @@
 {
   "name": "patterns/09_reference_argument",
-  "call_edges": [],
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:3",
+      "callee": "foo@main.php:3"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:10",
+      "callee": "foo@main.php:3"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:12",
+      "callee": "echo@Builtin[keyword]"
+    }
+  ],
   "true_positives": [
     {
       "type": 79,

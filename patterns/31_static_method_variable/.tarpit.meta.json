@@ -1,6 +1,17 @@
 {
   "name": "patterns/31_static_method_variable",
-  "call_edges": [],
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:7",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "DYNAMIC",
+      "callsite": "main.php:14",
+      "callee": "unknown@Stretch"
+    }
+  ],
   "true_positives": [
     {
       "type": 79,

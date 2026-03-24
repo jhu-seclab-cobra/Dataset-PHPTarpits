@@ -1,6 +1,37 @@
 {
   "name": "patterns/94_sanitizers",
-  "call_edges": [],
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "third_ex.php:3",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "third_ex.php:3",
+      "callee": "urlencode@Builtin[standard]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "first_ex.php:5",
+      "callee": "htmlEntities@Builtin[standard]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "first_ex.php:7",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "second_ex.php:3",
+      "callee": "htmlspecialchars@Builtin[standard]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "second_ex.php:4",
+      "callee": "echo@Builtin[keyword]"
+    }
+  ],
   "true_positives": [
     {
       "type": 79,

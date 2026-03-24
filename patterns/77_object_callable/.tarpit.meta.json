@@ -1,6 +1,22 @@
 {
   "name": "patterns/77_object_callable",
-  "call_edges": [],
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "first_ex.php:13",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "first_ex.php:18",
+      "callee": "foo::__construct@second_ex.php:6"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "second_ex.php:13",
+      "callee": "echo@Builtin[keyword]"
+    }
+  ],
   "true_positives": [
     {
       "type": 79,

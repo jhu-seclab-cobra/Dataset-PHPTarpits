@@ -1,6 +1,27 @@
 {
   "name": "patterns/61_array_map",
-  "call_edges": [],
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "first_ex.php:5",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "first_ex.php:11",
+      "callee": "array_map@Builtin[standard]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "second_ex.php:5",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "second_ex.php:12",
+      "callee": "array_map@Builtin[standard]"
+    }
+  ],
   "true_positives": [
     {
       "type": 79,

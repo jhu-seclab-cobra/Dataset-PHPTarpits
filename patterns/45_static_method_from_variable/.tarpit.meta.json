@@ -1,6 +1,22 @@
 {
   "name": "patterns/45_static_method_from_variable",
-  "call_edges": [],
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:14",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:19",
+      "callee": "a::__construct@main.php:7"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:20",
+      "callee": "a::show_one@main.php:12"
+    }
+  ],
   "true_positives": [
     {
       "type": 79,

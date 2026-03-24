@@ -1,6 +1,27 @@
 {
   "name": "patterns/18_send_unpack",
-  "call_edges": [],
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:4",
+      "callee": "add@main.php:4"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:6",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:8",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:13",
+      "callee": "add@main.php:4"
+    }
+  ],
   "true_positives": [
     {
       "type": 79,

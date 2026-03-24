@@ -1,6 +1,27 @@
 {
   "name": "patterns/20_use_with_closures",
-  "call_edges": [],
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "first_ex.php:10",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "first_ex.php:13",
+      "callee": "$example@first_ex.php:6"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "second_ex.php:9",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "second_ex.php:12",
+      "callee": "$example@second_ex.php:6"
+    }
+  ],
   "true_positives": [
     {
       "type": 79,

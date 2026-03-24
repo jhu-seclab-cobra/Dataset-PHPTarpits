@@ -1,6 +1,22 @@
 {
   "name": "patterns/28_static_methods",
-  "call_edges": [],
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:13",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:17",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:17",
+      "callee": "foo::baz@main.php:10"
+    }
+  ],
   "true_positives": [
     {
       "type": 79,

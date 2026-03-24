@@ -1,6 +1,17 @@
 {
   "name": "patterns/32_set_overloading",
-  "call_edges": [],
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:9",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:14",
+      "callee": "propertytest::__construct@Builtin[Core]"
+    }
+  ],
   "true_positives": [
     {
       "type": 79,

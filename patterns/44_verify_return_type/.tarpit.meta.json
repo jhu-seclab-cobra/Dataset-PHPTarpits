@@ -1,6 +1,32 @@
 {
   "name": "patterns/44_verify_return_type",
-  "call_edges": [],
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "first_ex.php:14",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "first_ex.php:22",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "first_ex.php:26",
+      "callee": "testclass::__construct@second_ex.php:6"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "second_ex.php:13",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "second_ex.php:21",
+      "callee": "testclass::__construct@second_ex.php:6"
+    }
+  ],
   "true_positives": [
     {
       "type": 79,

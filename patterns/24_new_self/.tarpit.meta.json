@@ -1,6 +1,22 @@
 {
   "name": "patterns/24_new_self",
-  "call_edges": [],
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:13",
+      "callee": "self::__construct@Builtin[Core]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:19",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:24",
+      "callee": "myclass::__construct@main.php:5"
+    }
+  ],
   "true_positives": [
     {
       "type": 79,

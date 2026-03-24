@@ -1,6 +1,72 @@
 {
   "name": "patterns/52_try_catch_finally",
-  "call_edges": [],
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "first_ex.php:3",
+      "callee": "foo@second_ex.php:3"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "first_ex.php:7",
+      "callee": "exception::__construct@Builtin[Core]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "first_ex.php:9",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "first_ex.php:13",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "first_ex.php:19",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "first_ex.php:19",
+      "callee": "foo@second_ex.php:3"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "second_ex.php:3",
+      "callee": "foo@second_ex.php:3"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "second_ex.php:7",
+      "callee": "exception::__construct@Builtin[Core]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "second_ex.php:9",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "second_ex.php:13",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "second_ex.php:15",
+      "callee": "htmlspecialchars@Builtin[standard]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "second_ex.php:21",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "second_ex.php:21",
+      "callee": "foo@second_ex.php:3"
+    }
+  ],
   "true_positives": [
     {
       "type": 79,

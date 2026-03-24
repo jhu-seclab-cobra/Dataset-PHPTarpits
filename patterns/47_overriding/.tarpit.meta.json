@@ -1,6 +1,22 @@
 {
   "name": "patterns/47_overriding",
-  "call_edges": [],
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:7",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:15",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:20",
+      "callee": "parent_class::__construct@Builtin[Core]"
+    }
+  ],
   "true_positives": [
     {
       "type": 79,

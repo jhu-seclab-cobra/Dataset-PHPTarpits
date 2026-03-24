@@ -1,6 +1,27 @@
 {
   "name": "patterns/73_wrong_sanitizer",
-  "call_edges": [],
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "first_ex.php:5",
+      "callee": "strip_tags@Builtin[standard]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "first_ex.php:8",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "second_ex.php:4",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "second_ex.php:4",
+      "callee": "json_encode@Builtin[standard]"
+    }
+  ],
   "true_positives": [
     {
       "type": 79,

@@ -1,6 +1,17 @@
 {
   "name": "patterns/67_odbc",
-  "call_edges": [],
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:4",
+      "callee": "odbc_connect@Builtin[odbc]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:5",
+      "callee": "odbc_exec@Builtin[odbc]"
+    }
+  ],
   "true_positives": [
     {
       "type": 89,

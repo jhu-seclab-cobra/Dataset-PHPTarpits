@@ -1,6 +1,62 @@
 {
   "name": "patterns/79_dynamic_include",
-  "call_edges": [],
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "third_ex/main.php:6",
+      "callee": "include@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "third_ex/b.php:3",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "fifth_ex/main.php:4",
+      "callee": "include@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "fifth_ex/a.php:3",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "first_ex/main.php:5",
+      "callee": "include@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "first_ex/a.php:3",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "second_ex/main.php:9",
+      "callee": "include@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "second_ex/b.php:3",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "second_ex/a.php:3",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "fourth_ex/main.php:5",
+      "callee": "include@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "fourth_ex/file1.php:3",
+      "callee": "echo@Builtin[keyword]"
+    }
+  ],
   "true_positives": [
     {
       "type": 79,

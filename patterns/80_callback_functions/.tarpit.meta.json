@@ -1,6 +1,82 @@
 {
   "name": "patterns/80_callback_functions",
-  "call_edges": [],
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "fourth_ex.php:3",
+      "callee": "F@second_ex.php:3"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "fourth_ex.php:5",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "fourth_ex.php:9",
+      "callee": "call_user_func@Builtin[standard]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "third_ex.php:3",
+      "callee": "F@second_ex.php:3"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "third_ex.php:5",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "third_ex.php:10",
+      "callee": "call_user_func_array@Builtin[standard]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "first_ex.php:3",
+      "callee": "F@second_ex.php:3"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "first_ex.php:5",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "first_ex.php:9",
+      "callee": "call_user_func@Builtin[standard]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "fifth_ex.php:3",
+      "callee": "F@second_ex.php:3"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "fifth_ex.php:5",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "fifth_ex.php:9",
+      "callee": "call_user_func@Builtin[standard]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "second_ex.php:3",
+      "callee": "F@second_ex.php:3"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "second_ex.php:5",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "second_ex.php:10",
+      "callee": "call_user_func@Builtin[standard]"
+    }
+  ],
   "true_positives": [
     {
       "type": 79,

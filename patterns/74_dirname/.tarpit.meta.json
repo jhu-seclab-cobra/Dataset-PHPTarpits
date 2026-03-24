@@ -1,6 +1,32 @@
 {
   "name": "patterns/74_dirname",
-  "call_edges": [],
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "_includes/ttt/b.php:3",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "folder/a.php:6",
+      "callee": "define@Builtin[standard]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "folder/a.php:6",
+      "callee": "dirname@Builtin[standard]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "folder/a.php:7",
+      "callee": "define@Builtin[standard]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "folder/a.php:9",
+      "callee": "include@Builtin[keyword]"
+    }
+  ],
   "true_positives": [
     {
       "type": 79,
