@@ -31,26 +31,20 @@ PHPTarpits Dataset
 │       ├── *.php                    (Source code)
 │       └── .tarpit.meta.json        (Ground truth)
 │
-├── extends/                         (141 cases - Extended PHP 8+ patterns)
-│   ├── expr/                        (Expression-level constructs)
-│   │   ├── CallFunctionLike/        (Function/method call variants)
-│   │   ├── CallKeywordsFunc/        (Language keywords: echo, eval, include)
-│   │   ├── FetchValConstant/        (Constant value fetching)
-│   │   ├── FetchValDeclared/        (Declared value fetching)
-│   │   ├── OperationAssigns/        (Assignment operations)
-│   │   ├── OperationCompare/        (Comparison operations)
-│   │   ├── OperationPrimits/        (Primitive operations)
-│   │   └── SyntaxPeripheral/        (Peripheral syntax: instanceof, @, throw)
-│   ├── stmt/                        (Statement-level constructs)
-│   │   ├── CtrlFlowChanging/        (break, continue, return)
-│   │   ├── CtrlFlowCondLike/        (if, else, switch)
-│   │   ├── CtrlFlowLoopLike/        (for, while, foreach, do-while)
-│   │   ├── CtrlFlowTryCatch/        (try, catch, finally)
-│   │   ├── DeclareClassLike/        (class, trait, enum, interface)
-│   │   ├── DeclareFuncsLike/        (function, method declarations)
-│   │   ├── DeclareVariables/        (const, property, static var)
-│   │   └── PhaseSpecialTask/        (namespace, declare, use)
-│   └── call/                        (Built-in function behavior specs)
+├── extends/                         (158 cases - PHP-Parser AST node types)
+│   ├── Expr_FuncCall/               (Multi-case: function call variants)
+│   │   ├── func_norm/
+│   │   ├── str_callee/
+│   │   └── ...
+│   ├── Expr_MethodCall/             (Multi-case: method call variants)
+│   │   ├── meth_norm/
+│   │   └── ...
+│   ├── Expr_Assign/                 (Single-case: direct files)
+│   │   ├── main.php
+│   │   └── .tarpit.meta.json
+│   ├── Stmt_If/                     (Single-case)
+│   ├── Scalar_String/               (Single-case)
+│   └── ...                          (137 AST node type directories total)
 │
 └── truth.json                       (Consolidated ground truth)
 ```
