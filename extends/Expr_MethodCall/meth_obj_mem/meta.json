@@ -1,0 +1,44 @@
+{
+  "name": "extends/Expr_MethodCall/meth_obj_mem",
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:19",
+      "callee": "test::__construct@Builtin[Core]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:20",
+      "callee": "test::callee1@main.php:5"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:7",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:21",
+      "callee": "test::callee2@main.php:10"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:12",
+      "callee": "echo@Builtin[keyword]"
+    }
+  ],
+  "true_positives": [
+    {
+      "type": 79,
+      "source": "main.php:16",
+      "sink": "main.php:7"
+    }
+  ],
+  "false_positives": [
+    {
+      "type": 79,
+      "source": "main.php:16",
+      "sink": "main.php:12"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "name": "extends/Expr_NullsafeMethodCall",
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:20",
+      "callee": "dataholder::__construct@main.php:7"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:23",
+      "callee": "dataholder::display@main.php:12"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:14",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:26",
+      "callee": "dataholder::__construct@main.php:7"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:27",
+      "callee": "dataholder::display@main.php:12"
+    }
+  ],
+  "true_positives": [
+    {
+      "type": 79,
+      "source": "main.php:18",
+      "sink": "main.php:14"
+    }
+  ],
+  "false_positives": [
+    {
+      "type": 79,
+      "source": "main.php:18",
+      "sink": "main.php:14"
+    }
+  ]
+}

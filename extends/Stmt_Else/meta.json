@@ -1,0 +1,39 @@
+{
+  "name": "extends/Stmt_Else",
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:14",
+      "callee": "callee@main.php:3"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:6",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:8",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:15",
+      "callee": "callee@main.php:3"
+    }
+  ],
+  "true_positives": [
+    {
+      "type": 79,
+      "source": "main.php:12",
+      "sink": "main.php:8"
+    }
+  ],
+  "false_positives": [
+    {
+      "type": 79,
+      "source": "main.php:12",
+      "sink": "main.php:6"
+    }
+  ]
+}

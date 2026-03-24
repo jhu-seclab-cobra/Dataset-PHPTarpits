@@ -1,0 +1,34 @@
+{
+  "name": "extends/Expr_List",
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:4",
+      "callee": "array::__construct@Builtin[Core]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:9",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:12",
+      "callee": "echo@Builtin[keyword]"
+    }
+  ],
+  "true_positives": [
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:9"
+    }
+  ],
+  "false_positives": [
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:12"
+    }
+  ]
+}

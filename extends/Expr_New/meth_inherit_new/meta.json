@@ -1,0 +1,49 @@
+{
+  "name": "extends/Expr_New/meth_inherit_new",
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:24",
+      "callee": "testclass::__construct@main.php:13"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:15",
+      "callee": "parentclass::__construct@main.php:5"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:7",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:16",
+      "callee": "parentclass::__construct@main.php:5"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:17",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:25",
+      "callee": "testclass::__construct@main.php:13"
+    }
+  ],
+  "true_positives": [
+    {
+      "type": 79,
+      "source": "main.php:21",
+      "sink": "main.php:7"
+    }
+  ],
+  "false_positives": [
+    {
+      "type": 79,
+      "source": "main.php:21",
+      "sink": "main.php:17"
+    }
+  ]
+}

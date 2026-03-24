@@ -1,0 +1,58 @@
+{
+  "name": "extends/Expr_FuncCall/func_nest_defs",
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:25",
+      "callee": "a/first_def@main.php:4"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:37",
+      "callee": "a/inner_def@main.php:6"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:39",
+      "callee": "a/callee1@main.php:8"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:10",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:40",
+      "callee": "a/callee1@main.php:8"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:42",
+      "callee": "a/callee2@main.php:13"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:15",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:43",
+      "callee": "a/callee2@main.php:13"
+    }
+  ],
+  "true_positives": [
+    {
+      "type": 79,
+      "source": "main.php:34",
+      "sink": "main.php:10"
+    },
+    {
+      "type": 79,
+      "source": "main.php:34",
+      "sink": "main.php:15"
+    }
+  ],
+  "false_positives": []
+}

@@ -1,0 +1,109 @@
+{
+  "name": "extends/Expr_ConstFetch",
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:14",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:16",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:22",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:24",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:30",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:32",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:38",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:40",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:45",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:47",
+      "callee": "echo@Builtin[keyword]"
+    }
+  ],
+  "true_positives": [
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:14"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:22"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:30"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:38"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:45"
+    }
+  ],
+  "false_positives": [
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:16"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:24"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:32"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:40"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:47"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "name": "extends/Expr_Instanceof/instanceOf",
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:12",
+      "callee": "instanceofclass::__construct@Builtin[Core]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:15",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:19",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:23",
+      "callee": "echo@Builtin[keyword]"
+    }
+  ],
+  "true_positives": [
+    {
+      "type": 79,
+      "source": "main.php:11",
+      "sink": "main.php:19"
+    },
+    {
+      "type": 79,
+      "source": "main.php:11",
+      "sink": "main.php:15"
+    }
+  ],
+  "false_positives": [
+    {
+      "type": 79,
+      "source": "main.php:11",
+      "sink": "main.php:23"
+    }
+  ]
+}

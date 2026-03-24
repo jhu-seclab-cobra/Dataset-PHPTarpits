@@ -1,0 +1,44 @@
+{
+  "name": "extends/Expr_Eval",
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:7",
+      "callee": "eval@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:7",
+      "callee": "__file__@.eval/site_e9cde72c/eb1fd8af.php"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:8",
+      "callee": "some_func_params@.eval/site_e9cde72c/eb1fd8af.php:1"
+    },
+    {
+      "type": "STATIC",
+      "callsite": ".eval/site_e9cde72c/eb1fd8af.php:1",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:9",
+      "callee": "some_func_params@.eval/site_e9cde72c/eb1fd8af.php:1"
+    }
+  ],
+  "true_positives": [
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": ".eval/site_e9cde72c/eb1fd8af.php:1"
+    }
+  ],
+  "false_positives": [
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:6"
+    }
+  ]
+}

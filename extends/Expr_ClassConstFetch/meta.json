@@ -1,0 +1,129 @@
+{
+  "name": "extends/Expr_ClassConstFetch",
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:21",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:23",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:29",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:31",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:37",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:39",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:45",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:47",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:54",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:56",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:61",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:63",
+      "callee": "echo@Builtin[keyword]"
+    }
+  ],
+  "true_positives": [
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:21"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:29"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:37"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:45"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:54"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:61"
+    }
+  ],
+  "false_positives": [
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:23"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:31"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:39"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:47"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:56"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:63"
+    }
+  ]
+}

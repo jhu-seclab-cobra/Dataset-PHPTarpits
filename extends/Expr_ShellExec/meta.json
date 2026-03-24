@@ -1,0 +1,39 @@
+{
+  "name": "extends/Expr_ShellExec",
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:7",
+      "callee": "shell_exec@Builtin[standard]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:9",
+      "callee": "shell_exec@Builtin[standard]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:11",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:12",
+      "callee": "echo@Builtin[keyword]"
+    }
+  ],
+  "true_positives": [
+    {
+      "type": 77,
+      "source": "main.php:3",
+      "sink": "main.php:7"
+    }
+  ],
+  "false_positives": [
+    {
+      "type": 77,
+      "source": "main.php:3",
+      "sink": "main.php:9"
+    }
+  ]
+}

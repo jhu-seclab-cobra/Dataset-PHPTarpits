@@ -1,0 +1,44 @@
+{
+  "name": "extends/Scalar_MagicConst_Method",
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:17",
+      "callee": "fetchconstmagicmeth::fetchconstmagicmeth@main.php:5"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:9",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:11",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:20",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:22",
+      "callee": "echo@Builtin[keyword]"
+    }
+  ],
+  "true_positives": [
+    {
+      "type": 79,
+      "source": "main.php:7",
+      "sink": "main.php:9"
+    }
+  ],
+  "false_positives": [
+    {
+      "type": 79,
+      "source": "main.php:7",
+      "sink": "main.php:11"
+    }
+  ]
+}

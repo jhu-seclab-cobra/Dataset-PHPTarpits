@@ -1,0 +1,99 @@
+{
+  "name": "extends/Expr_FuncCall/str_param_specific",
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:35",
+      "callee": "two_param@main.php:25"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:27",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "DYNAMIC",
+      "callsite": "main.php:28",
+      "callee": "one_param_1@main.php:13"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:15",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "DYNAMIC",
+      "callsite": "main.php:16",
+      "callee": "no_param1@main.php:3"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:5",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:36",
+      "callee": "two_param@main.php:25"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:38",
+      "callee": "two_param@main.php:25"
+    },
+    {
+      "type": "DYNAMIC",
+      "callsite": "main.php:28",
+      "callee": "one_param_2@main.php:19"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:21",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "DYNAMIC",
+      "callsite": "main.php:22",
+      "callee": "no_param2@main.php:8"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:10",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:39",
+      "callee": "two_param@main.php:25"
+    }
+  ],
+  "true_positives": [
+    {
+      "type": 79,
+      "source": "main.php:32",
+      "sink": "main.php:10"
+    },
+    {
+      "type": 79,
+      "source": "main.php:32",
+      "sink": "main.php:5"
+    }
+  ],
+  "false_positives": [
+    {
+      "type": 79,
+      "source": "main.php:32",
+      "sink": "main.php:27"
+    },
+    {
+      "type": 79,
+      "source": "main.php:32",
+      "sink": "main.php:21"
+    },
+    {
+      "type": 79,
+      "source": "main.php:32",
+      "sink": "main.php:15"
+    }
+  ]
+}

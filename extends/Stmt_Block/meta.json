@@ -1,0 +1,18 @@
+{
+  "name": "extends/Stmt_Block",
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:8",
+      "callee": "echo@Builtin[keyword]"
+    }
+  ],
+  "true_positives": [
+    {
+      "type": 79,
+      "source": "main.php:4",
+      "sink": "main.php:8"
+    }
+  ],
+  "false_positives": []
+}

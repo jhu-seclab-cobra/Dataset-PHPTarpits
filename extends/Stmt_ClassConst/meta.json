@@ -1,0 +1,28 @@
+{
+  "name": "extends/Stmt_ClassConst",
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:18",
+      "callee": "call_test@main.php:8"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:10",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:19",
+      "callee": "call_test@main.php:8"
+    }
+  ],
+  "true_positives": [
+    {
+      "type": 79,
+      "source": "main.php:15",
+      "sink": "main.php:10"
+    }
+  ],
+  "false_positives": []
+}

@@ -1,0 +1,169 @@
+{
+  "name": "extends/Scalar_String",
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:8",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:10",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:16",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:18",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:24",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:26",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:32",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:34",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:40",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:42",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:48",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:50",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:56",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:58",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:64",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:66",
+      "callee": "echo@Builtin[keyword]"
+    }
+  ],
+  "true_positives": [
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:8"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:16"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:24"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:32"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:40"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:48"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:56"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:64"
+    }
+  ],
+  "false_positives": [
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:10"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:18"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:26"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:34"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:42"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:50"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:58"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:66"
+    }
+  ]
+}

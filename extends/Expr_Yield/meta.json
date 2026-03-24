@@ -1,0 +1,39 @@
+{
+  "name": "extends/Expr_Yield",
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:8",
+      "callee": "yielddata@main.php:3"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:10",
+      "callee": "yielddata@main.php:3"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:11",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:12",
+      "callee": "echo@Builtin[keyword]"
+    }
+  ],
+  "true_positives": [
+    {
+      "type": 79,
+      "source": "main.php:5",
+      "sink": "main.php:12"
+    }
+  ],
+  "false_positives": [
+    {
+      "type": 79,
+      "source": "main.php:5",
+      "sink": "main.php:11"
+    }
+  ]
+}

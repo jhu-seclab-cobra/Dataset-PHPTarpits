@@ -1,0 +1,12 @@
+{
+  "name": "extends/Expr_MethodCall/meth_obj_container",
+  "call_edges": [],
+  "true_positives": [
+    {
+      "type": 79,
+      "source": "main.php:33",
+      "sink": "main.php:13"
+    }
+  ],
+  "false_positives": []
+}

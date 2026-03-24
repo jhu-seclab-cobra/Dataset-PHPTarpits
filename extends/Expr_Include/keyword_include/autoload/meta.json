@@ -1,0 +1,57 @@
+{
+  "name": "extends/Expr_Include/keyword_include/autoload",
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "autoloader.php:8",
+      "callee": "spl_autoload_register@Builtin[SPL]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "autoloader.php:10",
+      "callee": "__file__@autoloadee.php"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "autoloader.php:10",
+      "callee": "autoloadee::__construct@Builtin[Core]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "autoloader.php:12",
+      "callee": "autoloadee::somefunc@autoloadee.php:5"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "autoloadee.php:7",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "autoloader.php:14",
+      "callee": "autoloadee@autoloadee.php:12"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "autoloadee.php:14",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "autoloader.php:5",
+      "callee": "include@Builtin[keyword]"
+    },
+    {
+      "type": "SUSPICIOUS",
+      "callsite": "autoloader.php:5",
+      "callee": "__file__@autoloadee.php"
+    },
+    {
+      "type": "SUSPICIOUS",
+      "callsite": "autoloader.php:5",
+      "callee": "__file__@autoloader.php"
+    }
+  ],
+  "true_positives": [],
+  "false_positives": []
+}

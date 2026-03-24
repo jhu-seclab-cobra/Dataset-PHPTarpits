@@ -1,0 +1,18 @@
+{
+  "name": "extends/Stmt_HaltCompiler",
+  "call_edges": [],
+  "true_positives": [
+    {
+      "type": 79,
+      "source": "main.php:2",
+      "sink": "main.php:4"
+    }
+  ],
+  "false_positives": [
+    {
+      "type": 79,
+      "source": "main.php:2",
+      "sink": "main.php:5"
+    }
+  ]
+}

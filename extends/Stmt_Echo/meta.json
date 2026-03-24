@@ -1,0 +1,28 @@
+{
+  "name": "extends/Stmt_Echo",
+  "call_edges": [],
+  "true_positives": [
+    {
+      "type": 79,
+      "source": "main.php:16",
+      "sink": "main.php:25"
+    },
+    {
+      "type": 79,
+      "source": "main.php:16",
+      "sink": "main.php:12"
+    },
+    {
+      "type": 79,
+      "source": "main.php:16",
+      "sink": "main.php:5"
+    }
+  ],
+  "false_positives": [
+    {
+      "type": 79,
+      "source": "main.php:16",
+      "sink": "main.php:26"
+    }
+  ]
+}

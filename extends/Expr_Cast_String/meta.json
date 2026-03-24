@@ -1,0 +1,234 @@
+{
+  "name": "extends/Expr_Cast_String",
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:9",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:11",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:18",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:20",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:27",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:29",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:36",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:38",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:45",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:47",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:51",
+      "callee": "array::__construct@Builtin[Core]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:54",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:56",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:63",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:65",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:72",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:74",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:81",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:83",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:90",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:92",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:99",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:101",
+      "callee": "echo@Builtin[keyword]"
+    }
+  ],
+  "true_positives": [
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:56"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:9"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:81"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:29"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:18"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:72"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:63"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:47"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:38"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:90"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:99"
+    }
+  ],
+  "false_positives": [
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:92"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:36"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:65"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:11"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:101"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:27"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:54"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:45"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:83"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:20"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "main.php:74"
+    }
+  ]
+}

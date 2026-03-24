@@ -1,0 +1,44 @@
+{
+  "name": "extends/Expr_MethodCall/meth_norm",
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:20",
+      "callee": "testclass::__construct@main.php:5"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:7",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:21",
+      "callee": "testclass::testmethod@main.php:10"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:12",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:22",
+      "callee": "testclass::testmethod@main.php:10"
+    }
+  ],
+  "true_positives": [
+    {
+      "type": 79,
+      "source": "main.php:17",
+      "sink": "main.php:12"
+    }
+  ],
+  "false_positives": [
+    {
+      "type": 79,
+      "source": "main.php:17",
+      "sink": "main.php:7"
+    }
+  ]
+}

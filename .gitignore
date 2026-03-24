@@ -56,5 +56,4 @@ kover/
 # === Ignore any other unwanted files ===
 cobra.log
 # (add more patterns as needed)
-.*
 !.gitmodules

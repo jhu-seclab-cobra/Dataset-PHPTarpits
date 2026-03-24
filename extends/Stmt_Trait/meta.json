@@ -1,0 +1,18 @@
+{
+  "name": "extends/Stmt_Trait",
+  "call_edges": [],
+  "true_positives": [
+    {
+      "type": 79,
+      "source": "main.php:21",
+      "sink": "main.php:7"
+    }
+  ],
+  "false_positives": [
+    {
+      "type": 79,
+      "source": "main.php:21",
+      "sink": "main.php:12"
+    }
+  ]
+}

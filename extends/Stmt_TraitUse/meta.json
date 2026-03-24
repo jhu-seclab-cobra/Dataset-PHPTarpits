@@ -1,0 +1,34 @@
+{
+  "name": "extends/Stmt_TraitUse",
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:22",
+      "callee": "page::render@main.php:5"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:7",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:25",
+      "callee": "page::render@main.php:5"
+    }
+  ],
+  "true_positives": [
+    {
+      "type": 79,
+      "source": "main.php:16",
+      "sink": "main.php:7"
+    }
+  ],
+  "false_positives": [
+    {
+      "type": 79,
+      "source": "main.php:16",
+      "sink": "main.php:7"
+    }
+  ]
+}
