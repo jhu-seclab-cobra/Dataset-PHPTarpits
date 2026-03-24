@@ -29,7 +29,7 @@ PHPTarpits Dataset
 ├── patterns/                        (96 cases - Classic PHP patterns)
 │   └── {id}_{name}/
 │       ├── *.php                    (Source code)
-│       └── .tarpit.meta.json        (Ground truth)
+│       └── meta.json        (Ground truth)
 │
 ├── extends/                         (158 cases - PHP-Parser AST node types)
 │   ├── Expr_FuncCall/               (Multi-case: function call variants)
@@ -41,7 +41,7 @@ PHPTarpits Dataset
 │   │   └── ...
 │   ├── Expr_Assign/                 (Single-case: direct files)
 │   │   ├── main.php
-│   │   └── .tarpit.meta.json
+│   │   └── meta.json
 │   ├── Stmt_If/                     (Single-case)
 │   ├── Scalar_String/               (Single-case)
 │   └── ...                          (137 AST node type directories total)
@@ -51,7 +51,7 @@ PHPTarpits Dataset
 
 **Core Concepts**
 
-- **Test Case.** A self-contained directory containing one or more PHP source files and a `.tarpit.meta.json` annotation file. Each test case isolates a specific PHP language feature or vulnerability pattern. Test cases are independent — taint flows within one case never cross into another.
+- **Test Case.** A self-contained directory containing one or more PHP source files and a `meta.json` annotation file. Each test case isolates a specific PHP language feature or vulnerability pattern. Test cases are independent — taint flows within one case never cross into another.
 
 - **Taint Source.** A code location where untrusted user input enters the program. In this dataset, sources are primarily PHP superglobals (`$_GET`, `$_POST`, `$_REQUEST`, `$_COOKIE`, `$_SESSION`, `$_SERVER`, `$_FILES`). Each source is identified by `file:line` notation.
 
@@ -73,13 +73,13 @@ PHPTarpits Dataset
 
 **Data Contracts**
 
-- **With Cobra Analyzer:** Each `.tarpit.meta.json` provides the expected analysis output. The analyzer produces detected flows; the evaluator compares them against TPs (for recall) and FPs (for precision). The `call_edges` field provides the expected call graph for interprocedural analysis validation.
+- **With Cobra Analyzer:** Each `meta.json` provides the expected analysis output. The analyzer produces detected flows; the evaluator compares them against TPs (for recall) and FPs (for precision). The `call_edges` field provides the expected call graph for interprocedural analysis validation.
 
-- **With TestabilityTarpits (upstream):** The `patterns/` directory is derived from the 96 PHP testability patterns published in the [TestabilityTarpits](https://github.com/enferas/TestabilityTarpits) repository (Al Kassar et al., NDSS 2022). The original test cases provide PHP source code and tool measurement data; PHPTarpits adds `.tarpit.meta.json` ground truth annotations (call edges, true positives, false positives) and applies syntax corrections for PHP 8+ compatibility. The `extends/` directory is entirely new, created independently to cover modern PHP language features not present in the original benchmark. See `docs/THIRD_PARTY_NOTICES.md` for full attribution.
+- **With TestabilityTarpits (upstream):** The `patterns/` directory is derived from the 96 PHP testability patterns published in the [TestabilityTarpits](https://github.com/enferas/TestabilityTarpits) repository (Al Kassar et al., NDSS 2022). The original test cases provide PHP source code and tool measurement data; PHPTarpits adds `meta.json` ground truth annotations (call edges, true positives, false positives) and applies syntax corrections for PHP 8+ compatibility. The `extends/` directory is entirely new, created independently to cover modern PHP language features not present in the original benchmark. See `docs/THIRD_PARTY_NOTICES.md` for full attribution.
 
 **Ground Truth Format**
 
-Each `.tarpit.meta.json` follows a strict schema:
+Each `meta.json` follows a strict schema:
 - `name` — relative path identifier for the test case
 - `call_edges[]` — list of `{type, callsite, callee}` describing the call graph
 - `true_positives[]` — list of `{type, source, sink}` representing real vulnerabilities

@@ -23,7 +23,7 @@ This directory introduces additional patterns organized by PHP-Parser AST node t
   - **645 false positive cases**
   - **1,677 call edges**
 
-Multi-case AST types (e.g., `Expr_FuncCall/`, `Expr_MethodCall/`) contain subdirectories for each test variant. Single-case types contain `main.php` and `.tarpit.meta.json` directly.
+Multi-case AST types (e.g., `Expr_FuncCall/`, `Expr_MethodCall/`) contain subdirectories for each test variant. Single-case types contain `main.php` and `meta.json` directly.
 
 ## Ground Truth Data
 To facilitate evaluation, we provide ground truth files in JSON format.

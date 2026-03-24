@@ -17,7 +17,7 @@ Feras Al Kassar, Giulia Clerici, Luca Compagna, Davide Balzarotti, and Fabian Ya
 
 **What was modified:**
 - Syntax corrections for PHP 8+ compatibility
-- Added `.tarpit.meta.json` ground truth annotations (call edges, true positives, false positives)
+- Added `meta.json` ground truth annotations (call edges, true positives, false positives)
 - Reorganized directory structure with numeric prefixes (`01_static_variables/`, etc.)
 
 **License:**
