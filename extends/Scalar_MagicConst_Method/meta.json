@@ -31,14 +31,14 @@
     {
       "type": 79,
       "source": "main.php:7",
-      "sink": "main.php:9"
+      "sink": "main.php:11"
     }
   ],
   "false_positives": [
     {
       "type": 79,
       "source": "main.php:7",
-      "sink": "main.php:11"
+      "sink": "main.php:9"
     }
   ]
 }
