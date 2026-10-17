@@ -11054,15 +11054,16 @@
       {
         "type": 79,
         "source": "main.php:21",
-        "sink": "main.php:8"
-      },
-      {
-        "type": 79,
-        "source": "main.php:21",
         "sink": "main.php:17"
       }
     ],
-    "false_positives": []
+    "false_positives": [
+      {
+        "type": 79,
+        "source": "main.php:21",
+        "sink": "main.php:8"
+      }
+    ]
   },
   {
     "name": "extends/Expr_FuncCall/func_norm",
@@ -15132,11 +15133,6 @@
         "type": 79,
         "source": "main.php:8",
         "sink": "main.php:12"
-      },
-      {
-        "type": 79,
-        "source": "main.php:8",
-        "sink": "main.php:15"
       }
     ],
     "false_positives": [
@@ -15149,6 +15145,11 @@
         "type": 79,
         "source": "main.php:8",
         "sink": "main.php:13"
+      },
+      {
+        "type": 79,
+        "source": "main.php:8",
+        "sink": "main.php:15"
       }
     ]
   },
@@ -18606,14 +18607,14 @@
         "callee": "a::show_one@main.php:12"
       }
     ],
-    "true_positives": [
+    "true_positives": [],
+    "false_positives": [
       {
         "type": 79,
         "source": "main.php:18",
         "sink": "main.php:14"
       }
-    ],
-    "false_positives": []
+    ]
   },
   {
     "name": "patterns/46_object_to_array",
@@ -19417,7 +19418,8 @@
         "callee": "echo@Builtin[keyword]"
       }
     ],
-    "true_positives": [
+    "true_positives": [],
+    "false_positives": [
       {
         "type": 94,
         "source": "main.php:3",
@@ -19438,8 +19440,7 @@
         "source": "main.php:3",
         "sink": "main.php:9"
       }
-    ],
-    "false_positives": []
+    ]
   },
   {
     "name": "patterns/63_substring_replace_function",
@@ -19727,18 +19728,17 @@
         "callee": "unknown@Stretch"
       }
     ],
-    "true_positives": [
-      {
-        "type": 79,
-        "source": "main.php:3",
-        "sink": "*"
-      }
-    ],
+    "true_positives": [],
     "false_positives": [
       {
         "type": 79,
         "source": "main.php:3",
         "sink": "main.php:4"
+      },
+      {
+        "type": 79,
+        "source": "main.php:3",
+        "sink": "*"
       }
     ]
   },
@@ -19863,16 +19863,6 @@
         "type": 89,
         "source": "first_ex.php:3",
         "sink": "first_ex.php:6"
-      },
-      {
-        "type": 89,
-        "source": "second_ex.php:3",
-        "sink": "second_ex.php:6"
-      },
-      {
-        "type": 89,
-        "source": "third_ex.php:3",
-        "sink": "third_ex.php:7"
       }
     ],
     "false_positives": [
@@ -19905,6 +19895,16 @@
         "type": 89,
         "source": "third_ex.php:3",
         "sink": "first_ex.php:6"
+      },
+      {
+        "type": 89,
+        "source": "second_ex.php:3",
+        "sink": "second_ex.php:6"
+      },
+      {
+        "type": 89,
+        "source": "third_ex.php:3",
+        "sink": "third_ex.php:7"
       }
     ]
   },
@@ -20152,11 +20152,6 @@
         "type": 79,
         "source": "first_ex.php:16",
         "sink": "first_ex.php:13"
-      },
-      {
-        "type": 79,
-        "source": "second_ex.php:16",
-        "sink": "second_ex.php:13"
       }
     ],
     "false_positives": [
@@ -20178,6 +20173,11 @@
       {
         "type": 79,
         "source": "first_ex.php:16",
+        "sink": "second_ex.php:13"
+      },
+      {
+        "type": 79,
+        "source": "second_ex.php:16",
         "sink": "second_ex.php:13"
       }
     ]
@@ -20293,11 +20293,6 @@
       },
       {
         "type": 79,
-        "source": "fourth_ex/main.php:3",
-        "sink": "fourth_ex/file1.php:3"
-      },
-      {
-        "type": 79,
         "source": "fifth_ex/main.php:3",
         "sink": "fifth_ex/a.php:3"
       }
@@ -20332,6 +20327,11 @@
         "type": 79,
         "source": "first_ex/main.php:3",
         "sink": "third_ex/b.php:3"
+      },
+      {
+        "type": 79,
+        "source": "fourth_ex/main.php:3",
+        "sink": "fourth_ex/file1.php:3"
       }
     ]
   },
@@ -20404,16 +20404,6 @@
         "type": 79,
         "source": "third_ex.php:8",
         "sink": "third_ex.php:5"
-      },
-      {
-        "type": 79,
-        "source": "fourth_ex.php:8",
-        "sink": "fourth_ex.php:5"
-      },
-      {
-        "type": 79,
-        "source": "fifth_ex.php:8",
-        "sink": "fifth_ex.php:5"
       }
     ],
     "false_positives": [
@@ -20516,6 +20506,16 @@
         "type": 79,
         "source": "third_ex.php:8",
         "sink": "second_ex.php:5"
+      },
+      {
+        "type": 79,
+        "source": "fourth_ex.php:8",
+        "sink": "fourth_ex.php:5"
+      },
+      {
+        "type": 79,
+        "source": "fifth_ex.php:8",
+        "sink": "fifth_ex.php:5"
       }
     ]
   },
@@ -20568,23 +20568,7 @@
         "callee": "class1::printX@third_ex.php:10"
       }
     ],
-    "true_positives": [
-      {
-        "type": 79,
-        "source": "first_ex.php:15",
-        "sink": "first_ex.php:12"
-      },
-      {
-        "type": 79,
-        "source": "second_ex.php:15",
-        "sink": "second_ex.php:12"
-      },
-      {
-        "type": 79,
-        "source": "third_ex.php:15",
-        "sink": "third_ex.php:12"
-      }
-    ],
+    "true_positives": [],
     "false_positives": [
       {
         "type": 79,
@@ -20795,6 +20779,21 @@
         "type": 79,
         "source": "first_ex.php:15",
         "sink": "second_ex.php:10"
+      },
+      {
+        "type": 79,
+        "source": "first_ex.php:15",
+        "sink": "first_ex.php:12"
+      },
+      {
+        "type": 79,
+        "source": "second_ex.php:15",
+        "sink": "second_ex.php:12"
+      },
+      {
+        "type": 79,
+        "source": "third_ex.php:15",
+        "sink": "third_ex.php:12"
       }
     ]
   },
@@ -21054,13 +21053,7 @@
         "callee": "echo@Builtin[keyword]"
       }
     ],
-    "true_positives": [
-      {
-        "type": 79,
-        "source": "main.php:4",
-        "sink": "main.php:15"
-      }
-    ],
+    "true_positives": [],
     "false_positives": [
       {
         "type": 79,
@@ -21075,6 +21068,11 @@
       {
         "type": 79,
         "source": "main.php:3",
+        "sink": "main.php:15"
+      },
+      {
+        "type": 79,
+        "source": "main.php:4",
         "sink": "main.php:15"
       }
     ]
@@ -21256,7 +21254,8 @@
         "callee": "echo@Builtin[keyword]"
       }
     ],
-    "true_positives": [
+    "true_positives": [],
+    "false_positives": [
       {
         "type": 79,
         "source": "main.php:3",
@@ -21272,8 +21271,7 @@
         "source": "main.php:3",
         "sink": "main.php:16"
       }
-    ],
-    "false_positives": []
+    ]
   },
   {
     "name": "patterns/90_compare_variables",

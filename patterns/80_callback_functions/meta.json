@@ -67,16 +67,6 @@
       "type": 79,
       "source": "third_ex.php:8",
       "sink": "third_ex.php:5"
-    },
-    {
-      "type": 79,
-      "source": "fourth_ex.php:8",
-      "sink": "fourth_ex.php:5"
-    },
-    {
-      "type": 79,
-      "source": "fifth_ex.php:8",
-      "sink": "fifth_ex.php:5"
     }
   ],
   "false_positives": [
@@ -179,6 +169,16 @@
       "type": 79,
       "source": "third_ex.php:8",
       "sink": "second_ex.php:5"
+    },
+    {
+      "type": 79,
+      "source": "fourth_ex.php:8",
+      "sink": "fourth_ex.php:5"
+    },
+    {
+      "type": 79,
+      "source": "fifth_ex.php:8",
+      "sink": "fifth_ex.php:5"
     }
   ]
 }

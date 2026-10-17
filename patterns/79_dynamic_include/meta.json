@@ -75,11 +75,6 @@
     },
     {
       "type": 79,
-      "source": "fourth_ex/main.php:3",
-      "sink": "fourth_ex/file1.php:3"
-    },
-    {
-      "type": 79,
       "source": "fifth_ex/main.php:3",
       "sink": "fifth_ex/a.php:3"
     }
@@ -114,6 +109,11 @@
       "type": 79,
       "source": "first_ex/main.php:3",
       "sink": "third_ex/b.php:3"
+    },
+    {
+      "type": 79,
+      "source": "fourth_ex/main.php:3",
+      "sink": "fourth_ex/file1.php:3"
     }
   ]
 }

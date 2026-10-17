@@ -12,18 +12,17 @@
       "callee": "unknown@Stretch"
     }
   ],
-  "true_positives": [
-    {
-      "type": 79,
-      "source": "main.php:3",
-      "sink": "*"
-    }
-  ],
+  "true_positives": [],
   "false_positives": [
     {
       "type": 79,
       "source": "main.php:3",
       "sink": "main.php:4"
+    },
+    {
+      "type": 79,
+      "source": "main.php:3",
+      "sink": "*"
     }
   ]
 }

@@ -47,23 +47,7 @@
       "callee": "class1::printX@third_ex.php:10"
     }
   ],
-  "true_positives": [
-    {
-      "type": 79,
-      "source": "first_ex.php:15",
-      "sink": "first_ex.php:12"
-    },
-    {
-      "type": 79,
-      "source": "second_ex.php:15",
-      "sink": "second_ex.php:12"
-    },
-    {
-      "type": 79,
-      "source": "third_ex.php:15",
-      "sink": "third_ex.php:12"
-    }
-  ],
+  "true_positives": [],
   "false_positives": [
     {
       "type": 79,
@@ -274,6 +258,21 @@
       "type": 79,
       "source": "first_ex.php:15",
       "sink": "second_ex.php:10"
+    },
+    {
+      "type": 79,
+      "source": "first_ex.php:15",
+      "sink": "first_ex.php:12"
+    },
+    {
+      "type": 79,
+      "source": "second_ex.php:15",
+      "sink": "second_ex.php:12"
+    },
+    {
+      "type": 79,
+      "source": "third_ex.php:15",
+      "sink": "third_ex.php:12"
     }
   ]
 }

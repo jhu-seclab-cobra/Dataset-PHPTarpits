@@ -32,7 +32,8 @@
       "callee": "echo@Builtin[keyword]"
     }
   ],
-  "true_positives": [
+  "true_positives": [],
+  "false_positives": [
     {
       "type": 79,
       "source": "main.php:3",
@@ -48,6 +49,5 @@
       "source": "main.php:3",
       "sink": "main.php:16"
     }
-  ],
-  "false_positives": []
+  ]
 }
