@@ -32,13 +32,7 @@
       "callee": "echo@Builtin[keyword]"
     }
   ],
-  "true_positives": [
-    {
-      "type": 79,
-      "source": "first_ex.php:3",
-      "sink": "first_ex.php:7"
-    }
-  ],
+  "true_positives": [],
   "false_positives": [
     {
       "type": 79,
@@ -78,6 +72,11 @@
     {
       "type": 79,
       "source": "third_ex.php:2",
+      "sink": "first_ex.php:7"
+    },
+    {
+      "type": 79,
+      "source": "first_ex.php:3",
       "sink": "first_ex.php:7"
     }
   ]
