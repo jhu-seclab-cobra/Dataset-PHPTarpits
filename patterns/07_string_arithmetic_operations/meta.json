@@ -117,6 +117,11 @@
       "type": 79,
       "source": "main.php:74",
       "sink": "main.php:79"
+    },
+    {
+      "type": 79,
+      "source": "main.php:18",
+      "sink": "main.php:21"
     }
   ],
   "false_positives": [
@@ -179,11 +184,6 @@
       "type": 79,
       "source": "main.php:43",
       "sink": "main.php:11"
-    },
-    {
-      "type": 79,
-      "source": "main.php:18",
-      "sink": "main.php:21"
     },
     {
       "type": 79,

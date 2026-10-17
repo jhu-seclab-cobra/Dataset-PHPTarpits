@@ -27,6 +27,11 @@
       "type": 79,
       "source": "second_ex.php:4",
       "sink": "second_ex.php:7"
+    },
+    {
+      "type": 79,
+      "source": "third_ex.php:4",
+      "sink": "third_ex.php:7"
     }
   ],
   "false_positives": [
@@ -54,11 +59,6 @@
       "type": 79,
       "source": "third_ex.php:5",
       "sink": "first_ex.php:8"
-    },
-    {
-      "type": 79,
-      "source": "third_ex.php:4",
-      "sink": "third_ex.php:7"
     },
     {
       "type": 79,

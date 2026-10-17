@@ -22,12 +22,12 @@
       "callee": "echo@Builtin[keyword]"
     }
   ],
-  "true_positives": [],
-  "false_positives": [
+  "true_positives": [
     {
       "type": 79,
       "source": "main.php:3",
       "sink": "main.php:11"
     }
-  ]
+  ],
+  "false_positives": []
 }
