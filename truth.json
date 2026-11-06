@@ -11663,7 +11663,7 @@
       {
         "type": "STATIC",
         "callsite": "autoloader.php:10",
-        "callee": "__file__@autoloadee.php"
+        "callee": "my_autoloader@autoloader.php:3"
       },
       {
         "type": "STATIC",
@@ -11699,11 +11699,6 @@
         "type": "SUSPICIOUS",
         "callsite": "autoloader.php:5",
         "callee": "__file__@autoloadee.php"
-      },
-      {
-        "type": "SUSPICIOUS",
-        "callsite": "autoloader.php:5",
-        "callee": "__file__@autoloader.php"
       }
     ],
     "true_positives": [],
@@ -15864,11 +15859,6 @@
       },
       {
         "type": "STATIC",
-        "callsite": "main.php:11",
-        "callee": "echo@Builtin[keyword]"
-      },
-      {
-        "type": "STATIC",
         "callsite": "main.php:20",
         "callee": "echo@Builtin[keyword]"
       },
@@ -16272,11 +16262,6 @@
       {
         "type": "STATIC",
         "callsite": "main.php:7",
-        "callee": "echo@Builtin[keyword]"
-      },
-      {
-        "type": "STATIC",
-        "callsite": "main.php:11",
         "callee": "echo@Builtin[keyword]"
       },
       {

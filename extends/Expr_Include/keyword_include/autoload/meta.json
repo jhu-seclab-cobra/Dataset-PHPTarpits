@@ -9,7 +9,7 @@
     {
       "type": "STATIC",
       "callsite": "autoloader.php:10",
-      "callee": "__file__@autoloadee.php"
+      "callee": "my_autoloader@autoloader.php:3"
     },
     {
       "type": "STATIC",
@@ -45,11 +45,6 @@
       "type": "SUSPICIOUS",
       "callsite": "autoloader.php:5",
       "callee": "__file__@autoloadee.php"
-    },
-    {
-      "type": "SUSPICIOUS",
-      "callsite": "autoloader.php:5",
-      "callee": "__file__@autoloader.php"
     }
   ],
   "true_positives": [],
