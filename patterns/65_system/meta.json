@@ -29,7 +29,7 @@
       "sink": "second_ex.php:4"
     },
     {
-      "type": 434,
+      "type": 22,
       "source": "third_ex.php:3",
       "sink": "third_ex.php:4"
     }
@@ -41,7 +41,7 @@
       "sink": "first_ex.php:4"
     },
     {
-      "type": 434,
+      "type": 22,
       "source": "first_ex.php:3",
       "sink": "third_ex.php:4"
     },
@@ -51,7 +51,7 @@
       "sink": "first_ex.php:4"
     },
     {
-      "type": 434,
+      "type": 22,
       "source": "second_ex.php:3",
       "sink": "third_ex.php:4"
     }
