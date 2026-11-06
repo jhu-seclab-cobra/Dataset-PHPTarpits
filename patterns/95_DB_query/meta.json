@@ -4,12 +4,22 @@
     {
       "type": "STATIC",
       "callsite": "first_ex.php:3",
-      "callee": "pdo::__construct@Builtin[Core]"
+      "callee": "pdo::__construct@Builtin[PDO]"
     },
     {
       "type": "STATIC",
       "callsite": "second_ex.php:4",
-      "callee": "mysqli::__construct@Builtin[Core]"
+      "callee": "mysqli::__construct@Builtin[mysqli]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "first_ex.php:5",
+      "callee": "pdo::query@Builtin[PDO]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "second_ex.php:7",
+      "callee": "mysqli::query@Builtin[mysqli]"
     }
   ],
   "true_positives": [

@@ -14,7 +14,7 @@
     {
       "type": "STATIC",
       "callsite": "main.php:20",
-      "callee": "MyHelloWorld::sayHello@main.php:7"
+      "callee": "myhelloworld::sayHello@main.php:7"
     }
   ],
   "true_positives": [

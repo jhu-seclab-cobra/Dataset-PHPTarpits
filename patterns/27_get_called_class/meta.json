@@ -9,12 +9,22 @@
     {
       "type": "STATIC",
       "callsite": "main.php:11",
-      "callee": "get_called_class@Builtin[standard]"
+      "callee": "get_called_class@Builtin[Core]"
+    },
+    {
+      "type": "DYNAMIC",
+      "callsite": "main.php:11",
+      "callee": "b::who@main.php:17"
     },
     {
       "type": "STATIC",
       "callsite": "main.php:19",
       "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:24",
+      "callee": "a::test@main.php:9"
     }
   ],
   "true_positives": [

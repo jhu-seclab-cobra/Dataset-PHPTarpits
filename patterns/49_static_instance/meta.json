@@ -4,7 +4,7 @@
     {
       "type": "STATIC",
       "callsite": "main.php:11",
-      "callee": "self::__construct@Builtin[Core]"
+      "callee": "myclass::__construct@Builtin[Core]"
     },
     {
       "type": "STATIC",

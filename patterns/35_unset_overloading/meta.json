@@ -18,8 +18,18 @@
     },
     {
       "type": "STATIC",
+      "callsite": "main.php:27",
+      "callee": "propertytest::setx@main.php:13"
+    },
+    {
+      "type": "STATIC",
       "callsite": "main.php:29",
       "callee": "unset@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:29",
+      "callee": "propertytest::__unset@main.php:18"
     }
   ],
   "true_positives": [

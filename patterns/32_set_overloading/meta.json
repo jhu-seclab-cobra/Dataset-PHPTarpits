@@ -10,6 +10,11 @@
       "type": "STATIC",
       "callsite": "main.php:14",
       "callee": "propertytest::__construct@Builtin[Core]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:15",
+      "callee": "propertytest::__set@main.php:7"
     }
   ],
   "true_positives": [

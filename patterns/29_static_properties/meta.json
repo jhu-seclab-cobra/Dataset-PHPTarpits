@@ -10,6 +10,11 @@
       "type": "STATIC",
       "callsite": "main.php:17",
       "callee": "foo::__construct@main.php:6"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:18",
+      "callee": "foo::baz@main.php:10"
     }
   ],
   "true_positives": [

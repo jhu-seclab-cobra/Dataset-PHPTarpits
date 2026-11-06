@@ -20,6 +20,11 @@
       "type": "DYNAMIC",
       "callsite": "second_ex.php:19",
       "callee": "unknown@Stretch"
+    },
+    {
+      "type": "DYNAMIC",
+      "callsite": "first_ex.php:18",
+      "callee": "foo::baz@first_ex.php:10"
     }
   ],
   "true_positives": [

@@ -4,7 +4,7 @@
     {
       "type": "STATIC",
       "callsite": "main.php:11",
-      "callee": "arrayiterator::__construct@Builtin[Core]"
+      "callee": "arrayiterator::__construct@Builtin[SPL]"
     },
     {
       "type": "STATIC",
@@ -15,6 +15,26 @@
       "type": "STATIC",
       "callsite": "main.php:25",
       "callee": "mycollection::__construct@Builtin[Core]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:26",
+      "callee": "mycollection::add@main.php:14"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:27",
+      "callee": "mycollection::add@main.php:14"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:28",
+      "callee": "mycollection::add@main.php:14"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:30",
+      "callee": "mycollection::getIterator@main.php:9"
     },
     {
       "type": "STATIC",

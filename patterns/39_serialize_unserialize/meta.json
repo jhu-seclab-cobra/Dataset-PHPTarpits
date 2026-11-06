@@ -20,6 +20,11 @@
       "type": "STATIC",
       "callsite": "main.php:21",
       "callee": "unserialize@Builtin[standard]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:23",
+      "callee": "a::show_one@main.php:12"
     }
   ],
   "true_positives": [

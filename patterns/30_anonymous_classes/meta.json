@@ -10,6 +10,11 @@
       "type": "STATIC",
       "callsite": "main.php:7",
       "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:11",
+      "callee": "class::log@main.php:5"
     }
   ],
   "true_positives": [

@@ -10,6 +10,11 @@
       "type": "STATIC",
       "callsite": "main.php:12",
       "callee": "myclass::__construct@Builtin[Core]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:15",
+      "callee": "myclass::F@main.php:6"
     }
   ],
   "true_positives": [

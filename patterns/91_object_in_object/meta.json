@@ -18,13 +18,33 @@
     },
     {
       "type": "STATIC",
+      "callsite": "main.php:6",
+      "callee": "classb::set@class2.php:6"
+    },
+    {
+      "type": "STATIC",
       "callsite": "main.php:7",
       "callee": "classa::__construct@Builtin[Core]"
     },
     {
       "type": "STATIC",
+      "callsite": "main.php:8",
+      "callee": "classa::set@class1.php:6"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:9",
+      "callee": "classa::get@class1.php:10"
+    },
+    {
+      "type": "STATIC",
       "callsite": "main.php:10",
       "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:10",
+      "callee": "classb::get@class2.php:10"
     }
   ],
   "true_positives": [

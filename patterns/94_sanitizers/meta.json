@@ -14,7 +14,7 @@
     {
       "type": "STATIC",
       "callsite": "first_ex.php:5",
-      "callee": "htmlEntities@Builtin[standard]"
+      "callee": "htmlentities@Builtin[standard]"
     },
     {
       "type": "STATIC",

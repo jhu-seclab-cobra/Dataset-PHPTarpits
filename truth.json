@@ -17948,7 +17948,7 @@
       {
         "type": "STATIC",
         "callsite": "main.php:7",
-        "callee": "func_get_args@Builtin[standard]"
+        "callee": "func_get_args@Builtin[Core]"
       },
       {
         "type": "STATIC",
@@ -18032,6 +18032,11 @@
         "type": "STATIC",
         "callsite": "second_ex.php:8",
         "callee": "$fn1@second_ex.php:6"
+      },
+      {
+        "type": "DYNAMIC",
+        "callsite": "second_ex.php:8",
+        "callee": "{closure}@second_ex.php:6"
       }
     ],
     "true_positives": [
@@ -18139,7 +18144,7 @@
       {
         "type": "STATIC",
         "callsite": "main.php:21",
-        "callee": "Test::getfoo@main.php:12"
+        "callee": "test::getfoo@main.php:12"
       },
       {
         "type": "STATIC",
@@ -18219,7 +18224,7 @@
       {
         "type": "STATIC",
         "callsite": "main.php:13",
-        "callee": "self::__construct@Builtin[Core]"
+        "callee": "myclass::__construct@main.php:5"
       },
       {
         "type": "STATIC",
@@ -18263,6 +18268,16 @@
         "type": "STATIC",
         "callsite": "main.php:17",
         "callee": "foo::__construct@main.php:6"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:18",
+        "callee": "clone@Builtin[keyword]"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:19",
+        "callee": "foo::baz@main.php:10"
       }
     ],
     "true_positives": [
@@ -18284,6 +18299,11 @@
       },
       {
         "type": "STATIC",
+        "callsite": "first_ex.php:11",
+        "callee": "b::who@first_ex.php:17"
+      },
+      {
+        "type": "STATIC",
         "callsite": "first_ex.php:19",
         "callee": "echo@Builtin[keyword]"
       },
@@ -18294,6 +18314,11 @@
       },
       {
         "type": "STATIC",
+        "callsite": "second_ex.php:11",
+        "callee": "a::who@second_ex.php:5"
+      },
+      {
+        "type": "STATIC",
         "callsite": "second_ex.php:19",
         "callee": "echo@Builtin[keyword]"
       },
@@ -18301,6 +18326,11 @@
         "type": "STATIC",
         "callsite": "second_ex.php:24",
         "callee": "a::test@second_ex.php:9"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "first_ex.php:24",
+        "callee": "a::test@first_ex.php:9"
       }
     ],
     "true_positives": [
@@ -18359,12 +18389,22 @@
       {
         "type": "STATIC",
         "callsite": "main.php:11",
-        "callee": "get_called_class@Builtin[standard]"
+        "callee": "get_called_class@Builtin[Core]"
+      },
+      {
+        "type": "DYNAMIC",
+        "callsite": "main.php:11",
+        "callee": "b::who@main.php:17"
       },
       {
         "type": "STATIC",
         "callsite": "main.php:19",
         "callee": "echo@Builtin[keyword]"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:24",
+        "callee": "a::test@main.php:9"
       }
     ],
     "true_positives": [
@@ -18428,6 +18468,11 @@
         "type": "STATIC",
         "callsite": "main.php:17",
         "callee": "foo::__construct@main.php:6"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:18",
+        "callee": "foo::baz@main.php:10"
       }
     ],
     "true_positives": [
@@ -18451,6 +18496,11 @@
         "type": "STATIC",
         "callsite": "main.php:7",
         "callee": "echo@Builtin[keyword]"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:11",
+        "callee": "class::log@main.php:5"
       }
     ],
     "true_positives": [
@@ -18479,7 +18529,7 @@
       {
         "type": "DYNAMIC",
         "callsite": "main.php:14",
-        "callee": "unknown@Stretch"
+        "callee": "myclass::F@main.php:5"
       }
     ],
     "true_positives": [
@@ -18503,6 +18553,11 @@
         "type": "STATIC",
         "callsite": "main.php:14",
         "callee": "propertytest::__construct@Builtin[Core]"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:15",
+        "callee": "propertytest::__set@main.php:7"
       }
     ],
     "true_positives": [
@@ -18526,6 +18581,16 @@
         "type": "STATIC",
         "callsite": "main.php:20",
         "callee": "propertytest::__construct@Builtin[Core]"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:21",
+        "callee": "propertytest::__set@main.php:7"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:22",
+        "callee": "propertytest::__get@main.php:12"
       }
     ],
     "true_positives": [
@@ -18557,8 +18622,18 @@
       },
       {
         "type": "STATIC",
+        "callsite": "main.php:27",
+        "callee": "propertytest::setx@main.php:19"
+      },
+      {
+        "type": "STATIC",
         "callsite": "main.php:30",
         "callee": "isset@Builtin[keyword]"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:30",
+        "callee": "propertytest::__isset@main.php:13"
       },
       {
         "type": "STATIC",
@@ -18569,6 +18644,16 @@
         "type": "STATIC",
         "callsite": "main.php:36",
         "callee": "empty@Builtin[keyword]"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:36",
+        "callee": "propertytest::__isset@main.php:13"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:36",
+        "callee": "propertytest::__get@main.php:7"
       },
       {
         "type": "STATIC",
@@ -18621,8 +18706,18 @@
       },
       {
         "type": "STATIC",
+        "callsite": "main.php:27",
+        "callee": "propertytest::setx@main.php:13"
+      },
+      {
+        "type": "STATIC",
         "callsite": "main.php:29",
         "callee": "unset@Builtin[keyword]"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:29",
+        "callee": "propertytest::__unset@main.php:18"
       }
     ],
     "true_positives": [
@@ -18654,9 +18749,9 @@
         "callee": "methodtest::__construct@Builtin[Core]"
       },
       {
-        "type": "DYNAMIC",
+        "type": "STATIC",
         "callsite": "main.php:19",
-        "callee": "MethodTest::__call@main.php:5"
+        "callee": "methodtest::__call@main.php:5"
       }
     ],
     "true_positives": [
@@ -18688,9 +18783,9 @@
         "callee": "methodtest::__construct@Builtin[Core]"
       },
       {
-        "type": "DYNAMIC",
+        "type": "STATIC",
         "callsite": "main.php:19",
-        "callee": "MethodTest::__callStatic@main.php:5"
+        "callee": "methodtest::__callStatic@main.php:5"
       }
     ],
     "true_positives": [
@@ -18729,7 +18824,7 @@
       {
         "type": "DYNAMIC",
         "callsite": "main.php:14",
-        "callee": "unknown@Stretch"
+        "callee": "callableclass::__invoke@main.php:5"
       }
     ],
     "true_positives": [
@@ -18763,6 +18858,11 @@
         "type": "STATIC",
         "callsite": "main.php:21",
         "callee": "unserialize@Builtin[standard]"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:23",
+        "callee": "a::show_one@main.php:12"
       }
     ],
     "true_positives": [
@@ -18796,7 +18896,7 @@
       {
         "type": "STATIC",
         "callsite": "main.php:20",
-        "callee": "MyHelloWorld::sayHello@main.php:7"
+        "callee": "myhelloworld::sayHello@main.php:7"
       }
     ],
     "true_positives": [
@@ -18819,6 +18919,11 @@
     "call_edges": [
       {
         "type": "STATIC",
+        "callsite": "main.php:7",
+        "callee": "myclass::T@main.php:10"
+      },
+      {
+        "type": "STATIC",
         "callsite": "main.php:12",
         "callee": "echo@Builtin[keyword]"
       },
@@ -18826,6 +18931,11 @@
         "type": "STATIC",
         "callsite": "main.php:17",
         "callee": "myclass::__construct@Builtin[Core]"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:19",
+        "callee": "myclass::F@main.php:5"
       }
     ],
     "true_positives": [
@@ -18859,6 +18969,11 @@
         "type": "STATIC",
         "callsite": "main.php:22",
         "callee": "baseclass::__construct@main.php:7"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:22",
+        "callee": "baseclass::__destruct@main.php:12"
       }
     ],
     "true_positives": [
@@ -18893,6 +19008,11 @@
         "type": "STATIC",
         "callsite": "main.php:20",
         "callee": "echo@Builtin[keyword]"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:20",
+        "callee": "testclass::__toString@main.php:11"
       }
     ],
     "true_positives": [
@@ -18926,7 +19046,7 @@
       {
         "type": "STATIC",
         "callsite": "first_ex.php:26",
-        "callee": "testclass::__construct@second_ex.php:6"
+        "callee": "testclass::__construct@first_ex.php:7"
       },
       {
         "type": "STATIC",
@@ -18937,6 +19057,26 @@
         "type": "STATIC",
         "callsite": "second_ex.php:21",
         "callee": "testclass::__construct@second_ex.php:6"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "first_ex.php:27",
+        "callee": "F@first_ex.php:20"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "first_ex.php:27",
+        "callee": "testclass::__toString@first_ex.php:12"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "second_ex.php:22",
+        "callee": "testclass::__toString@second_ex.php:11"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "second_ex.php:26",
+        "callee": "F@second_ex.php:19"
       }
     ],
     "true_positives": [
@@ -19058,6 +19198,11 @@
         "type": "STATIC",
         "callsite": "main.php:20",
         "callee": "parent_class::__construct@Builtin[Core]"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:21",
+        "callee": "parent_class::F@main.php:5"
       }
     ],
     "true_positives": [
@@ -19086,7 +19231,7 @@
       {
         "type": "STATIC",
         "callsite": "main.php:20",
-        "callee": "child_class::__construct@Builtin[Core]"
+        "callee": "parent_class::__construct@main.php:5"
       }
     ],
     "true_positives": [
@@ -19104,7 +19249,7 @@
       {
         "type": "STATIC",
         "callsite": "main.php:11",
-        "callee": "self::__construct@Builtin[Core]"
+        "callee": "myclass::__construct@Builtin[Core]"
       },
       {
         "type": "STATIC",
@@ -19153,6 +19298,11 @@
         "type": "STATIC",
         "callsite": "main.php:17",
         "callee": "echo@Builtin[keyword]"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:17",
+        "callee": "exception::getMessage@Builtin[Core]"
       }
     ],
     "true_positives": [
@@ -19191,6 +19341,11 @@
         "type": "STATIC",
         "callsite": "main.php:18",
         "callee": "echo@Builtin[keyword]"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:18",
+        "callee": "exception::getMessage@Builtin[Core]"
       }
     ],
     "true_positives": [
@@ -19233,7 +19388,7 @@
       {
         "type": "STATIC",
         "callsite": "first_ex.php:19",
-        "callee": "foo@second_ex.php:3"
+        "callee": "foo@first_ex.php:3"
       },
       {
         "type": "STATIC",
@@ -19337,7 +19492,7 @@
       {
         "type": "STATIC",
         "callsite": "main.php:4",
-        "callee": "trigger_error@Builtin[standard]"
+        "callee": "trigger_error@Builtin[Core]"
       },
       {
         "type": "STATIC",
@@ -19581,6 +19736,11 @@
         "callee": "array_walk@Builtin[standard]"
       },
       {
+        "type": "DYNAMIC",
+        "callsite": "first_ex.php:16",
+        "callee": "$example@first_ex.php:10"
+      },
+      {
         "type": "STATIC",
         "callsite": "first_ex.php:19",
         "callee": "array_walk@Builtin[standard]"
@@ -19601,9 +19761,24 @@
         "callee": "array_walk@Builtin[standard]"
       },
       {
+        "type": "DYNAMIC",
+        "callsite": "second_ex.php:17",
+        "callee": "$example@second_ex.php:11"
+      },
+      {
         "type": "STATIC",
         "callsite": "second_ex.php:20",
         "callee": "array_walk@Builtin[standard]"
+      },
+      {
+        "type": "DYNAMIC",
+        "callsite": "first_ex.php:19",
+        "callee": "F@first_ex.php:5"
+      },
+      {
+        "type": "DYNAMIC",
+        "callsite": "second_ex.php:20",
+        "callee": "unknown@Stretch"
       }
     ],
     "true_positives": [
@@ -19753,6 +19928,16 @@
         "type": "STATIC",
         "callsite": "second_ex.php:12",
         "callee": "array_map@Builtin[standard]"
+      },
+      {
+        "type": "DYNAMIC",
+        "callsite": "first_ex.php:11",
+        "callee": "$func@first_ex.php:4"
+      },
+      {
+        "type": "DYNAMIC",
+        "callsite": "second_ex.php:12",
+        "callee": "unknown@Stretch"
       }
     ],
     "true_positives": [
@@ -20114,11 +20299,6 @@
     "name": "patterns/69_create_function",
     "call_edges": [
       {
-        "type": "STATIC",
-        "callsite": "main.php:4",
-        "callee": "create_function@Builtin[standard]"
-      },
-      {
         "type": "DYNAMIC",
         "callsite": "main.php:5",
         "callee": "unknown@Stretch"
@@ -20225,16 +20405,6 @@
     "call_edges": [
       {
         "type": "STATIC",
-        "callsite": "third_ex.php:4",
-        "callee": "mysql_connect@Builtin[mysql]"
-      },
-      {
-        "type": "STATIC",
-        "callsite": "third_ex.php:7",
-        "callee": "mysql_query@Builtin[mysql]"
-      },
-      {
-        "type": "STATIC",
         "callsite": "first_ex.php:4",
         "callee": "mysqli_connect@Builtin[mysqli]"
       },
@@ -20242,16 +20412,6 @@
         "type": "STATIC",
         "callsite": "first_ex.php:6",
         "callee": "mysqli_query@Builtin[mysqli]"
-      },
-      {
-        "type": "STATIC",
-        "callsite": "second_ex.php:4",
-        "callee": "mysql_connect@Builtin[mysql]"
-      },
-      {
-        "type": "STATIC",
-        "callsite": "second_ex.php:6",
-        "callee": "mysql_query@Builtin[mysql]"
       }
     ],
     "true_positives": [
@@ -20325,7 +20485,7 @@
       {
         "type": "STATIC",
         "callsite": "second_ex.php:4",
-        "callee": "json_encode@Builtin[standard]"
+        "callee": "json_encode@Builtin[json]"
       }
     ],
     "true_positives": [
@@ -20440,7 +20600,7 @@
       {
         "type": "DYNAMIC",
         "callsite": "first_ex.php:11",
-        "callee": "unknown@Stretch"
+        "callee": "F@first_ex.php:3"
       },
       {
         "type": "STATIC",
@@ -20540,6 +20700,11 @@
         "type": "DYNAMIC",
         "callsite": "second_ex.php:19",
         "callee": "unknown@Stretch"
+      },
+      {
+        "type": "DYNAMIC",
+        "callsite": "first_ex.php:18",
+        "callee": "foo::baz@first_ex.php:10"
       }
     ],
     "true_positives": [
@@ -20587,6 +20752,11 @@
       },
       {
         "type": "STATIC",
+        "callsite": "main.php:4",
+        "callee": "include@Builtin[keyword]"
+      },
+      {
+        "type": "STATIC",
         "callsite": "main.php:7",
         "callee": "myclass1::__construct@MyClass1.php:5"
       },
@@ -20594,6 +20764,11 @@
         "type": "STATIC",
         "callsite": "MyClass1.php:7",
         "callee": "echo@Builtin[keyword]"
+      },
+      {
+        "type": "DYNAMIC",
+        "callsite": "main.php:7",
+        "callee": "{closure}@main.php:3"
       }
     ],
     "true_positives": [
@@ -20782,6 +20957,21 @@
         "type": "STATIC",
         "callsite": "second_ex.php:10",
         "callee": "call_user_func@Builtin[standard]"
+      },
+      {
+        "type": "DYNAMIC",
+        "callsite": "first_ex.php:9",
+        "callee": "F@first_ex.php:3"
+      },
+      {
+        "type": "DYNAMIC",
+        "callsite": "second_ex.php:10",
+        "callee": "F@second_ex.php:3"
+      },
+      {
+        "type": "DYNAMIC",
+        "callsite": "third_ex.php:10",
+        "callee": "F@third_ex.php:3"
       }
     ],
     "true_positives": [
@@ -20925,7 +21115,7 @@
       {
         "type": "DYNAMIC",
         "callsite": "first_ex.php:17",
-        "callee": "unknown@Stretch"
+        "callee": "class1::__construct@first_ex.php:6"
       },
       {
         "type": "STATIC",
@@ -20943,7 +21133,7 @@
         "callee": "unknown@Stretch"
       },
       {
-        "type": "STATIC",
+        "type": "DYNAMIC",
         "callsite": "second_ex.php:18",
         "callee": "class1::printX@second_ex.php:10"
       },
@@ -20958,7 +21148,7 @@
         "callee": "unknown@Stretch"
       },
       {
-        "type": "STATIC",
+        "type": "DYNAMIC",
         "callsite": "third_ex.php:19",
         "callee": "class1::printX@third_ex.php:10"
       }
@@ -21208,7 +21398,7 @@
       {
         "type": "DYNAMIC",
         "callsite": "first_ex.php:15",
-        "callee": "unknown@Stretch"
+        "callee": "myclass::F@first_ex.php:5"
       },
       {
         "type": "STATIC",
@@ -21429,11 +21619,6 @@
     "call_edges": [
       {
         "type": "STATIC",
-        "callsite": "main.php:7",
-        "callee": "len@Builtin[standard]"
-      },
-      {
-        "type": "STATIC",
         "callsite": "main.php:9",
         "callee": "ord@Builtin[standard]"
       },
@@ -21478,7 +21663,7 @@
       {
         "type": "STATIC",
         "callsite": "main.php:11",
-        "callee": "arrayiterator::__construct@Builtin[Core]"
+        "callee": "arrayiterator::__construct@Builtin[SPL]"
       },
       {
         "type": "STATIC",
@@ -21489,6 +21674,26 @@
         "type": "STATIC",
         "callsite": "main.php:25",
         "callee": "mycollection::__construct@Builtin[Core]"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:26",
+        "callee": "mycollection::add@main.php:14"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:27",
+        "callee": "mycollection::add@main.php:14"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:28",
+        "callee": "mycollection::add@main.php:14"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:30",
+        "callee": "mycollection::getIterator@main.php:9"
       },
       {
         "type": "STATIC",
@@ -21680,11 +21885,6 @@
         "type": "STATIC",
         "callsite": "main.php:14",
         "callee": "echo@Builtin[keyword]"
-      },
-      {
-        "type": "STATIC",
-        "callsite": "main.php:20",
-        "callee": "echo@Builtin[keyword]"
       }
     ],
     "true_positives": [
@@ -21727,13 +21927,33 @@
       },
       {
         "type": "STATIC",
+        "callsite": "main.php:6",
+        "callee": "classb::set@class2.php:6"
+      },
+      {
+        "type": "STATIC",
         "callsite": "main.php:7",
         "callee": "classa::__construct@Builtin[Core]"
       },
       {
         "type": "STATIC",
+        "callsite": "main.php:8",
+        "callee": "classa::set@class1.php:6"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:9",
+        "callee": "classa::get@class1.php:10"
+      },
+      {
+        "type": "STATIC",
         "callsite": "main.php:10",
         "callee": "echo@Builtin[keyword]"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:10",
+        "callee": "classb::get@class2.php:10"
       }
     ],
     "true_positives": [
@@ -21757,6 +21977,11 @@
         "type": "STATIC",
         "callsite": "main.php:12",
         "callee": "myclass::__construct@Builtin[Core]"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:15",
+        "callee": "myclass::F@main.php:6"
       }
     ],
     "true_positives": [
@@ -21813,7 +22038,7 @@
       {
         "type": "STATIC",
         "callsite": "first_ex.php:5",
-        "callee": "htmlEntities@Builtin[standard]"
+        "callee": "htmlentities@Builtin[standard]"
       },
       {
         "type": "STATIC",
@@ -21886,12 +22111,22 @@
       {
         "type": "STATIC",
         "callsite": "first_ex.php:3",
-        "callee": "pdo::__construct@Builtin[Core]"
+        "callee": "pdo::__construct@Builtin[PDO]"
       },
       {
         "type": "STATIC",
         "callsite": "second_ex.php:4",
-        "callee": "mysqli::__construct@Builtin[Core]"
+        "callee": "mysqli::__construct@Builtin[mysqli]"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "first_ex.php:5",
+        "callee": "pdo::query@Builtin[PDO]"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "second_ex.php:7",
+        "callee": "mysqli::query@Builtin[mysqli]"
       }
     ],
     "true_positives": [

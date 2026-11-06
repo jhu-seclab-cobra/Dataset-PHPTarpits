@@ -50,6 +50,21 @@
       "type": "STATIC",
       "callsite": "second_ex.php:10",
       "callee": "call_user_func@Builtin[standard]"
+    },
+    {
+      "type": "DYNAMIC",
+      "callsite": "first_ex.php:9",
+      "callee": "F@first_ex.php:3"
+    },
+    {
+      "type": "DYNAMIC",
+      "callsite": "second_ex.php:10",
+      "callee": "F@second_ex.php:3"
+    },
+    {
+      "type": "DYNAMIC",
+      "callsite": "third_ex.php:10",
+      "callee": "F@third_ex.php:3"
     }
   ],
   "true_positives": [

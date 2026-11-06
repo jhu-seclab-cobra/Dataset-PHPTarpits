@@ -9,7 +9,7 @@
     {
       "type": "STATIC",
       "callsite": "main.php:20",
-      "callee": "child_class::__construct@Builtin[Core]"
+      "callee": "parent_class::__construct@main.php:5"
     }
   ],
   "true_positives": [

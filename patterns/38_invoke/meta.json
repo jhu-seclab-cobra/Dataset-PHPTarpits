@@ -19,7 +19,7 @@
     {
       "type": "DYNAMIC",
       "callsite": "main.php:14",
-      "callee": "unknown@Stretch"
+      "callee": "callableclass::__invoke@main.php:5"
     }
   ],
   "true_positives": [

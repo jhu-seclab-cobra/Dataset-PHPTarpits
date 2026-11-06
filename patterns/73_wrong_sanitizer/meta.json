@@ -19,7 +19,7 @@
     {
       "type": "STATIC",
       "callsite": "second_ex.php:4",
-      "callee": "json_encode@Builtin[standard]"
+      "callee": "json_encode@Builtin[json]"
     }
   ],
   "true_positives": [

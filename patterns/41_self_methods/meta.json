@@ -3,6 +3,11 @@
   "call_edges": [
     {
       "type": "STATIC",
+      "callsite": "main.php:7",
+      "callee": "myclass::T@main.php:10"
+    },
+    {
+      "type": "STATIC",
       "callsite": "main.php:12",
       "callee": "echo@Builtin[keyword]"
     },
@@ -10,6 +15,11 @@
       "type": "STATIC",
       "callsite": "main.php:17",
       "callee": "myclass::__construct@Builtin[Core]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:19",
+      "callee": "myclass::F@main.php:5"
     }
   ],
   "true_positives": [

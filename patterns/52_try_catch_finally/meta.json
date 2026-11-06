@@ -24,7 +24,7 @@
     {
       "type": "STATIC",
       "callsite": "first_ex.php:19",
-      "callee": "foo@second_ex.php:3"
+      "callee": "foo@first_ex.php:3"
     },
     {
       "type": "STATIC",

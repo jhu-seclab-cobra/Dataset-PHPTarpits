@@ -8,6 +8,11 @@
     },
     {
       "type": "STATIC",
+      "callsite": "first_ex.php:11",
+      "callee": "b::who@first_ex.php:17"
+    },
+    {
+      "type": "STATIC",
       "callsite": "first_ex.php:19",
       "callee": "echo@Builtin[keyword]"
     },
@@ -18,6 +23,11 @@
     },
     {
       "type": "STATIC",
+      "callsite": "second_ex.php:11",
+      "callee": "a::who@second_ex.php:5"
+    },
+    {
+      "type": "STATIC",
       "callsite": "second_ex.php:19",
       "callee": "echo@Builtin[keyword]"
     },
@@ -25,6 +35,11 @@
       "type": "STATIC",
       "callsite": "second_ex.php:24",
       "callee": "a::test@second_ex.php:9"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "first_ex.php:24",
+      "callee": "a::test@first_ex.php:9"
     }
   ],
   "true_positives": [

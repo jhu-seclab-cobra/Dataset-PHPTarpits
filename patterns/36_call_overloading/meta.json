@@ -12,9 +12,9 @@
       "callee": "methodtest::__construct@Builtin[Core]"
     },
     {
-      "type": "DYNAMIC",
+      "type": "STATIC",
       "callsite": "main.php:19",
-      "callee": "MethodTest::__call@main.php:5"
+      "callee": "methodtest::__call@main.php:5"
     }
   ],
   "true_positives": [

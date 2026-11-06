@@ -14,7 +14,7 @@
     {
       "type": "STATIC",
       "callsite": "first_ex.php:26",
-      "callee": "testclass::__construct@second_ex.php:6"
+      "callee": "testclass::__construct@first_ex.php:7"
     },
     {
       "type": "STATIC",
@@ -25,6 +25,26 @@
       "type": "STATIC",
       "callsite": "second_ex.php:21",
       "callee": "testclass::__construct@second_ex.php:6"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "first_ex.php:27",
+      "callee": "F@first_ex.php:20"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "first_ex.php:27",
+      "callee": "testclass::__toString@first_ex.php:12"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "second_ex.php:22",
+      "callee": "testclass::__toString@second_ex.php:11"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "second_ex.php:26",
+      "callee": "F@second_ex.php:19"
     }
   ],
   "true_positives": [

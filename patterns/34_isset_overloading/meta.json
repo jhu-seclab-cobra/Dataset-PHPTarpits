@@ -18,8 +18,18 @@
     },
     {
       "type": "STATIC",
+      "callsite": "main.php:27",
+      "callee": "propertytest::setx@main.php:19"
+    },
+    {
+      "type": "STATIC",
       "callsite": "main.php:30",
       "callee": "isset@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:30",
+      "callee": "propertytest::__isset@main.php:13"
     },
     {
       "type": "STATIC",
@@ -30,6 +40,16 @@
       "type": "STATIC",
       "callsite": "main.php:36",
       "callee": "empty@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:36",
+      "callee": "propertytest::__isset@main.php:13"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:36",
+      "callee": "propertytest::__get@main.php:7"
     },
     {
       "type": "STATIC",

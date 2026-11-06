@@ -9,7 +9,7 @@
     {
       "type": "DYNAMIC",
       "callsite": "first_ex.php:11",
-      "callee": "unknown@Stretch"
+      "callee": "F@first_ex.php:3"
     },
     {
       "type": "STATIC",

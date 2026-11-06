@@ -9,7 +9,7 @@
     {
       "type": "STATIC",
       "callsite": "main.php:21",
-      "callee": "Test::getfoo@main.php:12"
+      "callee": "test::getfoo@main.php:12"
     },
     {
       "type": "STATIC",

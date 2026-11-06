@@ -25,6 +25,11 @@
       "type": "STATIC",
       "callsite": "main.php:18",
       "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:18",
+      "callee": "exception::getMessage@Builtin[Core]"
     }
   ],
   "true_positives": [

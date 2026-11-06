@@ -14,7 +14,7 @@
     {
       "type": "DYNAMIC",
       "callsite": "first_ex.php:15",
-      "callee": "unknown@Stretch"
+      "callee": "myclass::F@first_ex.php:5"
     },
     {
       "type": "STATIC",

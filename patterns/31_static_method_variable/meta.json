@@ -9,7 +9,7 @@
     {
       "type": "DYNAMIC",
       "callsite": "main.php:14",
-      "callee": "unknown@Stretch"
+      "callee": "myclass::F@main.php:5"
     }
   ],
   "true_positives": [

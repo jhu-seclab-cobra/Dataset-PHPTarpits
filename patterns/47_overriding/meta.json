@@ -15,6 +15,11 @@
       "type": "STATIC",
       "callsite": "main.php:20",
       "callee": "parent_class::__construct@Builtin[Core]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:21",
+      "callee": "parent_class::F@main.php:5"
     }
   ],
   "true_positives": [

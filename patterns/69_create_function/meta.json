@@ -2,11 +2,6 @@
   "name": "patterns/69_create_function",
   "call_edges": [
     {
-      "type": "STATIC",
-      "callsite": "main.php:4",
-      "callee": "create_function@Builtin[standard]"
-    },
-    {
       "type": "DYNAMIC",
       "callsite": "main.php:5",
       "callee": "unknown@Stretch"

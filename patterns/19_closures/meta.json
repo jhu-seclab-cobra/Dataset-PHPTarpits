@@ -20,6 +20,11 @@
       "type": "STATIC",
       "callsite": "second_ex.php:8",
       "callee": "$fn1@second_ex.php:6"
+    },
+    {
+      "type": "DYNAMIC",
+      "callsite": "second_ex.php:8",
+      "callee": "{closure}@second_ex.php:6"
     }
   ],
   "true_positives": [

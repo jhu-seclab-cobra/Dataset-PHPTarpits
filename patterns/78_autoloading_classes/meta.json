@@ -8,6 +8,11 @@
     },
     {
       "type": "STATIC",
+      "callsite": "main.php:4",
+      "callee": "include@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
       "callsite": "main.php:7",
       "callee": "myclass1::__construct@MyClass1.php:5"
     },
@@ -15,6 +20,11 @@
       "type": "STATIC",
       "callsite": "MyClass1.php:7",
       "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "DYNAMIC",
+      "callsite": "main.php:7",
+      "callee": "{closure}@main.php:3"
     }
   ],
   "true_positives": [

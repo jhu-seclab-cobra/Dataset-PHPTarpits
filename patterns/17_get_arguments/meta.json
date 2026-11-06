@@ -4,7 +4,7 @@
     {
       "type": "STATIC",
       "callsite": "main.php:7",
-      "callee": "func_get_args@Builtin[standard]"
+      "callee": "func_get_args@Builtin[Core]"
     },
     {
       "type": "STATIC",

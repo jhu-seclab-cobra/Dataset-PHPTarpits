@@ -20,6 +20,11 @@
       "type": "STATIC",
       "callsite": "main.php:22",
       "callee": "baseclass::__construct@main.php:7"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:22",
+      "callee": "baseclass::__destruct@main.php:12"
     }
   ],
   "true_positives": [

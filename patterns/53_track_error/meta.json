@@ -4,7 +4,7 @@
     {
       "type": "STATIC",
       "callsite": "main.php:4",
-      "callee": "trigger_error@Builtin[standard]"
+      "callee": "trigger_error@Builtin[Core]"
     },
     {
       "type": "STATIC",

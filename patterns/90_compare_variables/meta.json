@@ -10,11 +10,6 @@
       "type": "STATIC",
       "callsite": "main.php:14",
       "callee": "echo@Builtin[keyword]"
-    },
-    {
-      "type": "STATIC",
-      "callsite": "main.php:20",
-      "callee": "echo@Builtin[keyword]"
     }
   ],
   "true_positives": [

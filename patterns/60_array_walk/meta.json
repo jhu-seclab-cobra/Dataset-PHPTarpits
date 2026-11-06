@@ -17,6 +17,11 @@
       "callee": "array_walk@Builtin[standard]"
     },
     {
+      "type": "DYNAMIC",
+      "callsite": "first_ex.php:16",
+      "callee": "$example@first_ex.php:10"
+    },
+    {
       "type": "STATIC",
       "callsite": "first_ex.php:19",
       "callee": "array_walk@Builtin[standard]"
@@ -37,9 +42,24 @@
       "callee": "array_walk@Builtin[standard]"
     },
     {
+      "type": "DYNAMIC",
+      "callsite": "second_ex.php:17",
+      "callee": "$example@second_ex.php:11"
+    },
+    {
       "type": "STATIC",
       "callsite": "second_ex.php:20",
       "callee": "array_walk@Builtin[standard]"
+    },
+    {
+      "type": "DYNAMIC",
+      "callsite": "first_ex.php:19",
+      "callee": "F@first_ex.php:5"
+    },
+    {
+      "type": "DYNAMIC",
+      "callsite": "second_ex.php:20",
+      "callee": "unknown@Stretch"
     }
   ],
   "true_positives": [
