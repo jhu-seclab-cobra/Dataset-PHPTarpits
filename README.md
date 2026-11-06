@@ -30,7 +30,7 @@ total_tp = sum(len(c["true_positives"]) for c in truth)
 print(f"recall {tp}/{total_tp}, false positives reported {fp}")
 ```
 
-Each case directory holds `main.php` (plus any files it includes) and `meta.json`; the analyzer runs on the case directory.
+Each case directory holds its PHP files (usually `main.php` and any files it includes) and `meta.json`; the analyzer runs on the case directory. The terms used here are defined in [`docs/glossary.md`](docs/glossary.md).
 
 ## Dataset
 
