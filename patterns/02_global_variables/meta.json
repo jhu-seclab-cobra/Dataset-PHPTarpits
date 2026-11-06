@@ -19,13 +19,7 @@
       "sink": "main.php:13"
     }
   ],
-  "false_positives": [
-    {
-      "type": 79,
-      "source": "main.php:10",
-      "sink": "main.php:12"
-    }
-  ],
+  "false_positives": [],
   "cve_usage": {
     "rarest_construct": "Stmt_Global",
     "repositories": 79,

@@ -19,13 +19,7 @@
       "sink": "main.php:19"
     }
   ],
-  "false_positives": [
-    {
-      "type": 79,
-      "source": "main.php:3",
-      "sink": "main.php:17"
-    }
-  ],
+  "false_positives": [],
   "cve_usage": {
     "rarest_construct": "Expr_Cast_Array",
     "repositories": 70,

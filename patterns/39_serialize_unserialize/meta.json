@@ -34,13 +34,7 @@
       "sink": "main.php:14"
     }
   ],
-  "false_positives": [
-    {
-      "type": 79,
-      "source": "main.php:18",
-      "sink": "main.php:22"
-    }
-  ],
+  "false_positives": [],
   "cve_usage": {
     "rarest_construct": "func:unserialize",
     "repositories": 70,

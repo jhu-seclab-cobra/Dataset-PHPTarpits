@@ -24,13 +24,7 @@
       "sink": "main.php:8"
     }
   ],
-  "false_positives": [
-    {
-      "type": 79,
-      "source": "main.php:13",
-      "sink": "main.php:17"
-    }
-  ],
+  "false_positives": [],
   "cve_usage": {
     "rarest_construct": "magic:__callstatic",
     "repositories": 10,

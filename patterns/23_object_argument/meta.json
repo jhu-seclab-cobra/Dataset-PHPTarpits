@@ -24,13 +24,7 @@
       "sink": "main.php:15"
     }
   ],
-  "false_positives": [
-    {
-      "type": 79,
-      "source": "main.php:12",
-      "sink": "main.php:14"
-    }
-  ],
+  "false_positives": [],
   "cve_usage": {
     "rarest_construct": "Stmt_Function",
     "repositories": 112,

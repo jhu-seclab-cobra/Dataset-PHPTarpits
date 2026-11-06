@@ -16806,13 +16806,7 @@
         "sink": "main.php:13"
       }
     ],
-    "false_positives": [
-      {
-        "type": 79,
-        "source": "main.php:10",
-        "sink": "main.php:12"
-      }
-    ]
+    "false_positives": []
   },
   {
     "name": "patterns/03_global_array",
@@ -17744,13 +17738,7 @@
         "sink": "main.php:12"
       }
     ],
-    "false_positives": [
-      {
-        "type": 79,
-        "source": "main.php:8",
-        "sink": "main.php:11"
-      }
-    ]
+    "false_positives": []
   },
   {
     "name": "patterns/10_return_by_reference",
@@ -17778,13 +17766,7 @@
         "sink": "main.php:20"
       }
     ],
-    "false_positives": [
-      {
-        "type": 79,
-        "source": "main.php:13",
-        "sink": "main.php:18"
-      }
-    ]
+    "false_positives": []
   },
   {
     "name": "patterns/11_foreach_with_reference",
@@ -17807,13 +17789,7 @@
         "sink": "main.php:14"
       }
     ],
-    "false_positives": [
-      {
-        "type": 79,
-        "source": "main.php:7",
-        "sink": "main.php:13"
-      }
-    ]
+    "false_positives": []
   },
   {
     "name": "patterns/12_make_ref",
@@ -17954,13 +17930,7 @@
         "sink": "main.php:8"
       }
     ],
-    "false_positives": [
-      {
-        "type": 79,
-        "source": "main.php:12",
-        "sink": "main.php:7"
-      }
-    ]
+    "false_positives": []
   },
   {
     "name": "patterns/17_get_arguments",
@@ -17988,13 +17958,7 @@
         "sink": "main.php:8"
       }
     ],
-    "false_positives": [
-      {
-        "type": 79,
-        "source": "main.php:12",
-        "sink": "main.php:5"
-      }
-    ]
+    "false_positives": []
   },
   {
     "name": "patterns/18_send_unpack",
@@ -18123,16 +18087,6 @@
     "false_positives": [
       {
         "type": 79,
-        "source": "second_ex.php:3",
-        "sink": "second_ex.php:7"
-      },
-      {
-        "type": 79,
-        "source": "first_ex.php:3",
-        "sink": "second_ex.php:7"
-      },
-      {
-        "type": 79,
         "source": "first_ex.php:3",
         "sink": "second_ex.php:9"
       },
@@ -18144,17 +18098,7 @@
       {
         "type": 79,
         "source": "first_ex.php:3",
-        "sink": "first_ex.php:7"
-      },
-      {
-        "type": 79,
-        "source": "first_ex.php:3",
         "sink": "first_ex.php:10"
-      },
-      {
-        "type": 79,
-        "source": "second_ex.php:3",
-        "sink": "first_ex.php:7"
       }
     ]
   },
@@ -18235,13 +18179,7 @@
         "sink": "main.php:15"
       }
     ],
-    "false_positives": [
-      {
-        "type": 79,
-        "source": "main.php:12",
-        "sink": "main.php:14"
-      }
-    ]
+    "false_positives": []
   },
   {
     "name": "patterns/24_new_self",
@@ -18535,13 +18473,7 @@
         "sink": "main.php:7"
       }
     ],
-    "false_positives": [
-      {
-        "type": 79,
-        "source": "main.php:3",
-        "sink": "main.php:10"
-      }
-    ]
+    "false_positives": []
   },
   {
     "name": "patterns/31_static_method_variable",
@@ -18786,13 +18718,7 @@
         "sink": "main.php:8"
       }
     ],
-    "false_positives": [
-      {
-        "type": 79,
-        "source": "main.php:13",
-        "sink": "main.php:17"
-      }
-    ]
+    "false_positives": []
   },
   {
     "name": "patterns/37_callstatic_overloading",
@@ -18820,13 +18746,7 @@
         "sink": "main.php:8"
       }
     ],
-    "false_positives": [
-      {
-        "type": 79,
-        "source": "main.php:13",
-        "sink": "main.php:17"
-      }
-    ]
+    "false_positives": []
   },
   {
     "name": "patterns/38_invoke",
@@ -18897,13 +18817,7 @@
         "sink": "main.php:14"
       }
     ],
-    "false_positives": [
-      {
-        "type": 79,
-        "source": "main.php:18",
-        "sink": "main.php:22"
-      }
-    ]
+    "false_positives": []
   },
   {
     "name": "patterns/40_trait",
@@ -18931,13 +18845,7 @@
         "sink": "main.php:9"
       }
     ],
-    "false_positives": [
-      {
-        "type": 79,
-        "source": "main.php:3",
-        "sink": "main.php:19"
-      }
-    ]
+    "false_positives": []
   },
   {
     "name": "patterns/41_self_methods",
@@ -19047,13 +18955,7 @@
         "sink": "main.php:20"
       }
     ],
-    "false_positives": [
-      {
-        "type": 79,
-        "source": "main.php:17",
-        "sink": "main.php:19"
-      }
-    ]
+    "false_positives": []
   },
   {
     "name": "patterns/44_verify_return_type",
@@ -19119,11 +19021,6 @@
     "false_positives": [
       {
         "type": 79,
-        "source": "second_ex.php:24",
-        "sink": "second_ex.php:25"
-      },
-      {
-        "type": 79,
         "source": "first_ex.php:25",
         "sink": "first_ex.php:22"
       },
@@ -19141,11 +19038,6 @@
         "type": 79,
         "source": "second_ex.php:24",
         "sink": "first_ex.php:22"
-      },
-      {
-        "type": 79,
-        "source": "first_ex.php:25",
-        "sink": "second_ex.php:25"
       }
     ]
   },
@@ -19198,13 +19090,7 @@
         "sink": "main.php:19"
       }
     ],
-    "false_positives": [
-      {
-        "type": 79,
-        "source": "main.php:3",
-        "sink": "main.php:17"
-      }
-    ]
+    "false_positives": []
   },
   {
     "name": "patterns/47_overriding",
@@ -19560,13 +19446,7 @@
         "sink": "main.php:13"
       }
     ],
-    "false_positives": [
-      {
-        "type": 79,
-        "source": "main.php:9",
-        "sink": "main.php:12"
-      }
-    ]
+    "false_positives": []
   },
   {
     "name": "patterns/55_goto",
@@ -19584,13 +19464,7 @@
         "sink": "main.php:6"
       }
     ],
-    "false_positives": [
-      {
-        "type": 79,
-        "source": "main.php:7",
-        "sink": "main.php:8"
-      }
-    ]
+    "false_positives": []
   },
   {
     "name": "patterns/56_exit",
@@ -19748,16 +19622,6 @@
       {
         "type": 79,
         "source": "second_ex.php:3",
-        "sink": "second_ex.php:13"
-      },
-      {
-        "type": 79,
-        "source": "first_ex.php:3",
-        "sink": "second_ex.php:13"
-      },
-      {
-        "type": 79,
-        "source": "second_ex.php:3",
         "sink": "first_ex.php:12"
       }
     ]
@@ -19867,42 +19731,12 @@
       {
         "type": 79,
         "source": "first_ex.php:3",
-        "sink": "second_ex.php:18"
-      },
-      {
-        "type": 79,
-        "source": "first_ex.php:3",
         "sink": "second_ex.php:8"
       },
       {
         "type": 79,
         "source": "second_ex.php:3",
-        "sink": "first_ex.php:17"
-      },
-      {
-        "type": 79,
-        "source": "second_ex.php:4",
-        "sink": "second_ex.php:18"
-      },
-      {
-        "type": 79,
-        "source": "second_ex.php:3",
         "sink": "first_ex.php:11"
-      },
-      {
-        "type": 79,
-        "source": "first_ex.php:3",
-        "sink": "first_ex.php:14"
-      },
-      {
-        "type": 79,
-        "source": "second_ex.php:4",
-        "sink": "first_ex.php:14"
-      },
-      {
-        "type": 79,
-        "source": "second_ex.php:3",
-        "sink": "second_ex.php:15"
       },
       {
         "type": 79,
@@ -19922,42 +19756,12 @@
       {
         "type": 79,
         "source": "second_ex.php:4",
-        "sink": "first_ex.php:17"
-      },
-      {
-        "type": 79,
-        "source": "first_ex.php:3",
-        "sink": "first_ex.php:17"
-      },
-      {
-        "type": 79,
-        "source": "second_ex.php:4",
         "sink": "first_ex.php:11"
-      },
-      {
-        "type": 79,
-        "source": "second_ex.php:3",
-        "sink": "first_ex.php:14"
       },
       {
         "type": 79,
         "source": "second_ex.php:4",
         "sink": "first_ex.php:7"
-      },
-      {
-        "type": 79,
-        "source": "second_ex.php:4",
-        "sink": "second_ex.php:15"
-      },
-      {
-        "type": 79,
-        "source": "second_ex.php:3",
-        "sink": "second_ex.php:18"
-      },
-      {
-        "type": 79,
-        "source": "first_ex.php:3",
-        "sink": "second_ex.php:15"
       }
     ]
   },
@@ -20385,11 +20189,6 @@
         "type": 79,
         "source": "main.php:3",
         "sink": "main.php:4"
-      },
-      {
-        "type": 79,
-        "source": "main.php:3",
-        "sink": "*"
       }
     ]
   },
@@ -20477,16 +20276,6 @@
         "type": 79,
         "source": "second_ex.php:3",
         "sink": "first_ex.php:8"
-      },
-      {
-        "type": 79,
-        "source": "first_ex.php:3",
-        "sink": "first_ex.php:7"
-      },
-      {
-        "type": 79,
-        "source": "second_ex.php:3",
-        "sink": "first_ex.php:7"
       }
     ]
   },
@@ -20718,18 +20507,8 @@
     "false_positives": [
       {
         "type": 79,
-        "source": "second_ex.php:7",
-        "sink": "first_ex.php:10"
-      },
-      {
-        "type": 79,
         "source": "second_ex.php:8",
         "sink": "second_ex.php:5"
-      },
-      {
-        "type": 79,
-        "source": "second_ex.php:7",
-        "sink": "second_ex.php:10"
       },
       {
         "type": 79,
@@ -20743,28 +20522,8 @@
       },
       {
         "type": 79,
-        "source": "second_ex.php:8",
-        "sink": "first_ex.php:10"
-      },
-      {
-        "type": 79,
-        "source": "second_ex.php:8",
-        "sink": "second_ex.php:10"
-      },
-      {
-        "type": 79,
         "source": "second_ex.php:7",
         "sink": "first_ex.php:5"
-      },
-      {
-        "type": 79,
-        "source": "first_ex.php:7",
-        "sink": "first_ex.php:10"
-      },
-      {
-        "type": 79,
-        "source": "first_ex.php:7",
-        "sink": "second_ex.php:10"
       }
     ]
   },
@@ -20878,13 +20637,7 @@
         "sink": "MyClass1.php:7"
       }
     ],
-    "false_positives": [
-      {
-        "type": 79,
-        "source": "main.php:6",
-        "sink": "MyClass1.php:3"
-      }
-    ]
+    "false_positives": []
   },
   {
     "name": "patterns/79_dynamic_include",
@@ -21262,16 +21015,6 @@
     "false_positives": [
       {
         "type": 79,
-        "source": "second_ex.php:16",
-        "sink": "third_ex.php:10"
-      },
-      {
-        "type": 79,
-        "source": "second_ex.php:16",
-        "sink": "first_ex.php:10"
-      },
-      {
-        "type": 79,
         "source": "second_ex.php:15",
         "sink": "first_ex.php:12"
       },
@@ -21283,37 +21026,12 @@
       {
         "type": 79,
         "source": "second_ex.php:16",
-        "sink": "third_ex.php:19"
-      },
-      {
-        "type": 79,
-        "source": "second_ex.php:16",
         "sink": "third_ex.php:12"
       },
       {
         "type": 79,
         "source": "third_ex.php:16",
-        "sink": "second_ex.php:18"
-      },
-      {
-        "type": 79,
-        "source": "third_ex.php:15",
-        "sink": "second_ex.php:18"
-      },
-      {
-        "type": 79,
-        "source": "third_ex.php:16",
         "sink": "second_ex.php:12"
-      },
-      {
-        "type": 79,
-        "source": "third_ex.php:16",
-        "sink": "third_ex.php:10"
-      },
-      {
-        "type": 79,
-        "source": "third_ex.php:16",
-        "sink": "first_ex.php:10"
       },
       {
         "type": 79,
@@ -21323,62 +21041,7 @@
       {
         "type": 79,
         "source": "third_ex.php:16",
-        "sink": "first_ex.php:18"
-      },
-      {
-        "type": 79,
-        "source": "second_ex.php:15",
-        "sink": "second_ex.php:18"
-      },
-      {
-        "type": 79,
-        "source": "second_ex.php:16",
-        "sink": "second_ex.php:10"
-      },
-      {
-        "type": 79,
-        "source": "second_ex.php:15",
-        "sink": "third_ex.php:10"
-      },
-      {
-        "type": 79,
-        "source": "second_ex.php:15",
-        "sink": "first_ex.php:10"
-      },
-      {
-        "type": 79,
-        "source": "second_ex.php:15",
-        "sink": "first_ex.php:18"
-      },
-      {
-        "type": 79,
-        "source": "first_ex.php:15",
-        "sink": "first_ex.php:10"
-      },
-      {
-        "type": 79,
-        "source": "third_ex.php:15",
-        "sink": "first_ex.php:18"
-      },
-      {
-        "type": 79,
-        "source": "third_ex.php:15",
-        "sink": "first_ex.php:10"
-      },
-      {
-        "type": 79,
-        "source": "third_ex.php:16",
-        "sink": "third_ex.php:19"
-      },
-      {
-        "type": 79,
-        "source": "third_ex.php:16",
         "sink": "third_ex.php:12"
-      },
-      {
-        "type": 79,
-        "source": "first_ex.php:15",
-        "sink": "second_ex.php:18"
       },
       {
         "type": 79,
@@ -21392,63 +21055,13 @@
       },
       {
         "type": 79,
-        "source": "first_ex.php:15",
-        "sink": "third_ex.php:10"
-      },
-      {
-        "type": 79,
-        "source": "first_ex.php:15",
-        "sink": "first_ex.php:18"
-      },
-      {
-        "type": 79,
         "source": "second_ex.php:15",
         "sink": "third_ex.php:12"
       },
       {
         "type": 79,
-        "source": "third_ex.php:15",
-        "sink": "third_ex.php:10"
-      },
-      {
-        "type": 79,
-        "source": "third_ex.php:15",
-        "sink": "third_ex.php:19"
-      },
-      {
-        "type": 79,
-        "source": "third_ex.php:16",
-        "sink": "second_ex.php:10"
-      },
-      {
-        "type": 79,
         "source": "first_ex.php:15",
         "sink": "third_ex.php:12"
-      },
-      {
-        "type": 79,
-        "source": "second_ex.php:15",
-        "sink": "third_ex.php:19"
-      },
-      {
-        "type": 79,
-        "source": "second_ex.php:15",
-        "sink": "second_ex.php:10"
-      },
-      {
-        "type": 79,
-        "source": "first_ex.php:15",
-        "sink": "third_ex.php:19"
-      },
-      {
-        "type": 79,
-        "source": "second_ex.php:16",
-        "sink": "second_ex.php:18"
-      },
-      {
-        "type": 79,
-        "source": "third_ex.php:15",
-        "sink": "second_ex.php:10"
       },
       {
         "type": 79,
@@ -21457,18 +21070,8 @@
       },
       {
         "type": 79,
-        "source": "second_ex.php:16",
-        "sink": "first_ex.php:18"
-      },
-      {
-        "type": 79,
         "source": "third_ex.php:16",
         "sink": "first_ex.php:12"
-      },
-      {
-        "type": 79,
-        "source": "first_ex.php:15",
-        "sink": "second_ex.php:10"
       },
       {
         "type": 79,
@@ -21620,11 +21223,6 @@
       },
       {
         "type": 79,
-        "source": "first_ex.php:4",
-        "sink": "third_ex.php:7"
-      },
-      {
-        "type": 79,
         "source": "second_ex.php:5",
         "sink": "third_ex.php:7"
       },
@@ -21655,11 +21253,6 @@
       },
       {
         "type": 79,
-        "source": "first_ex.php:4",
-        "sink": "first_ex.php:8"
-      },
-      {
-        "type": 79,
         "source": "second_ex.php:5",
         "sink": "first_ex.php:8"
       },
@@ -21671,11 +21264,6 @@
       {
         "type": 79,
         "source": "first_ex.php:6",
-        "sink": "second_ex.php:7"
-      },
-      {
-        "type": 79,
-        "source": "first_ex.php:4",
         "sink": "second_ex.php:7"
       },
       {
@@ -21755,16 +21343,6 @@
     ],
     "true_positives": [],
     "false_positives": [
-      {
-        "type": 79,
-        "source": "main.php:3",
-        "sink": "main.php:14"
-      },
-      {
-        "type": 79,
-        "source": "main.php:4",
-        "sink": "main.php:14"
-      },
       {
         "type": 79,
         "source": "main.php:3",
@@ -21925,18 +21503,8 @@
     "false_positives": [
       {
         "type": 79,
-        "source": "second_ex.php:3",
-        "sink": "second_ex.php:7"
-      },
-      {
-        "type": 79,
         "source": "first_ex.php:3",
         "sink": "second_ex.php:8"
-      },
-      {
-        "type": 79,
-        "source": "first_ex.php:3",
-        "sink": "second_ex.php:7"
       },
       {
         "type": 79,
@@ -21947,16 +21515,6 @@
         "type": 79,
         "source": "second_ex.php:3",
         "sink": "second_ex.php:8"
-      },
-      {
-        "type": 79,
-        "source": "first_ex.php:3",
-        "sink": "first_ex.php:7"
-      },
-      {
-        "type": 79,
-        "source": "second_ex.php:3",
-        "sink": "first_ex.php:7"
       }
     ]
   },
@@ -22039,11 +21597,6 @@
         "type": 79,
         "source": "main.php:3",
         "sink": "main.php:8"
-      },
-      {
-        "type": 79,
-        "source": "main.php:3",
-        "sink": "main.php:20"
       }
     ]
   },
@@ -22154,13 +21707,7 @@
         "sink": "main.php:13"
       }
     ],
-    "false_positives": [
-      {
-        "type": 79,
-        "source": "main.php:10",
-        "sink": "main.php:11"
-      }
-    ]
+    "false_positives": []
   },
   {
     "name": "patterns/94_sanitizers",

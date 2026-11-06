@@ -24,11 +24,6 @@
       "type": 79,
       "source": "main.php:3",
       "sink": "main.php:8"
-    },
-    {
-      "type": 79,
-      "source": "main.php:3",
-      "sink": "main.php:20"
     }
   ],
   "cve_usage": {
