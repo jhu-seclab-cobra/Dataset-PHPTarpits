@@ -2,7 +2,7 @@
 
 ## Overview
 The **PHPTarpits** dataset provides a collection of test challenges for evaluating a static analysis approach for PHP [not_released](?).
-In total, there are **259** patterns, including **805 true positive instances** and **1034 false positive instances**. This dataset builds on **TestabilityTarpits** (Al Kassar et al., NDSS 2022), retaining 96 PHP-specific patterns. Additionally, we introduce **163 new patterns** organized by PHP-Parser AST node types to cover all 142 non-structural AST node types in PHP 8+.
+In total, there are **259** patterns, including **783 true positive instances** and **1054 false positive instances**. This dataset builds on **TestabilityTarpits** (Al Kassar et al., NDSS 2022), retaining 96 PHP-specific patterns. Additionally, we introduce **163 new patterns** organized by PHP-Parser AST node types to cover all 142 non-structural AST node types in PHP 8+.
 
 
 ## Dataset Structure
@@ -11,16 +11,17 @@ The dataset is organized into two main directories:
 ### **1. `./patterns/` (Modified Testability Cases)**
 This directory contains modified versions of the original **TestabilityTarpits** patterns, ensuring syntax correctness. It includes:
 - **96 patterns**
-- **537 instances**, categorized as:
-  - **143 true positive cases**
-  - **394 false positive cases**
+- **527 instances**, categorized as:
+  - **117 true positive cases**
+  - **410 false positive cases**
+  - **341 call edges**
 
 ### **2. `./extends/` (Extended Patterns by AST Node Type)**
 This directory introduces additional patterns organized by PHP-Parser AST node type names (`Expr_*`, `Stmt_*`, `Scalar_*`). Each directory corresponds to a specific AST construct and contains test cases for taint vulnerability detection through that construct. It includes:
 - **163 patterns** covering all **142** non-structural AST node types
-- **1,312 instances**, categorized as:
-  - **667 true positive cases**
-  - **645 false positive cases**
+- **1,310 instances**, categorized as:
+  - **666 true positive cases**
+  - **644 false positive cases**
   - **1,677 call edges**
 
 Multi-case AST types (e.g., `Expr_FuncCall/`, `Expr_MethodCall/`) contain subdirectories for each test variant. Single-case types contain `main.php` and `meta.json` directly.
