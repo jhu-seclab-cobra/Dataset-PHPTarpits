@@ -16878,6 +16878,11 @@
     "call_edges": [
       {
         "type": "STATIC",
+        "callsite": "main.php:5",
+        "callee": "array::__construct@Builtin[Core]"
+      },
+      {
+        "type": "STATIC",
         "callsite": "main.php:7",
         "callee": "echo@Builtin[keyword]"
       }
@@ -17786,6 +17791,11 @@
     "call_edges": [
       {
         "type": "STATIC",
+        "callsite": "main.php:6",
+        "callee": "array::__construct@Builtin[Core]"
+      },
+      {
+        "type": "STATIC",
         "callsite": "main.php:14",
         "callee": "echo@Builtin[keyword]"
       }
@@ -17810,8 +17820,18 @@
     "call_edges": [
       {
         "type": "STATIC",
+        "callsite": "first_ex.php:3",
+        "callee": "array::__construct@Builtin[Core]"
+      },
+      {
+        "type": "STATIC",
         "callsite": "first_ex.php:6",
         "callee": "echo@Builtin[keyword]"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "second_ex.php:3",
+        "callee": "array::__construct@Builtin[Core]"
       },
       {
         "type": "STATIC",
@@ -17988,6 +18008,11 @@
         "type": "STATIC",
         "callsite": "main.php:8",
         "callee": "echo@Builtin[keyword]"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:12",
+        "callee": "array::__construct@Builtin[Core]"
       },
       {
         "type": "STATIC",
@@ -19629,8 +19654,18 @@
     "call_edges": [
       {
         "type": "STATIC",
+        "callsite": "first_ex.php:4",
+        "callee": "array::__construct@Builtin[Core]"
+      },
+      {
+        "type": "STATIC",
         "callsite": "first_ex.php:6",
         "callee": "echo@Builtin[keyword]"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "second_ex.php:4",
+        "callee": "array::__construct@Builtin[Core]"
       },
       {
         "type": "STATIC",
@@ -19668,6 +19703,11 @@
     "call_edges": [
       {
         "type": "STATIC",
+        "callsite": "first_ex.php:4",
+        "callee": "array::__construct@Builtin[Core]"
+      },
+      {
+        "type": "STATIC",
         "callsite": "first_ex.php:11",
         "callee": "array_keys@Builtin[standard]"
       },
@@ -19675,6 +19715,11 @@
         "type": "STATIC",
         "callsite": "first_ex.php:12",
         "callee": "echo@Builtin[keyword]"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "second_ex.php:5",
+        "callee": "array::__construct@Builtin[Core]"
       },
       {
         "type": "STATIC",
@@ -19732,6 +19777,11 @@
       },
       {
         "type": "STATIC",
+        "callsite": "first_ex.php:13",
+        "callee": "array::__construct@Builtin[Core]"
+      },
+      {
+        "type": "STATIC",
         "callsite": "first_ex.php:16",
         "callee": "array_walk@Builtin[standard]"
       },
@@ -19754,6 +19804,11 @@
         "type": "STATIC",
         "callsite": "second_ex.php:12",
         "callee": "echo@Builtin[keyword]"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "second_ex.php:14",
+        "callee": "array::__construct@Builtin[Core]"
       },
       {
         "type": "STATIC",
@@ -19916,6 +19971,11 @@
       },
       {
         "type": "STATIC",
+        "callsite": "first_ex.php:9",
+        "callee": "array::__construct@Builtin[Core]"
+      },
+      {
+        "type": "STATIC",
         "callsite": "first_ex.php:11",
         "callee": "array_map@Builtin[standard]"
       },
@@ -19923,6 +19983,11 @@
         "type": "STATIC",
         "callsite": "second_ex.php:5",
         "callee": "echo@Builtin[keyword]"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "second_ex.php:10",
+        "callee": "array::__construct@Builtin[Core]"
       },
       {
         "type": "STATIC",
@@ -20241,6 +20306,11 @@
     "call_edges": [
       {
         "type": "STATIC",
+        "callsite": "first_ex.php:8",
+        "callee": "array::__construct@Builtin[Core]"
+      },
+      {
+        "type": "STATIC",
         "callsite": "first_ex.php:10",
         "callee": "compact@Builtin[standard]"
       },
@@ -20248,6 +20318,11 @@
         "type": "STATIC",
         "callsite": "first_ex.php:11",
         "callee": "echo@Builtin[keyword]"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "second_ex.php:8",
+        "callee": "array::__construct@Builtin[Core]"
       },
       {
         "type": "STATIC",
@@ -20323,6 +20398,11 @@
     "call_edges": [
       {
         "type": "STATIC",
+        "callsite": "main.php:4",
+        "callee": "array::__construct@Builtin[Core]"
+      },
+      {
+        "type": "STATIC",
         "callsite": "main.php:5",
         "callee": "extract@Builtin[standard]"
       },
@@ -20346,6 +20426,11 @@
     "call_edges": [
       {
         "type": "STATIC",
+        "callsite": "first_ex.php:4",
+        "callee": "array::__construct@Builtin[Core]"
+      },
+      {
+        "type": "STATIC",
         "callsite": "first_ex.php:5",
         "callee": "sort@Builtin[standard]"
       },
@@ -20353,6 +20438,11 @@
         "type": "STATIC",
         "callsite": "first_ex.php:8",
         "callee": "echo@Builtin[keyword]"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "second_ex.php:4",
+        "callee": "array::__construct@Builtin[Core]"
       },
       {
         "type": "STATIC",
@@ -20705,6 +20795,16 @@
         "type": "DYNAMIC",
         "callsite": "first_ex.php:18",
         "callee": "foo::baz@first_ex.php:10"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "first_ex.php:18",
+        "callee": "array::__construct@Builtin[Core]"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "second_ex.php:19",
+        "callee": "array::__construct@Builtin[Core]"
       }
     ],
     "true_positives": [
@@ -20972,6 +21072,11 @@
         "type": "DYNAMIC",
         "callsite": "third_ex.php:10",
         "callee": "F@third_ex.php:3"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "third_ex.php:10",
+        "callee": "array::__construct@Builtin[Core]"
       }
     ],
     "true_positives": [
@@ -21456,13 +21561,28 @@
     "call_edges": [
       {
         "type": "STATIC",
+        "callsite": "third_ex.php:6",
+        "callee": "array::__construct@Builtin[Core]"
+      },
+      {
+        "type": "STATIC",
         "callsite": "third_ex.php:7",
         "callee": "echo@Builtin[keyword]"
       },
       {
         "type": "STATIC",
+        "callsite": "first_ex.php:7",
+        "callee": "array::__construct@Builtin[Core]"
+      },
+      {
+        "type": "STATIC",
         "callsite": "first_ex.php:8",
         "callee": "echo@Builtin[keyword]"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "second_ex.php:6",
+        "callee": "array::__construct@Builtin[Core]"
       },
       {
         "type": "STATIC",
@@ -21662,6 +21782,11 @@
     "call_edges": [
       {
         "type": "STATIC",
+        "callsite": "main.php:5",
+        "callee": "array::__construct@Builtin[Core]"
+      },
+      {
+        "type": "STATIC",
         "callsite": "main.php:11",
         "callee": "arrayiterator::__construct@Builtin[SPL]"
       },
@@ -21743,6 +21868,11 @@
     "call_edges": [
       {
         "type": "STATIC",
+        "callsite": "main.php:4",
+        "callee": "array::__construct@Builtin[Core]"
+      },
+      {
+        "type": "STATIC",
         "callsite": "main.php:7",
         "callee": "unset@Builtin[keyword]"
       },
@@ -21766,8 +21896,18 @@
     "call_edges": [
       {
         "type": "STATIC",
+        "callsite": "first_ex.php:4",
+        "callee": "array::__construct@Builtin[Core]"
+      },
+      {
+        "type": "STATIC",
         "callsite": "first_ex.php:8",
         "callee": "echo@Builtin[keyword]"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "second_ex.php:4",
+        "callee": "array::__construct@Builtin[Core]"
       },
       {
         "type": "STATIC",

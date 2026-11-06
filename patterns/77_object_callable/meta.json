@@ -25,6 +25,16 @@
       "type": "DYNAMIC",
       "callsite": "first_ex.php:18",
       "callee": "foo::baz@first_ex.php:10"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "first_ex.php:18",
+      "callee": "array::__construct@Builtin[Core]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "second_ex.php:19",
+      "callee": "array::__construct@Builtin[Core]"
     }
   ],
   "true_positives": [

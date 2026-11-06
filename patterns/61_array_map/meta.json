@@ -8,6 +8,11 @@
     },
     {
       "type": "STATIC",
+      "callsite": "first_ex.php:9",
+      "callee": "array::__construct@Builtin[Core]"
+    },
+    {
+      "type": "STATIC",
       "callsite": "first_ex.php:11",
       "callee": "array_map@Builtin[standard]"
     },
@@ -15,6 +20,11 @@
       "type": "STATIC",
       "callsite": "second_ex.php:5",
       "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "second_ex.php:10",
+      "callee": "array::__construct@Builtin[Core]"
     },
     {
       "type": "STATIC",

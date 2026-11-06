@@ -3,13 +3,28 @@
   "call_edges": [
     {
       "type": "STATIC",
+      "callsite": "third_ex.php:6",
+      "callee": "array::__construct@Builtin[Core]"
+    },
+    {
+      "type": "STATIC",
       "callsite": "third_ex.php:7",
       "callee": "echo@Builtin[keyword]"
     },
     {
       "type": "STATIC",
+      "callsite": "first_ex.php:7",
+      "callee": "array::__construct@Builtin[Core]"
+    },
+    {
+      "type": "STATIC",
       "callsite": "first_ex.php:8",
       "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "second_ex.php:6",
+      "callee": "array::__construct@Builtin[Core]"
     },
     {
       "type": "STATIC",

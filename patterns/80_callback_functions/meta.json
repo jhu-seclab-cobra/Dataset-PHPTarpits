@@ -65,6 +65,11 @@
       "type": "DYNAMIC",
       "callsite": "third_ex.php:10",
       "callee": "F@third_ex.php:3"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "third_ex.php:10",
+      "callee": "array::__construct@Builtin[Core]"
     }
   ],
   "true_positives": [

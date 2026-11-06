@@ -13,6 +13,11 @@
     },
     {
       "type": "STATIC",
+      "callsite": "main.php:12",
+      "callee": "array::__construct@Builtin[Core]"
+    },
+    {
+      "type": "STATIC",
       "callsite": "main.php:13",
       "callee": "add@main.php:4"
     }
