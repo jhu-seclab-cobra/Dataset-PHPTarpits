@@ -149,18 +149,6 @@ The `patterns/` cases derive from TestabilityTarpits; please also cite:
 }
 ```
 
-The usage counts in `cve_usage` come from PHPCVEs; please cite it when you use them:
-
-```bibtex
-@misc{phpcves,
-  title = {{PHPCVEs}: {PHP} Web Applications with Taint-Style {CVEs}},
-  author = {{jhu-seclab-cobra}},
-  year = {2025},
-  version = {v2025.03},
-  howpublished = {\url{https://github.com/jhu-seclab-cobra/Dataset-PHPCVEs/releases/tag/v2025.03}}
-}
-```
-
 ## License
 
 [GPL-2.0](LICENSE). Third-party terms for `patterns/`: [`docs/THIRD_PARTY_NOTICES.md`](docs/THIRD_PARTY_NOTICES.md).
