@@ -140,5 +140,15 @@
       "source": "main.php:3",
       "sink": "main.php:41"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "Expr_ArrayDimFetch",
+    "repositories": 130,
+    "repositories_percent": 100.0,
+    "occurrences": 1905574,
+    "snapshots": 258,
+    "defining_constructs": {
+      "Expr_ArrayDimFetch": 130
+    }
+  }
 }

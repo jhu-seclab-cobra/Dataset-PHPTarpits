@@ -220,5 +220,15 @@
       "source": "main.php:3",
       "sink": "main.php:32"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "Expr_BinaryOp_NotIdentical",
+    "repositories": 108,
+    "repositories_percent": 83.1,
+    "occurrences": 40205,
+    "snapshots": 235,
+    "defining_constructs": {
+      "Expr_BinaryOp_NotIdentical": 108
+    }
+  }
 }

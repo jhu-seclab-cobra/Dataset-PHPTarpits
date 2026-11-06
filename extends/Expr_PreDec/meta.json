@@ -125,5 +125,15 @@
       "source": "main.php:3",
       "sink": "main.php:32"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "Expr_PreDec",
+    "repositories": 54,
+    "repositories_percent": 41.5,
+    "occurrences": 1264,
+    "snapshots": 163,
+    "defining_constructs": {
+      "Expr_PreDec": 54
+    }
+  }
 }

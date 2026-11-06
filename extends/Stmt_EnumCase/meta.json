@@ -40,5 +40,15 @@
       "source": "main.php:14",
       "sink": "main.php:23"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "Stmt_EnumCase",
+    "repositories": 3,
+    "repositories_percent": 2.3,
+    "occurrences": 30,
+    "snapshots": 14,
+    "defining_constructs": {
+      "Stmt_EnumCase": 3
+    }
+  }
 }

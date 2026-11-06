@@ -65,5 +65,19 @@
       "source": "second_ex.php:11",
       "sink": "first_ex.php:7"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "Expr_MethodCall[name=Expr]",
+    "repositories": 67,
+    "repositories_percent": 51.5,
+    "occurrences": 1305,
+    "snapshots": 171,
+    "defining_constructs": {
+      "Expr_MethodCall": 122,
+      "Expr_MethodCall[name=Expr]": 67,
+      "Expr_New": 120,
+      "Stmt_Class": 104,
+      "Stmt_ClassMethod": 104
+    }
+  }
 }

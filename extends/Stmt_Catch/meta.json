@@ -50,5 +50,15 @@
       "source": "main.php:8",
       "sink": "main.php:15"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "Stmt_Catch",
+    "repositories": 91,
+    "repositories_percent": 70.0,
+    "occurrences": 10643,
+    "snapshots": 214,
+    "defining_constructs": {
+      "Stmt_Catch": 91
+    }
+  }
 }

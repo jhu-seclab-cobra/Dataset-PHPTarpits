@@ -24,5 +24,15 @@
       "source": "main.php:16",
       "sink": "main.php:26"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "Stmt_Echo",
+    "repositories": 124,
+    "repositories_percent": 95.4,
+    "occurrences": 194429,
+    "snapshots": 252,
+    "defining_constructs": {
+      "Stmt_Echo": 124
+    }
+  }
 }

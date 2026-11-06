@@ -148,5 +148,15 @@
     }
   ],
   "true_positives": [],
-  "false_positives": []
+  "false_positives": [],
+  "cve_usage": {
+    "rarest_construct": "Expr_Empty",
+    "repositories": 109,
+    "repositories_percent": 83.8,
+    "occurrences": 118086,
+    "snapshots": 234,
+    "defining_constructs": {
+      "Expr_Empty": 109
+    }
+  }
 }

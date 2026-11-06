@@ -38,5 +38,15 @@
     }
   ],
   "true_positives": [],
-  "false_positives": []
+  "false_positives": [],
+  "cve_usage": {
+    "rarest_construct": "Expr_Isset",
+    "repositories": 123,
+    "repositories_percent": 94.6,
+    "occurrences": 125964,
+    "snapshots": 251,
+    "defining_constructs": {
+      "Expr_Isset": 123
+    }
+  }
 }

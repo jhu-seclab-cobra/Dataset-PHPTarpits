@@ -165,5 +165,15 @@
       "source": "main.php:3",
       "sink": "main.php:32"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "Expr_BinaryOp_Mod",
+    "repositories": 86,
+    "repositories_percent": 66.2,
+    "occurrences": 4315,
+    "snapshots": 209,
+    "defining_constructs": {
+      "Expr_BinaryOp_Mod": 86
+    }
+  }
 }

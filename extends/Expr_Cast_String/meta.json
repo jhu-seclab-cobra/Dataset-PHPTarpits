@@ -230,5 +230,15 @@
       "source": "main.php:3",
       "sink": "main.php:56"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "Expr_Cast_String",
+    "repositories": 79,
+    "repositories_percent": 60.8,
+    "occurrences": 10799,
+    "snapshots": 197,
+    "defining_constructs": {
+      "Expr_Cast_String": 79
+    }
+  }
 }

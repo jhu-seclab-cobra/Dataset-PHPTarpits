@@ -14,5 +14,15 @@
       "source": "main.php:21",
       "sink": "main.php:12"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "Stmt_Trait",
+    "repositories": 23,
+    "repositories_percent": 17.7,
+    "occurrences": 433,
+    "snapshots": 35,
+    "defining_constructs": {
+      "Stmt_Trait": 23
+    }
+  }
 }

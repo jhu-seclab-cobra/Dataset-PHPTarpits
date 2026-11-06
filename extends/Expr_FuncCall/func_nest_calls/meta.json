@@ -40,5 +40,15 @@
       "source": "main.php:14",
       "sink": "main.php:10"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "Expr_FuncCall",
+    "repositories": 129,
+    "repositories_percent": 99.2,
+    "occurrences": 1287840,
+    "snapshots": 257,
+    "defining_constructs": {
+      "Expr_FuncCall": 129
+    }
+  }
 }

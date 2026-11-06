@@ -35,5 +35,15 @@
       "source": "main.php:16",
       "sink": "main.php:7"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "Expr_StaticCall",
+    "repositories": 98,
+    "repositories_percent": 75.4,
+    "occurrences": 318324,
+    "snapshots": 221,
+    "defining_constructs": {
+      "Expr_StaticCall": 98
+    }
+  }
 }

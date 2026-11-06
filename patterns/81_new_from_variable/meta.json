@@ -274,5 +274,24 @@
       "source": "third_ex.php:15",
       "sink": "third_ex.php:12"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "Expr_New[class=Expr]",
+    "repositories": 73,
+    "repositories_percent": 56.2,
+    "occurrences": 2828,
+    "snapshots": 176,
+    "defining_constructs": {
+      "Expr_BinaryOp_Concat": 128,
+      "Expr_ConstFetch": 128,
+      "Expr_MethodCall": 122,
+      "Expr_New": 120,
+      "Expr_New[class=Expr]": 73,
+      "Expr_PropertyFetch": 112,
+      "Stmt_Class": 104,
+      "Stmt_ClassMethod": 104,
+      "Stmt_Property": 102,
+      "magic:__construct": 97
+    }
+  }
 }

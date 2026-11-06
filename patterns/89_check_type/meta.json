@@ -49,5 +49,20 @@
       "source": "main.php:3",
       "sink": "main.php:16"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "func:is_float",
+    "repositories": 40,
+    "repositories_percent": 30.8,
+    "occurrences": 263,
+    "snapshots": 75,
+    "defining_constructs": {
+      "Expr_BinaryOp_Concat": 128,
+      "Expr_FuncCall": 129,
+      "Stmt_If": 129,
+      "func:is_bool": 64,
+      "func:is_float": 40,
+      "func:is_int": 70
+    }
+  }
 }

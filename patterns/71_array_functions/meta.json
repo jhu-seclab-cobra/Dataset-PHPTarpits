@@ -55,5 +55,20 @@
       "source": "second_ex.php:3",
       "sink": "first_ex.php:7"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "func:array_pad",
+    "repositories": 23,
+    "repositories_percent": 17.7,
+    "occurrences": 86,
+    "snapshots": 55,
+    "defining_constructs": {
+      "Expr_Array": 123,
+      "Expr_BinaryOp_Concat": 128,
+      "Expr_FuncCall": 129,
+      "Scalar_Int": 129,
+      "func:array_pad": 23,
+      "func:sort": 70
+    }
+  }
 }

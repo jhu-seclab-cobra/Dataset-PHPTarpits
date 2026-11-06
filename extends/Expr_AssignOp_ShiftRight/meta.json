@@ -125,5 +125,15 @@
       "source": "main.php:3",
       "sink": "main.php:32"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "Expr_AssignOp_ShiftRight",
+    "repositories": 16,
+    "repositories_percent": 12.3,
+    "occurrences": 69,
+    "snapshots": 30,
+    "defining_constructs": {
+      "Expr_AssignOp_ShiftRight": 16
+    }
+  }
 }

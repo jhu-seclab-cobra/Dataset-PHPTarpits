@@ -55,5 +55,17 @@
       "source": "second_ex.php:3",
       "sink": "first_ex.php:7"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "Expr_BinaryOp_Minus",
+    "repositories": 113,
+    "repositories_percent": 86.9,
+    "occurrences": 49061,
+    "snapshots": 240,
+    "defining_constructs": {
+      "Expr_Array": 123,
+      "Expr_BinaryOp_Minus": 113,
+      "Scalar_Int": 129
+    }
+  }
 }

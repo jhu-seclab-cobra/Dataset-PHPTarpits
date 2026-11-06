@@ -24,5 +24,17 @@
       "sink": "main.php:6"
     }
   ],
-  "false_positives": []
+  "false_positives": [],
+  "cve_usage": {
+    "rarest_construct": "Stmt_Static",
+    "repositories": 72,
+    "repositories_percent": 55.4,
+    "occurrences": 3104,
+    "snapshots": 183,
+    "defining_constructs": {
+      "Expr_FuncCall": 129,
+      "Stmt_Function": 112,
+      "Stmt_Static": 72
+    }
+  }
 }

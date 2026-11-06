@@ -65,5 +65,18 @@
       "source": "fourth_ex.php:3",
       "sink": "fourth_ex.php:3"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "func:session_start",
+    "repositories": 87,
+    "repositories_percent": 66.9,
+    "occurrences": 908,
+    "snapshots": 211,
+    "defining_constructs": {
+      "Expr_FuncCall": 129,
+      "Expr_Include": 124,
+      "Expr_Include[type=include]": 101,
+      "func:session_start": 87
+    }
+  }
 }

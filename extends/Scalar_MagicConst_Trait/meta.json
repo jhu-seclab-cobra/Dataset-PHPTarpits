@@ -14,5 +14,15 @@
       "source": "main.php:21",
       "sink": "main.php:7"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "Scalar_MagicConst_Trait",
+    "repositories": 1,
+    "repositories_percent": 0.8,
+    "occurrences": 1,
+    "snapshots": 1,
+    "defining_constructs": {
+      "Scalar_MagicConst_Trait": 1
+    }
+  }
 }

@@ -180,5 +180,20 @@
       "source": "fifth_ex.php:8",
       "sink": "fifth_ex.php:5"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "func:call_user_func",
+    "repositories": 71,
+    "repositories_percent": 54.6,
+    "occurrences": 1271,
+    "snapshots": 128,
+    "defining_constructs": {
+      "Expr_Array": 123,
+      "Expr_BinaryOp_Concat": 128,
+      "Expr_FuncCall": 129,
+      "Stmt_Function": 112,
+      "func:call_user_func": 71,
+      "func:call_user_func_array": 73
+    }
+  }
 }

@@ -125,5 +125,15 @@
       "source": "main.php:3",
       "sink": "main.php:32"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "Expr_PreInc",
+    "repositories": 76,
+    "repositories_percent": 58.5,
+    "occurrences": 10009,
+    "snapshots": 194,
+    "defining_constructs": {
+      "Expr_PreInc": 76
+    }
+  }
 }

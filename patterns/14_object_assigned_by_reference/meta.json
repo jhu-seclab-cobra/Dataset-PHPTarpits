@@ -19,5 +19,19 @@
       "sink": "main.php:11"
     }
   ],
-  "false_positives": []
+  "false_positives": [],
+  "cve_usage": {
+    "rarest_construct": "Expr_AssignRef",
+    "repositories": 74,
+    "repositories_percent": 56.9,
+    "occurrences": 5734,
+    "snapshots": 188,
+    "defining_constructs": {
+      "Expr_AssignRef": 74,
+      "Expr_New": 120,
+      "Expr_PropertyFetch": 112,
+      "Stmt_Class": 104,
+      "Stmt_Property": 102
+    }
+  }
 }

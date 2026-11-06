@@ -55,5 +55,18 @@
       "source": "second_ex.php:9",
       "sink": "first_ex.php:5"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "Expr_Closure",
+    "repositories": 70,
+    "repositories_percent": 53.8,
+    "occurrences": 9404,
+    "snapshots": 182,
+    "defining_constructs": {
+      "Expr_Array": 123,
+      "Expr_Closure": 70,
+      "Expr_FuncCall": 129,
+      "func:array_map": 84
+    }
+  }
 }

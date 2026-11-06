@@ -14,5 +14,15 @@
       "source": "main.php:2",
       "sink": "main.php:8"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "Stmt_InlineHTML",
+    "repositories": 115,
+    "repositories_percent": 88.5,
+    "occurrences": 216862,
+    "snapshots": 242,
+    "defining_constructs": {
+      "Stmt_InlineHTML": 115
+    }
+  }
 }

@@ -19,5 +19,19 @@
       "sink": "main.php:12"
     }
   ],
-  "false_positives": []
+  "false_positives": [],
+  "cve_usage": {
+    "rarest_construct": "Expr_StaticCall",
+    "repositories": 98,
+    "repositories_percent": 75.4,
+    "occurrences": 318324,
+    "snapshots": 221,
+    "defining_constructs": {
+      "Expr_MethodCall": 122,
+      "Expr_New": 120,
+      "Expr_StaticCall": 98,
+      "Stmt_Class": 104,
+      "Stmt_ClassMethod": 104
+    }
+  }
 }

@@ -45,5 +45,17 @@
       "source": "second_ex.php:4",
       "sink": "first_ex.php:8"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "func:strip_tags",
+    "repositories": 78,
+    "repositories_percent": 60.0,
+    "occurrences": 2062,
+    "snapshots": 193,
+    "defining_constructs": {
+      "Expr_FuncCall": 129,
+      "func:json_encode": 94,
+      "func:strip_tags": 78
+    }
+  }
 }

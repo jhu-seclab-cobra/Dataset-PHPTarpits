@@ -145,5 +145,15 @@
       "source": "main.php:3",
       "sink": "main.php:41"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "Expr_ArrowFunction",
+    "repositories": 13,
+    "repositories_percent": 10.0,
+    "occurrences": 1070,
+    "snapshots": 27,
+    "defining_constructs": {
+      "Expr_ArrowFunction": 13
+    }
+  }
 }

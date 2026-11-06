@@ -24,5 +24,17 @@
       "sink": "main.php:7"
     }
   ],
-  "false_positives": []
+  "false_positives": [],
+  "cve_usage": {
+    "rarest_construct": "Stmt_Function[nested]",
+    "repositories": 28,
+    "repositories_percent": 21.5,
+    "occurrences": 88,
+    "snapshots": 66,
+    "defining_constructs": {
+      "Expr_FuncCall": 129,
+      "Stmt_Function": 112,
+      "Stmt_Function[nested]": 28
+    }
+  }
 }

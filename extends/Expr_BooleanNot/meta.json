@@ -235,5 +235,15 @@
       "source": "main.php:3",
       "sink": "main.php:56"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "Expr_BooleanNot",
+    "repositories": 127,
+    "repositories_percent": 97.7,
+    "occurrences": 248649,
+    "snapshots": 255,
+    "defining_constructs": {
+      "Expr_BooleanNot": 127
+    }
+  }
 }

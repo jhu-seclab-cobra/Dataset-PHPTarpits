@@ -805,5 +805,24 @@
       "source": "main.php:18",
       "sink": "main.php:16"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "Expr_PreDec",
+    "repositories": 54,
+    "repositories_percent": 41.5,
+    "occurrences": 1264,
+    "snapshots": 163,
+    "defining_constructs": {
+      "Expr_BinaryOp_Concat": 128,
+      "Expr_New": 120,
+      "Expr_PostDec": 83,
+      "Expr_PostInc": 109,
+      "Expr_PreDec": 54,
+      "Expr_PreInc": 76,
+      "Expr_PropertyFetch": 112,
+      "Expr_StaticPropertyFetch": 79,
+      "Stmt_Class": 104,
+      "Stmt_Property": 102
+    }
+  }
 }

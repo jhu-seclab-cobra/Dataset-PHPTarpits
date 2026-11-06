@@ -25,5 +25,23 @@
       "source": "main.php:9",
       "sink": "main.php:12"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "Expr_Yield",
+    "repositories": 12,
+    "repositories_percent": 9.2,
+    "occurrences": 463,
+    "snapshots": 22,
+    "defining_constructs": {
+      "Expr_BinaryOp_SmallerOrEqual": 102,
+      "Expr_FuncCall": 129,
+      "Expr_PostInc": 109,
+      "Expr_Yield": 12,
+      "Scalar_Int": 129,
+      "Scalar_InterpolatedString": 118,
+      "Stmt_For": 111,
+      "Stmt_Foreach": 118,
+      "Stmt_Function": 112
+    }
+  }
 }

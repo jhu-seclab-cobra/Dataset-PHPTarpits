@@ -65,5 +65,19 @@
       "source": "second_ex.php:3",
       "sink": "first_ex.php:7"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "ClosureUse[byRef]",
+    "repositories": 32,
+    "repositories_percent": 24.6,
+    "occurrences": 389,
+    "snapshots": 48,
+    "defining_constructs": {
+      "ClosureUse": 54,
+      "ClosureUse[byRef]": 32,
+      "Expr_Closure": 70,
+      "Expr_FuncCall": 129,
+      "Expr_FuncCall[callee=Expr_Variable]": 72
+    }
+  }
 }

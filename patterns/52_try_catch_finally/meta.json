@@ -120,5 +120,24 @@
       "source": "first_ex.php:18",
       "sink": "second_ex.php:9"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "Stmt_Finally",
+    "repositories": 20,
+    "repositories_percent": 15.4,
+    "occurrences": 234,
+    "snapshots": 31,
+    "defining_constructs": {
+      "Expr_BinaryOp_Concat": 128,
+      "Expr_FuncCall": 129,
+      "Expr_New": 120,
+      "Expr_Throw": 82,
+      "Stmt_Catch": 91,
+      "Stmt_Finally": 20,
+      "Stmt_Function": 112,
+      "Stmt_Return": 125,
+      "Stmt_TryCatch": 91,
+      "func:htmlspecialchars": 96
+    }
+  }
 }

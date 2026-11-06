@@ -25,5 +25,15 @@
       "source": "main.php:3",
       "sink": "main.php:6"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "Stmt_Unset",
+    "repositories": 105,
+    "repositories_percent": 80.8,
+    "occurrences": 23523,
+    "snapshots": 232,
+    "defining_constructs": {
+      "Stmt_Unset": 105
+    }
+  }
 }

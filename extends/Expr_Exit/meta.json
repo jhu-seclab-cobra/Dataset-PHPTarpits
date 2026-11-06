@@ -25,5 +25,15 @@
       "source": "main.php:3",
       "sink": "main.php:7"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "Expr_Exit",
+    "repositories": 122,
+    "repositories_percent": 93.8,
+    "occurrences": 22308,
+    "snapshots": 250,
+    "defining_constructs": {
+      "Expr_Exit": 122
+    }
+  }
 }

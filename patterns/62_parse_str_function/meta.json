@@ -44,5 +44,17 @@
       "source": "main.php:3",
       "sink": "main.php:9"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "func:parse_str",
+    "repositories": 55,
+    "repositories_percent": 42.3,
+    "occurrences": 373,
+    "snapshots": 161,
+    "defining_constructs": {
+      "Expr_FuncCall": 129,
+      "Scalar_Int": 129,
+      "func:parse_str": 55
+    }
+  }
 }

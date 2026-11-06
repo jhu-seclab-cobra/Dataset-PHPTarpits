@@ -64,5 +64,16 @@
       "sink": "requiree.php:7"
     }
   ],
-  "false_positives": []
+  "false_positives": [],
+  "cve_usage": {
+    "rarest_construct": "Expr_Include[type=require_once]",
+    "repositories": 102,
+    "repositories_percent": 78.5,
+    "occurrences": 26464,
+    "snapshots": 228,
+    "defining_constructs": {
+      "Expr_Include": 124,
+      "Expr_Include[type=require_once]": 102
+    }
+  }
 }

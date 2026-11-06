@@ -25,5 +25,22 @@
       "source": "main.php:17",
       "sink": "main.php:19"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "magic:__tostring",
+    "repositories": 54,
+    "repositories_percent": 41.5,
+    "occurrences": 662,
+    "snapshots": 148,
+    "defining_constructs": {
+      "Expr_New": 120,
+      "Expr_PropertyFetch": 112,
+      "Stmt_Class": 104,
+      "Stmt_ClassMethod": 104,
+      "Stmt_Property": 102,
+      "Stmt_Return": 125,
+      "magic:__construct": 97,
+      "magic:__tostring": 54
+    }
+  }
 }

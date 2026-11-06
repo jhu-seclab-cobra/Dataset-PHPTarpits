@@ -160,5 +160,15 @@
       "source": "main.php:94",
       "sink": "main.php:99"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "Scalar_MagicConst_Namespace",
+    "repositories": 15,
+    "repositories_percent": 11.5,
+    "occurrences": 136,
+    "snapshots": 27,
+    "defining_constructs": {
+      "Scalar_MagicConst_Namespace": 15
+    }
+  }
 }

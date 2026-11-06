@@ -275,5 +275,15 @@
       "source": "main.php:3",
       "sink": "main.php:32"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "Expr_BinaryOp_Spaceship",
+    "repositories": 11,
+    "repositories_percent": 8.5,
+    "occurrences": 49,
+    "snapshots": 17,
+    "defining_constructs": {
+      "Expr_BinaryOp_Spaceship": 11
+    }
+  }
 }

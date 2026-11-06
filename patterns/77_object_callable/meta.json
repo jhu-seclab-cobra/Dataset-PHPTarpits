@@ -55,5 +55,24 @@
       "source": "second_ex.php:16",
       "sink": "second_ex.php:13"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "Expr_FuncCall[callee=Expr_Array]",
+    "repositories": 1,
+    "repositories_percent": 0.8,
+    "occurrences": 1,
+    "snapshots": 1,
+    "defining_constructs": {
+      "Expr_Array": 123,
+      "Expr_FuncCall": 129,
+      "Expr_FuncCall[callee=Expr_Array]": 1,
+      "Expr_New": 120,
+      "Expr_New[class=Expr]": 73,
+      "Expr_StaticPropertyFetch": 79,
+      "Stmt_Class": 104,
+      "Stmt_ClassMethod": 104,
+      "Stmt_Property": 102,
+      "magic:__construct": 97
+    }
+  }
 }

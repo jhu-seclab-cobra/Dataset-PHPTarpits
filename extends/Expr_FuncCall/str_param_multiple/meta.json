@@ -55,5 +55,16 @@
       "source": "main.php:20",
       "sink": "main.php:10"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "Expr_FuncCall[callee=Expr_Variable]",
+    "repositories": 72,
+    "repositories_percent": 55.4,
+    "occurrences": 2420,
+    "snapshots": 178,
+    "defining_constructs": {
+      "Expr_FuncCall": 129,
+      "Expr_FuncCall[callee=Expr_Variable]": 72
+    }
+  }
 }

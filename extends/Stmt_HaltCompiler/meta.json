@@ -14,5 +14,15 @@
       "source": "main.php:2",
       "sink": "main.php:5"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "Stmt_HaltCompiler",
+    "repositories": 0,
+    "repositories_percent": 0.0,
+    "occurrences": 0,
+    "snapshots": 0,
+    "defining_constructs": {
+      "Stmt_HaltCompiler": 0
+    }
+  }
 }

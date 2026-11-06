@@ -25,5 +25,15 @@
       "source": "main.php:9",
       "sink": "main.php:17"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "Expr_NullsafePropertyFetch",
+    "repositories": 4,
+    "repositories_percent": 3.1,
+    "occurrences": 77,
+    "snapshots": 5,
+    "defining_constructs": {
+      "Expr_NullsafePropertyFetch": 4
+    }
+  }
 }

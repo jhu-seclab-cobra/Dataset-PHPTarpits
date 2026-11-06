@@ -24,5 +24,23 @@
       "source": "main.php:18",
       "sink": "main.php:14"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "Expr_StaticCall[class=Expr]",
+    "repositories": 33,
+    "repositories_percent": 25.4,
+    "occurrences": 1554,
+    "snapshots": 60,
+    "defining_constructs": {
+      "Expr_New": 120,
+      "Expr_PropertyFetch": 112,
+      "Expr_StaticCall": 98,
+      "Expr_StaticCall[class=Expr]": 33,
+      "Scalar_Int": 129,
+      "Stmt_Class": 104,
+      "Stmt_ClassMethod": 104,
+      "Stmt_Property": 102,
+      "magic:__construct": 97
+    }
+  }
 }

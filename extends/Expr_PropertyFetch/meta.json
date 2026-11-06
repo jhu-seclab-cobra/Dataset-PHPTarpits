@@ -120,5 +120,15 @@
       "source": "main.php:3",
       "sink": "main.php:32"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "Expr_PropertyFetch",
+    "repositories": 112,
+    "repositories_percent": 86.2,
+    "occurrences": 1104741,
+    "snapshots": 236,
+    "defining_constructs": {
+      "Expr_PropertyFetch": 112
+    }
+  }
 }

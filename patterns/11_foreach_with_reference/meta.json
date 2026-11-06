@@ -20,5 +20,18 @@
       "source": "main.php:7",
       "sink": "main.php:13"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "Stmt_Foreach[byRef]",
+    "repositories": 65,
+    "repositories_percent": 50.0,
+    "occurrences": 2317,
+    "snapshots": 183,
+    "defining_constructs": {
+      "Expr_Array": 123,
+      "Scalar_Int": 129,
+      "Stmt_Foreach": 118,
+      "Stmt_Foreach[byRef]": 65
+    }
+  }
 }

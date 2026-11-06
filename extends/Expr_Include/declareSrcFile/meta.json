@@ -34,5 +34,15 @@
       "sink": "callee.php:4"
     }
   ],
-  "false_positives": []
+  "false_positives": [],
+  "cve_usage": {
+    "rarest_construct": "Expr_Include",
+    "repositories": 124,
+    "repositories_percent": 95.4,
+    "occurrences": 54260,
+    "snapshots": 252,
+    "defining_constructs": {
+      "Expr_Include": 124
+    }
+  }
 }

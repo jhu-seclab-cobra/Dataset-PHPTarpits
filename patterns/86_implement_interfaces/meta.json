@@ -29,5 +29,27 @@
       "source": "main.php:22",
       "sink": "main.php:31"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "func:fopen",
+    "repositories": 95,
+    "repositories_percent": 73.1,
+    "occurrences": 2538,
+    "snapshots": 215,
+    "defining_constructs": {
+      "Expr_Array": 123,
+      "Expr_FuncCall": 129,
+      "Expr_MethodCall": 122,
+      "Expr_New": 120,
+      "Expr_PropertyFetch": 112,
+      "Scalar_Int": 129,
+      "Scalar_InterpolatedString": 118,
+      "Stmt_Class": 104,
+      "Stmt_ClassMethod": 104,
+      "Stmt_Foreach": 118,
+      "Stmt_Property": 102,
+      "Stmt_Return": 125,
+      "func:fopen": 95
+    }
+  }
 }

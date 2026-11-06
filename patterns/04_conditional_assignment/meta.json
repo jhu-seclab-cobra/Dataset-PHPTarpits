@@ -14,5 +14,17 @@
       "sink": "main.php:6"
     }
   ],
-  "false_positives": []
+  "false_positives": [],
+  "cve_usage": {
+    "rarest_construct": "Expr_Ternary",
+    "repositories": 111,
+    "repositories_percent": 85.4,
+    "occurrences": 117677,
+    "snapshots": 237,
+    "defining_constructs": {
+      "Expr_BinaryOp_Greater": 120,
+      "Expr_Ternary": 111,
+      "Scalar_Int": 129
+    }
+  }
 }

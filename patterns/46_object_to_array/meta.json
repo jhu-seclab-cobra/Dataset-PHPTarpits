@@ -25,5 +25,21 @@
       "source": "main.php:3",
       "sink": "main.php:17"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "Expr_Cast_Array",
+    "repositories": 70,
+    "repositories_percent": 53.8,
+    "occurrences": 6133,
+    "snapshots": 182,
+    "defining_constructs": {
+      "Expr_Cast_Array": 70,
+      "Expr_New": 120,
+      "Expr_PropertyFetch": 112,
+      "Stmt_Class": 104,
+      "Stmt_ClassMethod": 104,
+      "Stmt_Property": 102,
+      "magic:__construct": 97
+    }
+  }
 }

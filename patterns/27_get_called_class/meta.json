@@ -30,5 +30,20 @@
       "source": "main.php:23",
       "sink": "main.php:7"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "func:get_called_class",
+    "repositories": 20,
+    "repositories_percent": 15.4,
+    "occurrences": 121,
+    "snapshots": 38,
+    "defining_constructs": {
+      "Expr_FuncCall": 129,
+      "Expr_StaticCall": 98,
+      "Expr_StaticCall[class=Expr]": 33,
+      "Stmt_Class": 104,
+      "Stmt_ClassMethod": 104,
+      "func:get_called_class": 20
+    }
+  }
 }

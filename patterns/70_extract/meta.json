@@ -19,5 +19,18 @@
       "sink": "main.php:6"
     }
   ],
-  "false_positives": []
+  "false_positives": [],
+  "cve_usage": {
+    "rarest_construct": "func:extract",
+    "repositories": 50,
+    "repositories_percent": 38.5,
+    "occurrences": 1844,
+    "snapshots": 85,
+    "defining_constructs": {
+      "Expr_Array": 123,
+      "Expr_BinaryOp_Concat": 128,
+      "Expr_FuncCall": 129,
+      "func:extract": 50
+    }
+  }
 }

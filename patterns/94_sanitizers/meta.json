@@ -79,5 +79,20 @@
       "source": "first_ex.php:3",
       "sink": "first_ex.php:7"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "func:htmlentities",
+    "repositories": 67,
+    "repositories_percent": 51.5,
+    "occurrences": 1281,
+    "snapshots": 173,
+    "defining_constructs": {
+      "Expr_ConstFetch": 128,
+      "Expr_FuncCall": 129,
+      "Scalar_InterpolatedString": 118,
+      "func:htmlentities": 67,
+      "func:htmlspecialchars": 96,
+      "func:urlencode": 84
+    }
+  }
 }

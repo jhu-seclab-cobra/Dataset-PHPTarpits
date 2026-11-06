@@ -30,5 +30,19 @@
       "source": "main.php:12",
       "sink": "main.php:5"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "func:func_get_args",
+    "repositories": 66,
+    "repositories_percent": 50.8,
+    "occurrences": 2341,
+    "snapshots": 123,
+    "defining_constructs": {
+      "Expr_FuncCall": 129,
+      "Scalar_Int": 129,
+      "Stmt_Foreach": 118,
+      "Stmt_Function": 112,
+      "func:func_get_args": 66
+    }
+  }
 }

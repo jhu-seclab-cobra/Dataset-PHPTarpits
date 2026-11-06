@@ -55,5 +55,18 @@
       "source": "second_ex.php:3",
       "sink": "third_ex.php:4"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "func:system",
+    "repositories": 21,
+    "repositories_percent": 16.2,
+    "occurrences": 147,
+    "snapshots": 47,
+    "defining_constructs": {
+      "Expr_FuncCall": 129,
+      "func:exec": 59,
+      "func:system": 21,
+      "func:unlink": 88
+    }
+  }
 }

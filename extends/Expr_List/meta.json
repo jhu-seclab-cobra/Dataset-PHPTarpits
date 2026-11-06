@@ -30,5 +30,15 @@
       "source": "main.php:3",
       "sink": "main.php:12"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "Expr_List",
+    "repositories": 96,
+    "repositories_percent": 73.8,
+    "occurrences": 8790,
+    "snapshots": 219,
+    "defining_constructs": {
+      "Expr_List": 96
+    }
+  }
 }

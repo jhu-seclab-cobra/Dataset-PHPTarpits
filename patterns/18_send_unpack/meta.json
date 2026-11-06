@@ -30,5 +30,19 @@
       "source": "main.php:11",
       "sink": "main.php:6"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "Arg[unpack]",
+    "repositories": 20,
+    "repositories_percent": 15.4,
+    "occurrences": 501,
+    "snapshots": 34,
+    "defining_constructs": {
+      "Arg[unpack]": 20,
+      "Expr_Array": 123,
+      "Expr_FuncCall": 129,
+      "Scalar_Int": 129,
+      "Stmt_Function": 112
+    }
+  }
 }

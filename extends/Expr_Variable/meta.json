@@ -110,5 +110,15 @@
       "source": "main.php:3",
       "sink": "main.php:10"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "Expr_Variable",
+    "repositories": 130,
+    "repositories_percent": 100.0,
+    "occurrences": 8477004,
+    "snapshots": 258,
+    "defining_constructs": {
+      "Expr_Variable": 130
+    }
+  }
 }

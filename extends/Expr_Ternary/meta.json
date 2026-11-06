@@ -25,5 +25,15 @@
       "source": "main.php:3",
       "sink": "main.php:7"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "Expr_Ternary",
+    "repositories": 111,
+    "repositories_percent": 85.4,
+    "occurrences": 117677,
+    "snapshots": 237,
+    "defining_constructs": {
+      "Expr_Ternary": 111
+    }
+  }
 }

@@ -14,5 +14,15 @@
       "sink": "main.php:4"
     }
   ],
-  "false_positives": []
+  "false_positives": [],
+  "cve_usage": {
+    "rarest_construct": "Expr_BinaryOp_Concat",
+    "repositories": 128,
+    "repositories_percent": 98.5,
+    "occurrences": 950473,
+    "snapshots": 256,
+    "defining_constructs": {
+      "Expr_BinaryOp_Concat": 128
+    }
+  }
 }

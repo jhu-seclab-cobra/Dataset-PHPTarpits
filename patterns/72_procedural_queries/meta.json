@@ -80,5 +80,21 @@
       "source": "third_ex.php:3",
       "sink": "third_ex.php:7"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "func:mysqli_connect",
+    "repositories": 21,
+    "repositories_percent": 16.2,
+    "occurrences": 256,
+    "snapshots": 27,
+    "defining_constructs": {
+      "Expr_BinaryOp_Concat": 128,
+      "Expr_FuncCall": 129,
+      "Scalar_InterpolatedString": 118,
+      "func:mysql_connect": 27,
+      "func:mysql_query": 31,
+      "func:mysqli_connect": 21,
+      "func:mysqli_query": 28
+    }
+  }
 }

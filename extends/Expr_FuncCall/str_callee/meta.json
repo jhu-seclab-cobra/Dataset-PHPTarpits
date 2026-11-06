@@ -59,5 +59,16 @@
       "sink": "main.php:22"
     }
   ],
-  "false_positives": []
+  "false_positives": [],
+  "cve_usage": {
+    "rarest_construct": "Expr_FuncCall[callee=Scalar_String]",
+    "repositories": 0,
+    "repositories_percent": 0.0,
+    "occurrences": 0,
+    "snapshots": 0,
+    "defining_constructs": {
+      "Expr_FuncCall": 129,
+      "Expr_FuncCall[callee=Scalar_String]": 0
+    }
+  }
 }

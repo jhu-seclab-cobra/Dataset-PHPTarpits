@@ -35,5 +35,17 @@
       "source": "second_ex.php:5",
       "sink": "second_ex.php:6"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "Expr_AssignRef",
+    "repositories": 74,
+    "repositories_percent": 56.9,
+    "occurrences": 5734,
+    "snapshots": 188,
+    "defining_constructs": {
+      "Expr_Array": 123,
+      "Expr_AssignRef": 74,
+      "Scalar_Int": 129
+    }
+  }
 }

@@ -55,5 +55,15 @@
       "source": "main.php:16",
       "sink": "main.php:11"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "Scalar_MagicConst_Class",
+    "repositories": 41,
+    "repositories_percent": 31.5,
+    "occurrences": 1872,
+    "snapshots": 117,
+    "defining_constructs": {
+      "Scalar_MagicConst_Class": 41
+    }
+  }
 }

@@ -33,5 +33,15 @@
     }
   ],
   "true_positives": [],
-  "false_positives": []
+  "false_positives": [],
+  "cve_usage": {
+    "rarest_construct": "Expr_Print",
+    "repositories": 65,
+    "repositories_percent": 50.0,
+    "occurrences": 90811,
+    "snapshots": 170,
+    "defining_constructs": {
+      "Expr_Print": 65
+    }
+  }
 }

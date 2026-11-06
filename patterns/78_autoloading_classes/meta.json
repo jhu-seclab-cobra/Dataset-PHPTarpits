@@ -30,5 +30,24 @@
       "source": "main.php:6",
       "sink": "MyClass1.php:3"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "func:spl_autoload_register",
+    "repositories": 49,
+    "repositories_percent": 37.7,
+    "occurrences": 187,
+    "snapshots": 90,
+    "defining_constructs": {
+      "Expr_BinaryOp_Concat": 128,
+      "Expr_Closure": 70,
+      "Expr_FuncCall": 129,
+      "Expr_Include": 124,
+      "Expr_Include[type=include]": 101,
+      "Expr_New": 120,
+      "Stmt_Class": 104,
+      "Stmt_ClassMethod": 104,
+      "func:spl_autoload_register": 49,
+      "magic:__construct": 97
+    }
+  }
 }

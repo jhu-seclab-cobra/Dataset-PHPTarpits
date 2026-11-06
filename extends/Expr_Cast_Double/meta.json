@@ -285,5 +285,15 @@
       "source": "main.php:3",
       "sink": "main.php:56"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "Expr_Cast_Double",
+    "repositories": 80,
+    "repositories_percent": 61.5,
+    "occurrences": 3027,
+    "snapshots": 140,
+    "defining_constructs": {
+      "Expr_Cast_Double": 80
+    }
+  }
 }

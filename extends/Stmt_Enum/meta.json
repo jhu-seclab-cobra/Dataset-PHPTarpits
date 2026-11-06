@@ -24,5 +24,15 @@
       "sink": "main.php:7"
     }
   ],
-  "false_positives": []
+  "false_positives": [],
+  "cve_usage": {
+    "rarest_construct": "Stmt_Enum",
+    "repositories": 3,
+    "repositories_percent": 2.3,
+    "occurrences": 7,
+    "snapshots": 14,
+    "defining_constructs": {
+      "Stmt_Enum": 3
+    }
+  }
 }

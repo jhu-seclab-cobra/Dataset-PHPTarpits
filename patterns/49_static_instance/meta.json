@@ -29,5 +29,25 @@
       "sink": "main.php:18"
     }
   ],
-  "false_positives": []
+  "false_positives": [],
+  "cve_usage": {
+    "rarest_construct": "Expr_Instanceof",
+    "repositories": 72,
+    "repositories_percent": 55.4,
+    "occurrences": 8521,
+    "snapshots": 181,
+    "defining_constructs": {
+      "Expr_BooleanNot": 127,
+      "Expr_Instanceof": 72,
+      "Expr_New": 120,
+      "Expr_PropertyFetch": 112,
+      "Expr_StaticCall": 98,
+      "Expr_StaticPropertyFetch": 79,
+      "Stmt_Class": 104,
+      "Stmt_ClassMethod": 104,
+      "Stmt_If": 129,
+      "Stmt_Property": 102,
+      "Stmt_Return": 125
+    }
+  }
 }

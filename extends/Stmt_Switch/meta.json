@@ -24,5 +24,15 @@
       "sink": "main.php:9"
     }
   ],
-  "false_positives": []
+  "false_positives": [],
+  "cve_usage": {
+    "rarest_construct": "Stmt_Switch",
+    "repositories": 105,
+    "repositories_percent": 80.8,
+    "occurrences": 14519,
+    "snapshots": 228,
+    "defining_constructs": {
+      "Stmt_Switch": 105
+    }
+  }
 }

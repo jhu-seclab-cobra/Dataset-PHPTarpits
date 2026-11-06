@@ -145,5 +145,15 @@
       "source": "main.php:3",
       "sink": "main.php:58"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "Scalar_Float",
+    "repositories": 85,
+    "repositories_percent": 65.4,
+    "occurrences": 18740,
+    "snapshots": 207,
+    "defining_constructs": {
+      "Scalar_Float": 85
+    }
+  }
 }

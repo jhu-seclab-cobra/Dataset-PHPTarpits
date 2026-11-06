@@ -24,5 +24,18 @@
       "sink": "main.php:6"
     }
   ],
-  "false_positives": []
+  "false_positives": [],
+  "cve_usage": {
+    "rarest_construct": "func:error_get_last",
+    "repositories": 27,
+    "repositories_percent": 20.8,
+    "occurrences": 60,
+    "snapshots": 114,
+    "defining_constructs": {
+      "Expr_ErrorSuppress": 103,
+      "Expr_FuncCall": 129,
+      "func:error_get_last": 27,
+      "func:trigger_error": 62
+    }
+  }
 }

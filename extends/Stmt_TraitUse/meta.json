@@ -24,5 +24,15 @@
       "sink": "main.php:7"
     }
   ],
-  "false_positives": []
+  "false_positives": [],
+  "cve_usage": {
+    "rarest_construct": "Stmt_TraitUse",
+    "repositories": 31,
+    "repositories_percent": 23.8,
+    "occurrences": 2942,
+    "snapshots": 49,
+    "defining_constructs": {
+      "Stmt_TraitUse": 31
+    }
+  }
 }

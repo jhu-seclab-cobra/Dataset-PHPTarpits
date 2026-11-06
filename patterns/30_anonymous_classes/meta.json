@@ -25,5 +25,18 @@
       "source": "main.php:3",
       "sink": "main.php:10"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "Stmt_Class",
+    "repositories": 104,
+    "repositories_percent": 80.0,
+    "occurrences": 45228,
+    "snapshots": 227,
+    "defining_constructs": {
+      "Expr_MethodCall": 122,
+      "Expr_New": 120,
+      "Stmt_Class": 104,
+      "Stmt_ClassMethod": 104
+    }
+  }
 }

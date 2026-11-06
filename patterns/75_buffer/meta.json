@@ -34,5 +34,17 @@
       "source": "main.php:3",
       "sink": "main.php:5"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "func:ob_end_clean",
+    "repositories": 68,
+    "repositories_percent": 52.3,
+    "occurrences": 760,
+    "snapshots": 120,
+    "defining_constructs": {
+      "Expr_FuncCall": 129,
+      "func:ob_end_clean": 68,
+      "func:ob_start": 81
+    }
+  }
 }

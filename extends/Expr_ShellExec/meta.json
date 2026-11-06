@@ -35,5 +35,15 @@
       "source": "main.php:3",
       "sink": "main.php:9"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "Expr_ShellExec",
+    "repositories": 13,
+    "repositories_percent": 10.0,
+    "occurrences": 54,
+    "snapshots": 33,
+    "defining_constructs": {
+      "Expr_ShellExec": 13
+    }
+  }
 }

@@ -165,5 +165,19 @@
       "source": "first_ex.php:3",
       "sink": "second_ex.php:15"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "func:array_walk",
+    "repositories": 40,
+    "repositories_percent": 30.8,
+    "occurrences": 314,
+    "snapshots": 76,
+    "defining_constructs": {
+      "Expr_Array": 123,
+      "Expr_Closure": 70,
+      "Expr_FuncCall": 129,
+      "Stmt_Function": 112,
+      "func:array_walk": 40
+    }
+  }
 }

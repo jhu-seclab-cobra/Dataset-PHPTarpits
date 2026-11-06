@@ -35,5 +35,16 @@
       "source": "main.php:5",
       "sink": "main.php:7"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "func:session_start",
+    "repositories": 87,
+    "repositories_percent": 66.9,
+    "occurrences": 908,
+    "snapshots": 211,
+    "defining_constructs": {
+      "Expr_FuncCall": 129,
+      "func:session_start": 87
+    }
+  }
 }

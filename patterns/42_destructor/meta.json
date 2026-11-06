@@ -40,5 +40,24 @@
       "source": "main.php:19",
       "sink": "main.php:9"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "Scalar_MagicConst_Class",
+    "repositories": 41,
+    "repositories_percent": 31.5,
+    "occurrences": 1872,
+    "snapshots": 117,
+    "defining_constructs": {
+      "Expr_BinaryOp_Concat": 128,
+      "Expr_New": 120,
+      "Expr_Print": 65,
+      "Expr_PropertyFetch": 112,
+      "Scalar_MagicConst_Class": 41,
+      "Stmt_Class": 104,
+      "Stmt_ClassMethod": 104,
+      "Stmt_Property": 102,
+      "magic:__construct": 97,
+      "magic:__destruct": 59
+    }
+  }
 }

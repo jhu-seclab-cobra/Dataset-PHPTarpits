@@ -30,5 +30,15 @@
       "source": "main.php:9",
       "sink": "main.php:11"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "Stmt_Label",
+    "repositories": 8,
+    "repositories_percent": 6.2,
+    "occurrences": 22,
+    "snapshots": 11,
+    "defining_constructs": {
+      "Stmt_Label": 8
+    }
+  }
 }

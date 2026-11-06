@@ -34,5 +34,15 @@
       "sink": "main.php:14"
     }
   ],
-  "false_positives": []
+  "false_positives": [],
+  "cve_usage": {
+    "rarest_construct": "Expr_NullsafeMethodCall",
+    "repositories": 6,
+    "repositories_percent": 4.6,
+    "occurrences": 197,
+    "snapshots": 7,
+    "defining_constructs": {
+      "Expr_NullsafeMethodCall": 6
+    }
+  }
 }

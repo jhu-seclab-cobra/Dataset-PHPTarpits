@@ -19,5 +19,21 @@
       "sink": "main.php:13"
     }
   ],
-  "false_positives": []
+  "false_positives": [],
+  "cve_usage": {
+    "rarest_construct": "Expr_StaticPropertyFetch",
+    "repositories": 79,
+    "repositories_percent": 60.8,
+    "occurrences": 38735,
+    "snapshots": 189,
+    "defining_constructs": {
+      "Expr_MethodCall": 122,
+      "Expr_New": 120,
+      "Expr_StaticPropertyFetch": 79,
+      "Stmt_Class": 104,
+      "Stmt_ClassMethod": 104,
+      "Stmt_Property": 102,
+      "magic:__construct": 97
+    }
+  }
 }

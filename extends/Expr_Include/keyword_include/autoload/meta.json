@@ -53,5 +53,16 @@
     }
   ],
   "true_positives": [],
-  "false_positives": []
+  "false_positives": [],
+  "cve_usage": {
+    "rarest_construct": "func:spl_autoload_register",
+    "repositories": 49,
+    "repositories_percent": 37.7,
+    "occurrences": 187,
+    "snapshots": 90,
+    "defining_constructs": {
+      "Expr_Include": 124,
+      "func:spl_autoload_register": 49
+    }
+  }
 }

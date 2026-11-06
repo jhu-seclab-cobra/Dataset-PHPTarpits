@@ -40,5 +40,15 @@
       "source": "main.php:22",
       "sink": "main.php:18"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "Stmt_Interface",
+    "repositories": 53,
+    "repositories_percent": 40.8,
+    "occurrences": 1488,
+    "snapshots": 140,
+    "defining_constructs": {
+      "Stmt_Interface": 53
+    }
+  }
 }

@@ -25,5 +25,17 @@
       "source": "main.php:10",
       "sink": "main.php:12"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "Stmt_Global",
+    "repositories": 79,
+    "repositories_percent": 60.8,
+    "occurrences": 23221,
+    "snapshots": 198,
+    "defining_constructs": {
+      "Expr_FuncCall": 129,
+      "Stmt_Function": 112,
+      "Stmt_Global": 79
+    }
+  }
 }

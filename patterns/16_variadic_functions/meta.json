@@ -25,5 +25,19 @@
       "source": "main.php:12",
       "sink": "main.php:7"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "Param[variadic]",
+    "repositories": 18,
+    "repositories_percent": 13.8,
+    "occurrences": 432,
+    "snapshots": 32,
+    "defining_constructs": {
+      "Expr_FuncCall": 129,
+      "Param[variadic]": 18,
+      "Scalar_Int": 129,
+      "Stmt_Foreach": 118,
+      "Stmt_Function": 112
+    }
+  }
 }

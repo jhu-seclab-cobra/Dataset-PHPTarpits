@@ -44,5 +44,24 @@
       "source": "main.php:4",
       "sink": "main.php:15"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "func:ord",
+    "repositories": 76,
+    "repositories_percent": 58.5,
+    "occurrences": 4547,
+    "snapshots": 135,
+    "defining_constructs": {
+      "Expr_BinaryOp_Concat": 128,
+      "Expr_BinaryOp_Minus": 113,
+      "Expr_BinaryOp_Plus": 116,
+      "Expr_BinaryOp_Smaller": 120,
+      "Expr_FuncCall": 129,
+      "Expr_PostInc": 109,
+      "Scalar_Int": 129,
+      "Stmt_For": 111,
+      "func:chr": 78,
+      "func:ord": 76
+    }
+  }
 }

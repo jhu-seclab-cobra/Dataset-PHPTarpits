@@ -35,5 +35,15 @@
       "source": "main.php:14",
       "sink": "main.php:6"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "Stmt_If",
+    "repositories": 129,
+    "repositories_percent": 99.2,
+    "occurrences": 737917,
+    "snapshots": 257,
+    "defining_constructs": {
+      "Stmt_If": 129
+    }
+  }
 }

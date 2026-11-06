@@ -74,5 +74,15 @@
       "sink": "main.php:5"
     }
   ],
-  "false_positives": []
+  "false_positives": [],
+  "cve_usage": {
+    "rarest_construct": "Expr_Clone",
+    "repositories": 52,
+    "repositories_percent": 40.0,
+    "occurrences": 1682,
+    "snapshots": 105,
+    "defining_constructs": {
+      "Expr_Clone": 52
+    }
+  }
 }

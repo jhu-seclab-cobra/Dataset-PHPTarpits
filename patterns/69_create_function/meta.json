@@ -24,5 +24,17 @@
       "source": "main.php:3",
       "sink": "*"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "func:create_function",
+    "repositories": 15,
+    "repositories_percent": 11.5,
+    "occurrences": 84,
+    "snapshots": 29,
+    "defining_constructs": {
+      "Expr_FuncCall": 129,
+      "Expr_FuncCall[callee=Expr_Variable]": 72,
+      "func:create_function": 15
+    }
+  }
 }

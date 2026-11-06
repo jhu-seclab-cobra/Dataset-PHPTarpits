@@ -20,5 +20,15 @@
       "source": "main.php:3",
       "sink": "main.php:6"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "Stmt_Goto",
+    "repositories": 8,
+    "repositories_percent": 6.2,
+    "occurrences": 32,
+    "snapshots": 11,
+    "defining_constructs": {
+      "Stmt_Goto": 8
+    }
+  }
 }

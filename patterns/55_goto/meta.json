@@ -20,5 +20,19 @@
       "source": "main.php:7",
       "sink": "main.php:8"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "Stmt_Label",
+    "repositories": 8,
+    "repositories_percent": 6.2,
+    "occurrences": 22,
+    "snapshots": 11,
+    "defining_constructs": {
+      "Expr_BinaryOp_Equal": 126,
+      "Scalar_Int": 129,
+      "Stmt_Goto": 8,
+      "Stmt_If": 129,
+      "Stmt_Label": 8
+    }
+  }
 }

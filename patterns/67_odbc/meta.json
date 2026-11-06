@@ -19,5 +19,18 @@
       "sink": "main.php:5"
     }
   ],
-  "false_positives": []
+  "false_positives": [],
+  "cve_usage": {
+    "rarest_construct": "func:odbc_connect",
+    "repositories": 6,
+    "repositories_percent": 4.6,
+    "occurrences": 10,
+    "snapshots": 12,
+    "defining_constructs": {
+      "Expr_FuncCall": 129,
+      "Scalar_InterpolatedString": 118,
+      "func:odbc_connect": 6,
+      "func:odbc_exec": 6
+    }
+  }
 }

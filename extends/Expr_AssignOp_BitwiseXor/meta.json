@@ -105,5 +105,15 @@
       "source": "main.php:3",
       "sink": "main.php:32"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "Expr_AssignOp_BitwiseXor",
+    "repositories": 22,
+    "repositories_percent": 16.9,
+    "occurrences": 361,
+    "snapshots": 48,
+    "defining_constructs": {
+      "Expr_AssignOp_BitwiseXor": 22
+    }
+  }
 }

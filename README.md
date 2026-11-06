@@ -73,6 +73,18 @@ Each test case entry in the JSON files follows this structure:
 ]
 ```
 
+## Construct Usage in Real Projects
+Each case's `meta.json` (not `truth.json`) also carries a `cve_usage` object that tells how often the syntax the case exercises occurs in real vulnerable PHP projects, so that results can be weighed by real-world relevance.
+
+- **Corpus**: the PHPCVEs dataset (release v2025.03), 258 CVE snapshots from 130 GitHub repositories. A repository counts once, through its snapshot with the highest CVE id, and only its own code (`vendor/` and `node_modules/` excluded).
+- **Parser**: nikic/PHP-Parser 5.4, node kinds named by `Node::getType()`; a file that fails the newest grammar is retried with the PHP 5.6 grammar (83 of 264,011 files still fail).
+- **Defining constructs**: for an `extends/` case, the node kind its directory names, refined by the variant when the variant differs in syntax (e.g. `Expr_FuncCall[callee=Scalar_String]` for `str_callee`). For a `patterns/` case, every construct its code contains beyond the baseline program `<?php $x = $_GET["a"]; echo $x;`, excluding wrapper nodes and calls to non-builtin functions. A `patterns/` case may therefore list a construct it uses only incidentally.
+- **Fields**:
+  - `defining_constructs`: each defining construct with the number of repositories (of 130) containing it.
+  - `rarest_construct`: the defining construct found in the fewest repositories; `repositories`, `repositories_percent`, `occurrences` (total nodes in the 130 repositories) and `snapshots` (of 258) give its usage, which is the case's usage.
+
+Construct names are node kinds, `Kind[field=value]` variants (by-reference, variadic or unpacked forms, expression names and callees, include types), `func:<name>` for a call to a builtin function, and `magic:<name>` for a declared magic method.
+
 ## Attribution
 The `patterns/` directory is derived from the [TestabilityTarpits](https://github.com/enferas/TestabilityTarpits) project. See `docs/THIRD_PARTY_NOTICES.md` for full attribution.
 

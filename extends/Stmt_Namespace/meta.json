@@ -40,5 +40,15 @@
       "source": "main.php:23",
       "sink": "main.php:13"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "Stmt_Namespace",
+    "repositories": 51,
+    "repositories_percent": 39.2,
+    "occurrences": 18846,
+    "snapshots": 138,
+    "defining_constructs": {
+      "Stmt_Namespace": 51
+    }
+  }
 }

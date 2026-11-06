@@ -30,5 +30,22 @@
       "source": "main.php:13",
       "sink": "main.php:17"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "magic:__callstatic",
+    "repositories": 10,
+    "repositories_percent": 7.7,
+    "occurrences": 28,
+    "snapshots": 23,
+    "defining_constructs": {
+      "Expr_BinaryOp_Concat": 128,
+      "Expr_New": 120,
+      "Expr_PropertyFetch": 112,
+      "Expr_StaticCall": 98,
+      "Stmt_Class": 104,
+      "Stmt_ClassMethod": 104,
+      "Stmt_Foreach": 118,
+      "magic:__callstatic": 10
+    }
+  }
 }

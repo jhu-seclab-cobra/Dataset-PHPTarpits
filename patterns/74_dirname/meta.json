@@ -34,5 +34,22 @@
       "sink": "_includes/ttt/b.php:3"
     }
   ],
-  "false_positives": []
+  "false_positives": [],
+  "cve_usage": {
+    "rarest_construct": "Scalar_MagicConst_File",
+    "repositories": 84,
+    "repositories_percent": 64.6,
+    "occurrences": 6649,
+    "snapshots": 204,
+    "defining_constructs": {
+      "Expr_BinaryOp_Concat": 128,
+      "Expr_ConstFetch": 128,
+      "Expr_FuncCall": 129,
+      "Expr_Include": 124,
+      "Expr_Include[type=include]": 101,
+      "Scalar_MagicConst_File": 84,
+      "func:define": 104,
+      "func:dirname": 94
+    }
+  }
 }

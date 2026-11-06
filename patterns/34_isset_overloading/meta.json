@@ -60,5 +60,30 @@
       "source": "main.php:25",
       "sink": "main.php:37"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "magic:__isset",
+    "repositories": 31,
+    "repositories_percent": 23.8,
+    "occurrences": 103,
+    "snapshots": 56,
+    "defining_constructs": {
+      "Expr_BinaryOp_Concat": 128,
+      "Expr_BooleanNot": 127,
+      "Expr_ConstFetch": 128,
+      "Expr_Empty": 109,
+      "Expr_Isset": 123,
+      "Expr_MethodCall": 122,
+      "Expr_New": 120,
+      "Expr_PropertyFetch": 112,
+      "Scalar_InterpolatedString": 118,
+      "Stmt_Class": 104,
+      "Stmt_ClassMethod": 104,
+      "Stmt_If": 129,
+      "Stmt_Property": 102,
+      "Stmt_Return": 125,
+      "magic:__get": 52,
+      "magic:__isset": 31
+    }
+  }
 }

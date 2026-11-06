@@ -24,5 +24,15 @@
       "sink": "main.php:7"
     }
   ],
-  "false_positives": []
+  "false_positives": [],
+  "cve_usage": {
+    "rarest_construct": "Expr_New",
+    "repositories": 120,
+    "repositories_percent": 92.3,
+    "occurrences": 115917,
+    "snapshots": 247,
+    "defining_constructs": {
+      "Expr_New": 120
+    }
+  }
 }

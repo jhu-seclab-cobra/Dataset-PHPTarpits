@@ -29,5 +29,21 @@
       "sink": "main.php:7"
     }
   ],
-  "false_positives": []
+  "false_positives": [],
+  "cve_usage": {
+    "rarest_construct": "magic:__invoke",
+    "repositories": 17,
+    "repositories_percent": 13.1,
+    "occurrences": 599,
+    "snapshots": 21,
+    "defining_constructs": {
+      "Expr_FuncCall": 129,
+      "Expr_FuncCall[callee=Expr_Variable]": 72,
+      "Expr_New": 120,
+      "Stmt_Class": 104,
+      "Stmt_ClassMethod": 104,
+      "func:fopen": 95,
+      "magic:__invoke": 17
+    }
+  }
 }

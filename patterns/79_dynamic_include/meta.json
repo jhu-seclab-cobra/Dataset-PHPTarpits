@@ -115,5 +115,19 @@
       "source": "second_ex/main.php:3",
       "sink": "second_ex/a.php:3"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "Expr_Include[type=include]",
+    "repositories": 101,
+    "repositories_percent": 77.7,
+    "occurrences": 12474,
+    "snapshots": 226,
+    "defining_constructs": {
+      "Expr_BinaryOp_Concat": 128,
+      "Expr_Include": 124,
+      "Expr_Include[type=include]": 101,
+      "Stmt_Else": 127,
+      "Stmt_If": 129
+    }
+  }
 }

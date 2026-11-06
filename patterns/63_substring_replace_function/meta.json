@@ -35,5 +35,20 @@
       "source": "main.php:7",
       "sink": "main.php:4"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "func:substr_replace",
+    "repositories": 58,
+    "repositories_percent": 44.6,
+    "occurrences": 474,
+    "snapshots": 108,
+    "defining_constructs": {
+      "Expr_BinaryOp_Concat": 128,
+      "Expr_FuncCall": 129,
+      "Scalar_Int": 129,
+      "Scalar_InterpolatedString": 118,
+      "func:fopen": 95,
+      "func:substr_replace": 58
+    }
+  }
 }

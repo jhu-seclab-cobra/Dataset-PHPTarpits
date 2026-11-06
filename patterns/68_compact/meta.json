@@ -55,5 +55,17 @@
       "source": "first_ex.php:3",
       "sink": "first_ex.php:11"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "func:compact",
+    "repositories": 29,
+    "repositories_percent": 22.3,
+    "occurrences": 1215,
+    "snapshots": 49,
+    "defining_constructs": {
+      "Expr_Array": 123,
+      "Expr_FuncCall": 129,
+      "func:compact": 29
+    }
+  }
 }

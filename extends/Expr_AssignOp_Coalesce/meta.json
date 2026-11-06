@@ -130,5 +130,15 @@
       "source": "main.php:3",
       "sink": "main.php:32"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "Expr_AssignOp_Coalesce",
+    "repositories": 10,
+    "repositories_percent": 7.7,
+    "occurrences": 77,
+    "snapshots": 23,
+    "defining_constructs": {
+      "Expr_AssignOp_Coalesce": 10
+    }
+  }
 }

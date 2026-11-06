@@ -29,5 +29,15 @@
       "sink": "main.php:11"
     }
   ],
-  "false_positives": []
+  "false_positives": [],
+  "cve_usage": {
+    "rarest_construct": "Scalar_MagicConst_File",
+    "repositories": 84,
+    "repositories_percent": 64.6,
+    "occurrences": 6649,
+    "snapshots": 204,
+    "defining_constructs": {
+      "Scalar_MagicConst_File": 84
+    }
+  }
 }

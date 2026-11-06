@@ -29,5 +29,15 @@
       "sink": "main.php:7"
     }
   ],
-  "false_positives": []
+  "false_positives": [],
+  "cve_usage": {
+    "rarest_construct": "Stmt_Function",
+    "repositories": 112,
+    "repositories_percent": 86.2,
+    "occurrences": 32421,
+    "snapshots": 240,
+    "defining_constructs": {
+      "Stmt_Function": 112
+    }
+  }
 }

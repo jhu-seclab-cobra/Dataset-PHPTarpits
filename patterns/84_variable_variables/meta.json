@@ -45,5 +45,15 @@
       "source": "second_ex.php:4",
       "sink": "first_ex.php:6"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "Expr_Variable[name=Expr]",
+    "repositories": 67,
+    "repositories_percent": 51.5,
+    "occurrences": 2340,
+    "snapshots": 126,
+    "defining_constructs": {
+      "Expr_Variable[name=Expr]": 67
+    }
+  }
 }

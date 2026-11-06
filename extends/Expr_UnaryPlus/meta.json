@@ -185,5 +185,15 @@
       "source": "main.php:3",
       "sink": "main.php:56"
     }
-  ]
+  ],
+  "cve_usage": {
+    "rarest_construct": "Expr_UnaryPlus",
+    "repositories": 23,
+    "repositories_percent": 17.7,
+    "occurrences": 221,
+    "snapshots": 42,
+    "defining_constructs": {
+      "Expr_UnaryPlus": 23
+    }
+  }
 }
