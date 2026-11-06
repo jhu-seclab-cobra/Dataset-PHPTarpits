@@ -20343,7 +20343,7 @@
       {
         "type": "STATIC",
         "callsite": "folder/a.php:6",
-        "callee": "define@Builtin[standard]"
+        "callee": "define@Builtin[Core]"
       },
       {
         "type": "STATIC",
@@ -20353,7 +20353,7 @@
       {
         "type": "STATIC",
         "callsite": "folder/a.php:7",
-        "callee": "define@Builtin[standard]"
+        "callee": "define@Builtin[Core]"
       },
       {
         "type": "STATIC",
