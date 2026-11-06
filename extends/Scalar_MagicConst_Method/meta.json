@@ -3,6 +3,11 @@
   "call_edges": [
     {
       "type": "STATIC",
+      "callsite": "main.php:16",
+      "callee": "fetchconstmagicmeth::__construct@Builtin[Core]"
+    },
+    {
+      "type": "STATIC",
       "callsite": "main.php:17",
       "callee": "fetchconstmagicmeth::fetchconstmagicmeth@main.php:5"
     },

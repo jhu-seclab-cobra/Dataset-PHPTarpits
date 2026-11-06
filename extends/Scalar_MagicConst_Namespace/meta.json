@@ -13,6 +13,11 @@
     },
     {
       "type": "STATIC",
+      "callsite": "main.php:31",
+      "callee": "mynamespace\\fetchconstmagicnamespace::__construct@Builtin[Core]"
+    },
+    {
+      "type": "STATIC",
       "callsite": "main.php:32",
       "callee": "mynamespace\\fetchconstmagicnamespace::fetchconstmagicnamespace@main.php:20"
     },
@@ -38,6 +43,11 @@
     },
     {
       "type": "STATIC",
+      "callsite": "main.php:60",
+      "callee": "mynamespace\\subnamespace\\fetchconstmagicnestednamespace::__construct@Builtin[Core]"
+    },
+    {
+      "type": "STATIC",
       "callsite": "main.php:61",
       "callee": "mynamespace\\subnamespace\\fetchconstmagicnestednamespace::fetchconstmagicnestednamespace@main.php:49"
     },
@@ -60,6 +70,11 @@
       "type": "STATIC",
       "callsite": "main.php:68",
       "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:91",
+      "callee": "originalnamespace\\subnamespace\\fetchconstmagicaliasnamespace::__construct@Builtin[Core]"
     },
     {
       "type": "STATIC",

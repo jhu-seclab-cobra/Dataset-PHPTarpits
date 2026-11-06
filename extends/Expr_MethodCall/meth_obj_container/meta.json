@@ -1,6 +1,67 @@
 {
   "name": "extends/Expr_MethodCall/meth_obj_container",
-  "call_edges": [],
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:36",
+      "callee": "core::__construct@main.php:6"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:37",
+      "callee": "core::__construct@main.php:6"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:39",
+      "callee": "core::target@main.php:11"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:13",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:40",
+      "callee": "core::target@main.php:11"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:42",
+      "callee": "container::__construct@main.php:21"
+    },
+    {
+      "type": "DYNAMIC",
+      "callsite": "main.php:43",
+      "callee": "core::target@main.php:11"
+    },
+    {
+      "type": "DYNAMIC",
+      "callsite": "main.php:44",
+      "callee": "container::middle_target@main.php:26"
+    },
+    {
+      "type": "DYNAMIC",
+      "callsite": "main.php:28",
+      "callee": "core::target@main.php:11"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:46",
+      "callee": "container::__construct@main.php:21"
+    },
+    {
+      "type": "DYNAMIC",
+      "callsite": "main.php:47",
+      "callee": "core::target@main.php:11"
+    },
+    {
+      "type": "DYNAMIC",
+      "callsite": "main.php:48",
+      "callee": "container::middle_target@main.php:26"
+    }
+  ],
   "true_positives": [
     {
       "type": 79,

@@ -4,6 +4,11 @@
     "call_edges": [
       {
         "type": "STATIC",
+        "callsite": "main.php:6",
+        "callee": "array::__construct@Builtin[Core]"
+      },
+      {
+        "type": "STATIC",
         "callsite": "main.php:8",
         "callee": "echo@Builtin[keyword]"
       },
@@ -9906,6 +9911,11 @@
     "call_edges": [
       {
         "type": "STATIC",
+        "callsite": "main.php:7",
+        "callee": "unset@Builtin[keyword]"
+      },
+      {
+        "type": "STATIC",
         "callsite": "main.php:8",
         "callee": "isset@Builtin[keyword]"
       },
@@ -9918,6 +9928,11 @@
         "type": "STATIC",
         "callsite": "main.php:11",
         "callee": "echo@Builtin[keyword]"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:16",
+        "callee": "unset@Builtin[keyword]"
       },
       {
         "type": "STATIC",
@@ -9941,6 +9956,11 @@
       },
       {
         "type": "STATIC",
+        "callsite": "main.php:25",
+        "callee": "unset@Builtin[keyword]"
+      },
+      {
+        "type": "STATIC",
         "callsite": "main.php:26",
         "callee": "isset@Builtin[keyword]"
       },
@@ -9953,6 +9973,11 @@
         "type": "STATIC",
         "callsite": "main.php:29",
         "callee": "echo@Builtin[keyword]"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:34",
+        "callee": "unset@Builtin[keyword]"
       },
       {
         "type": "STATIC",
@@ -9971,6 +9996,11 @@
       },
       {
         "type": "STATIC",
+        "callsite": "main.php:43",
+        "callee": "unset@Builtin[keyword]"
+      },
+      {
+        "type": "STATIC",
         "callsite": "main.php:44",
         "callee": "isset@Builtin[keyword]"
       },
@@ -9986,6 +10016,11 @@
       },
       {
         "type": "STATIC",
+        "callsite": "main.php:52",
+        "callee": "unset@Builtin[keyword]"
+      },
+      {
+        "type": "STATIC",
         "callsite": "main.php:53",
         "callee": "isset@Builtin[keyword]"
       },
@@ -9998,6 +10033,11 @@
         "type": "STATIC",
         "callsite": "main.php:56",
         "callee": "echo@Builtin[keyword]"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:61",
+        "callee": "unset@Builtin[keyword]"
       },
       {
         "type": "STATIC",
@@ -10018,6 +10058,11 @@
         "type": "STATIC",
         "callsite": "main.php:69",
         "callee": "stdclass::__construct@Builtin[Core]"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:70",
+        "callee": "unset@Builtin[keyword]"
       },
       {
         "type": "STATIC",
@@ -10172,6 +10217,11 @@
         "type": "STATIC",
         "callsite": "main.php:56",
         "callee": "echo@Builtin[keyword]"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:60",
+        "callee": "defined@Builtin[Core]"
       },
       {
         "type": "STATIC",
@@ -10573,6 +10623,11 @@
         "type": "STATIC",
         "callsite": "main.php:40",
         "callee": "echo@Builtin[keyword]"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:44",
+        "callee": "defined@Builtin[Core]"
       },
       {
         "type": "STATIC",
@@ -11270,7 +11325,63 @@
   },
   {
     "name": "extends/Expr_FuncCall/str_param_deep",
-    "call_edges": [],
+    "call_edges": [
+      {
+        "type": "STATIC",
+        "callsite": "main.php:35",
+        "callee": "one_param1@main.php:3"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:5",
+        "callee": "echo@Builtin[keyword]"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:6",
+        "callee": "one_param2@main.php:9"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:11",
+        "callee": "echo@Builtin[keyword]"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:12",
+        "callee": "one_param3@main.php:15"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:17",
+        "callee": "echo@Builtin[keyword]"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:18",
+        "callee": "one_param4@main.php:21"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:23",
+        "callee": "echo@Builtin[keyword]"
+      },
+      {
+        "type": "DYNAMIC",
+        "callsite": "main.php:24",
+        "callee": "no_param@main.php:27"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:29",
+        "callee": "echo@Builtin[keyword]"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:36",
+        "callee": "one_param1@main.php:3"
+      }
+    ],
     "true_positives": [
       {
         "type": 79,
@@ -11999,7 +12110,68 @@
   },
   {
     "name": "extends/Expr_MethodCall/meth_obj_container",
-    "call_edges": [],
+    "call_edges": [
+      {
+        "type": "STATIC",
+        "callsite": "main.php:36",
+        "callee": "core::__construct@main.php:6"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:37",
+        "callee": "core::__construct@main.php:6"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:39",
+        "callee": "core::target@main.php:11"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:13",
+        "callee": "echo@Builtin[keyword]"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:40",
+        "callee": "core::target@main.php:11"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:42",
+        "callee": "container::__construct@main.php:21"
+      },
+      {
+        "type": "DYNAMIC",
+        "callsite": "main.php:43",
+        "callee": "core::target@main.php:11"
+      },
+      {
+        "type": "DYNAMIC",
+        "callsite": "main.php:44",
+        "callee": "container::middle_target@main.php:26"
+      },
+      {
+        "type": "DYNAMIC",
+        "callsite": "main.php:28",
+        "callee": "core::target@main.php:11"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:46",
+        "callee": "container::__construct@main.php:21"
+      },
+      {
+        "type": "DYNAMIC",
+        "callsite": "main.php:47",
+        "callee": "core::target@main.php:11"
+      },
+      {
+        "type": "DYNAMIC",
+        "callsite": "main.php:48",
+        "callee": "container::middle_target@main.php:26"
+      }
+    ],
     "true_positives": [
       {
         "type": 79,
@@ -12114,7 +12286,63 @@
   },
   {
     "name": "extends/Expr_MethodCall/meth_obj_mem_return",
-    "call_edges": [],
+    "call_edges": [
+      {
+        "type": "STATIC",
+        "callsite": "main.php:34",
+        "callee": "creator::__construct@Builtin[Core]"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:36",
+        "callee": "creator::action@main.php:18"
+      },
+      {
+        "type": "DYNAMIC",
+        "callsite": "main.php:20",
+        "callee": "creator::createe@main.php:24"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:26",
+        "callee": "createe::__construct@Builtin[Core]"
+      },
+      {
+        "type": "DYNAMIC",
+        "callsite": "main.php:21",
+        "callee": "createe::action@main.php:5"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:7",
+        "callee": "echo@Builtin[keyword]"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:37",
+        "callee": "creator::action@main.php:18"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:39",
+        "callee": "creator::linked@main.php:13"
+      },
+      {
+        "type": "DYNAMIC",
+        "callsite": "main.php:15",
+        "callee": "creator::createe@main.php:24"
+      },
+      {
+        "type": "DYNAMIC",
+        "callsite": "main.php:15",
+        "callee": "createe::action@main.php:5"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:40",
+        "callee": "creator::linked@main.php:13"
+      }
+    ],
     "true_positives": [
       {
         "type": 79,
@@ -12319,8 +12547,18 @@
     "call_edges": [
       {
         "type": "STATIC",
+        "callsite": "main.php:10",
+        "callee": "dataholder::__construct@Builtin[Core]"
+      },
+      {
+        "type": "STATIC",
         "callsite": "main.php:12",
         "callee": "echo@Builtin[keyword]"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:15",
+        "callee": "dataholder::__construct@Builtin[Core]"
       },
       {
         "type": "STATIC",
@@ -14263,6 +14501,11 @@
       },
       {
         "type": "STATIC",
+        "callsite": "main.php:28",
+        "callee": "array::__construct@Builtin[Core]"
+      },
+      {
+        "type": "STATIC",
         "callsite": "main.php:31",
         "callee": "echo@Builtin[keyword]"
       },
@@ -14270,6 +14513,11 @@
         "type": "STATIC",
         "callsite": "main.php:33",
         "callee": "echo@Builtin[keyword]"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:41",
+        "callee": "greeter::__construct@Builtin[Core]"
       },
       {
         "type": "STATIC",
@@ -14606,6 +14854,11 @@
     "call_edges": [
       {
         "type": "STATIC",
+        "callsite": "main.php:16",
+        "callee": "fetchconstmagicmeth::__construct@Builtin[Core]"
+      },
+      {
+        "type": "STATIC",
         "callsite": "main.php:17",
         "callee": "fetchconstmagicmeth::fetchconstmagicmeth@main.php:5"
       },
@@ -14660,6 +14913,11 @@
       },
       {
         "type": "STATIC",
+        "callsite": "main.php:31",
+        "callee": "mynamespace\\fetchconstmagicnamespace::__construct@Builtin[Core]"
+      },
+      {
+        "type": "STATIC",
         "callsite": "main.php:32",
         "callee": "mynamespace\\fetchconstmagicnamespace::fetchconstmagicnamespace@main.php:20"
       },
@@ -14685,6 +14943,11 @@
       },
       {
         "type": "STATIC",
+        "callsite": "main.php:60",
+        "callee": "mynamespace\\subnamespace\\fetchconstmagicnestednamespace::__construct@Builtin[Core]"
+      },
+      {
+        "type": "STATIC",
         "callsite": "main.php:61",
         "callee": "mynamespace\\subnamespace\\fetchconstmagicnestednamespace::fetchconstmagicnestednamespace@main.php:49"
       },
@@ -14707,6 +14970,11 @@
         "type": "STATIC",
         "callsite": "main.php:68",
         "callee": "echo@Builtin[keyword]"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:91",
+        "callee": "originalnamespace\\subnamespace\\fetchconstmagicaliasnamespace::__construct@Builtin[Core]"
       },
       {
         "type": "STATIC",
@@ -14811,7 +15079,33 @@
   },
   {
     "name": "extends/Scalar_MagicConst_Trait",
-    "call_edges": [],
+    "call_edges": [
+      {
+        "type": "STATIC",
+        "callsite": "main.php:22",
+        "callee": "page::__construct@Builtin[Core]"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:23",
+        "callee": "page::render@main.php:10"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:12",
+        "callee": "echo@Builtin[keyword]"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:24",
+        "callee": "page::info@main.php:5"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:7",
+        "callee": "echo@Builtin[keyword]"
+      }
+    ],
     "true_positives": [
       {
         "type": 79,
@@ -15377,7 +15671,58 @@
   },
   {
     "name": "extends/Stmt_Echo",
-    "call_edges": [],
+    "call_edges": [
+      {
+        "type": "STATIC",
+        "callsite": "main.php:19",
+        "callee": "some_func@main.php:3"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:5",
+        "callee": "echo@Builtin[keyword]"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:20",
+        "callee": "some_func@main.php:3"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:22",
+        "callee": "someclass::__construct@Builtin[Core]"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:22",
+        "callee": "someclass::call@main.php:10"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:12",
+        "callee": "echo@Builtin[keyword]"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:23",
+        "callee": "someclass::__construct@Builtin[Core]"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:23",
+        "callee": "someclass::call@main.php:10"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:25",
+        "callee": "echo@Builtin[keyword]"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:26",
+        "callee": "echo@Builtin[keyword]"
+      }
+    ],
     "true_positives": [
       {
         "type": 79,
@@ -15782,7 +16127,18 @@
   },
   {
     "name": "extends/Stmt_HaltCompiler",
-    "call_edges": [],
+    "call_edges": [
+      {
+        "type": "STATIC",
+        "callsite": "main.php:4",
+        "callee": "echo@Builtin[keyword]"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:5",
+        "callee": "echo@Builtin[keyword]"
+      }
+    ],
     "true_positives": [
       {
         "type": 79,
@@ -15839,7 +16195,18 @@
   },
   {
     "name": "extends/Stmt_InlineHTML",
-    "call_edges": [],
+    "call_edges": [
+      {
+        "type": "STATIC",
+        "callsite": "main.php:6",
+        "callee": "echo@Builtin[keyword]"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:8",
+        "callee": "echo@Builtin[keyword]"
+      }
+    ],
     "true_positives": [
       {
         "type": 79,
@@ -16159,7 +16526,33 @@
   },
   {
     "name": "extends/Stmt_Trait",
-    "call_edges": [],
+    "call_edges": [
+      {
+        "type": "STATIC",
+        "callsite": "main.php:24",
+        "callee": "declaretraittest::__construct@Builtin[Core]"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:25",
+        "callee": "declaretraittest::callee1@main.php:5"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:7",
+        "callee": "echo@Builtin[keyword]"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:26",
+        "callee": "declaretraittest::callee2@main.php:10"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:12",
+        "callee": "echo@Builtin[keyword]"
+      }
+    ],
     "true_positives": [
       {
         "type": 79,
@@ -16178,6 +16571,11 @@
   {
     "name": "extends/Stmt_TraitUse",
     "call_edges": [
+      {
+        "type": "STATIC",
+        "callsite": "main.php:19",
+        "callee": "page::__construct@Builtin[Core]"
+      },
       {
         "type": "STATIC",
         "callsite": "main.php:22",
@@ -16259,6 +16657,11 @@
         "type": "STATIC",
         "callsite": "main.php:4",
         "callee": "echo@Builtin[keyword]"
+      },
+      {
+        "type": "STATIC",
+        "callsite": "main.php:5",
+        "callee": "unset@Builtin[keyword]"
       },
       {
         "type": "STATIC",

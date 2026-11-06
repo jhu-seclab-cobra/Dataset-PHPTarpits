@@ -8,6 +8,11 @@
     },
     {
       "type": "STATIC",
+      "callsite": "main.php:5",
+      "callee": "unset@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
       "callsite": "main.php:6",
       "callee": "echo@Builtin[keyword]"
     }

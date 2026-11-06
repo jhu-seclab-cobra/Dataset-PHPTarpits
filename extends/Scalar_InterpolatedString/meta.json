@@ -23,6 +23,11 @@
     },
     {
       "type": "STATIC",
+      "callsite": "main.php:28",
+      "callee": "array::__construct@Builtin[Core]"
+    },
+    {
+      "type": "STATIC",
       "callsite": "main.php:31",
       "callee": "echo@Builtin[keyword]"
     },
@@ -30,6 +35,11 @@
       "type": "STATIC",
       "callsite": "main.php:33",
       "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:41",
+      "callee": "greeter::__construct@Builtin[Core]"
     },
     {
       "type": "STATIC",

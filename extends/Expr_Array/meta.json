@@ -3,6 +3,11 @@
   "call_edges": [
     {
       "type": "STATIC",
+      "callsite": "main.php:6",
+      "callee": "array::__construct@Builtin[Core]"
+    },
+    {
+      "type": "STATIC",
       "callsite": "main.php:8",
       "callee": "echo@Builtin[keyword]"
     },

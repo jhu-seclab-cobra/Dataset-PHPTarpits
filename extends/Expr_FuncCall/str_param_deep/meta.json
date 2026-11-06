@@ -1,6 +1,62 @@
 {
   "name": "extends/Expr_FuncCall/str_param_deep",
-  "call_edges": [],
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:35",
+      "callee": "one_param1@main.php:3"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:5",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:6",
+      "callee": "one_param2@main.php:9"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:11",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:12",
+      "callee": "one_param3@main.php:15"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:17",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:18",
+      "callee": "one_param4@main.php:21"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:23",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "DYNAMIC",
+      "callsite": "main.php:24",
+      "callee": "no_param@main.php:27"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:29",
+      "callee": "echo@Builtin[keyword]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:36",
+      "callee": "one_param1@main.php:3"
+    }
+  ],
   "true_positives": [
     {
       "type": 79,

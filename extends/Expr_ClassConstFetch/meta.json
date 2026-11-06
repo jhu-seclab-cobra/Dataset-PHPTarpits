@@ -53,6 +53,11 @@
     },
     {
       "type": "STATIC",
+      "callsite": "main.php:60",
+      "callee": "defined@Builtin[Core]"
+    },
+    {
+      "type": "STATIC",
       "callsite": "main.php:61",
       "callee": "echo@Builtin[keyword]"
     },
