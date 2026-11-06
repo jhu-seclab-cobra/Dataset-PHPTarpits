@@ -1,14 +1,35 @@
 {
   "name": "extends/Expr_MethodCall/meth_obj_basic",
-  "call_edges": [],
-  "true_positives": [
+  "call_edges": [
+    {
+      "type": "STATIC",
+      "callsite": "main.php:37",
+      "callee": "basic::__construct@main.php:17"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:19",
+      "callee": "property::__construct@Builtin[Core]"
+    },
+    {
+      "type": "STATIC",
+      "callsite": "main.php:37",
+      "callee": "basic::target@main.php:27"
+    },
+    {
+      "type": "DYNAMIC",
+      "callsite": "main.php:29",
+      "callee": "property::target@main.php:7"
+    }
+  ],
+  "true_positives": [],
+  "false_positives": [
     {
       "type": 79,
       "source": "main.php:34",
       "sink": "main.php:9"
     }
   ],
-  "false_positives": [],
   "cve_usage": {
     "rarest_construct": "Expr_MethodCall",
     "repositories": 122,
