@@ -36,9 +36,9 @@ Each case directory holds its PHP files (usually `main.php` and any files it inc
 
 | Directory | Organized by | Cases | True positives | False positives | Call edges |
 |---|---|---|---|---|---|
-| `extends/` | [PHP-Parser](https://github.com/nikic/PHP-Parser) node type (`Expr_*`, `Stmt_*`, `Scalar_*`) | 163 | 666 | 644 | 1,677 |
-| `patterns/` | analysis challenge, from [TestabilityTarpits](https://github.com/enferas/TestabilityTarpits) | 96 | 117 | 410 | 341 |
-| Total | | 259 | 783 | 1,054 | 2,018 |
+| `extends/` | [PHP-Parser](https://github.com/nikic/PHP-Parser) node type (`Expr_*`, `Stmt_*`, `Scalar_*`) | 163 | 665 | 645 | 1,757 |
+| `patterns/` | analysis challenge, from [TestabilityTarpits](https://github.com/enferas/TestabilityTarpits) | 96 | 118 | 322 | 416 |
+| Total | | 259 | 783 | 967 | 2,173 |
 
 - `extends/` covers all 142 non-structural AST node types of PHP 8+. A node type with several variants has one subdirectory per variant, e.g. `extends/Expr_FuncCall/str_callee`.
 - `patterns/` keeps the 96 PHP patterns of TestabilityTarpits, corrected to PHP 8 syntax and labeled, e.g. `patterns/02_global_variables`. Changes are listed in [`docs/THIRD_PARTY_NOTICES.md`](docs/THIRD_PARTY_NOTICES.md).
@@ -70,13 +70,13 @@ Each case directory holds its PHP files (usually `main.php` and any files it inc
 
 | Repositories containing the case's rarest construct | Cases | True positives | False positives |
 |---|---|---|---|
-| ≥ 50% | 164 | 526 | 628 |
-| 10–50% | 73 | 210 | 381 |
-| above 0, below 10% | 18 | 34 | 35 |
+| ≥ 50% | 164 | 526 | 571 |
+| 10–50% | 73 | 210 | 354 |
+| above 0, below 10% | 18 | 34 | 32 |
 | 0 | 4 | 13 | 10 |
-| Total | 259 | 783 | 1,054 |
+| Total | 259 | 783 | 967 |
 
-Weighting each true positive by its case's share gives 466.6 of 783.
+Weighting each true positive by its case's share gives 466.4 of 783.
 
 Cases found in fewer than 10% of the repositories (repositories of 130):
 
